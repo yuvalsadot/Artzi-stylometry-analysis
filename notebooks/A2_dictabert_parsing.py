@@ -45,10 +45,10 @@ def extract_ner(result_dict: dict) -> list:
     entities = []
     for entity in result_dict.get("ner_entities", []):
         entities.append({
-            "word": entity.get("word", ""),
-            "label": entity.get("label", entity.get("type", "")),
-            "start": entity.get("start_char", entity.get("start", 0)),
-            "end": entity.get("end_char", entity.get("end", 0)),
+            "word": entity.get("phrase", ""),
+            "label": entity.get("label", ""),
+            "start": entity.get("start", 0),
+            "end": entity.get("end", 0),
         })
     return entities
 
