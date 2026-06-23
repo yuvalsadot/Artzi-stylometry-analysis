@@ -16,10 +16,11 @@ The goal of this project is to detect turning points in the writing style of Shl
   - Research question and hypothesis
   - Literature review (Gómez-Adorno et al. 2018; Alsudais & Tchalian)
 
-### Known data issues to address
-- 9 files contain non-Hebrew characters (French phrase, encoding artifacts): `023.txt`, `027.txt`, `034.txt`, `061.txt`, `069.txt`, `071.txt`, `075.txt`, `091.txt`, `138.txt`
-- 1 file is empty: `120.txt` — needs to be filled or removed from analysis
-- Average song length: ~152 words (min 0, max 368)
+### Known data issues — resolved
+- Songs `027`, `034`, `069`, `071`, `075`, `091` had non-Hebrew characters; cleaned directly in the lyrics files.
+- Songs `023`, `061`, `138` contain non-Hebrew phrases (French / English) that are integral to the original lyrics. Hebrew translations were created as companion files (`023_translated.txt`, `061.translated.txt`, `138_translated.txt`). The corpus uses the translated version as the `text` field for all downstream NLP analysis.
+- Song `120` was empty and has since been filled with the correct lyrics.
+- All 167 songs are included in `data/corpus.json`.
 
 ---
 
