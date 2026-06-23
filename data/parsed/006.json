@@ -1,0 +1,1635 @@
+{
+  "song_id": 6,
+  "title": "הפנים היפות",
+  "year": 2025,
+  "album": "אותיות נחמה",
+  "morphology": [
+    {
+      "word": "הפנים",
+      "lemma": "פנים",
+      "pos": "NOUN",
+      "dep": "nsubj",
+      "dep_head": "נראות",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "היפות",
+      "lemma": "יפה",
+      "pos": "ADJ",
+      "dep": "amod",
+      "dep_head": "הפנים",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "של",
+      "lemma": "של",
+      "pos": "ADP",
+      "dep": "case:gen",
+      "dep_head": "אבי",
+      "feats": {}
+    },
+    {
+      "word": "אבי",
+      "lemma": "אבי",
+      "pos": "NOUN",
+      "dep": "nmod:poss",
+      "dep_head": "הפנים",
+      "feats": {
+        "Gender": "Masc"
+      }
+    },
+    {
+      "word": "ואמי",
+      "lemma": "[BLANK]",
+      "pos": "NOUN",
+      "dep": "conj",
+      "dep_head": "אבי",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": ",",
+      "lemma": ",",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "הפנים",
+      "feats": {}
+    },
+    {
+      "word": "נראות",
+      "lemma": "נראה",
+      "pos": "VERB",
+      "dep": "root",
+      "dep_head": ".",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur",
+        "Person": "3",
+        "Tense": "Pres"
+      }
+    },
+    {
+      "word": "היום",
+      "lemma": "יום",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "מתחיל",
+      "feats": {}
+    },
+    {
+      "word": "כמו",
+      "lemma": "כמו",
+      "pos": "ADP",
+      "dep": "case",
+      "dep_head": "הפנים",
+      "feats": {}
+    },
+    {
+      "word": "הפנים",
+      "lemma": "פנים",
+      "pos": "NOUN",
+      "dep": "obl",
+      "dep_head": "נראות",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "שלי",
+      "lemma": "של",
+      "pos": "ADP",
+      "dep": "nmod:poss",
+      "dep_head": "הפנים",
+      "feats": {}
+    },
+    {
+      "word": ",",
+      "lemma": ",",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "הפנים",
+      "feats": {}
+    },
+    {
+      "word": "הצל",
+      "lemma": "הציל",
+      "pos": "NOUN",
+      "dep": "nsubj",
+      "dep_head": "דומה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "החולף",
+      "lemma": "החולף",
+      "pos": "VERB",
+      "dep": "acl:relcl",
+      "dep_head": "הפנים",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "1,2,3"
+      }
+    },
+    {
+      "word": "על",
+      "lemma": "על",
+      "pos": "ADP",
+      "dep": "case",
+      "dep_head": "המרפסת",
+      "feats": {}
+    },
+    {
+      "word": "המרפסת",
+      "lemma": "מרפסת",
+      "pos": "NOUN",
+      "dep": "obl",
+      "dep_head": "החולף",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "דומה",
+      "lemma": "דומה",
+      "pos": "ADJ",
+      "dep": "xcomp",
+      "dep_head": "נראות",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": ",",
+      "lemma": ",",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "ערב",
+      "feats": {}
+    },
+    {
+      "word": "לצלו",
+      "lemma": "צל",
+      "pos": "NOUN",
+      "dep": "obl",
+      "dep_head": "דומה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "של",
+      "lemma": "של",
+      "pos": "ADP",
+      "dep": "case:gen",
+      "dep_head": "העץ",
+      "feats": {}
+    },
+    {
+      "word": "העץ",
+      "lemma": "עץ",
+      "pos": "NOUN",
+      "dep": "nmod:poss",
+      "dep_head": "לצלו",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "הבודד",
+      "lemma": "בודד",
+      "pos": "ADJ",
+      "dep": "amod",
+      "dep_head": "העץ",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "בשדה",
+      "lemma": "שדה",
+      "pos": "NOUN",
+      "dep": "nmod",
+      "dep_head": "העץ",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": ".",
+      "lemma": ".",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "בכיתי",
+      "feats": {}
+    },
+    {
+      "word": "אין",
+      "lemma": "אין",
+      "pos": "VERB",
+      "dep": "parataxis",
+      "dep_head": "נראות",
+      "feats": {}
+    },
+    {
+      "word": "חיים",
+      "lemma": "חי",
+      "pos": "NOUN",
+      "dep": "nsubj",
+      "dep_head": "אין",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "אחרים",
+      "lemma": "אחר",
+      "pos": "ADJ",
+      "dep": "amod",
+      "dep_head": "חיים",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": ",",
+      "lemma": ",",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "אלה",
+      "feats": {}
+    },
+    {
+      "word": "מלבד",
+      "lemma": "לבד",
+      "pos": "ADP",
+      "dep": "case",
+      "dep_head": "אלה",
+      "feats": {}
+    },
+    {
+      "word": "אלה",
+      "lemma": "אלה",
+      "pos": "PRON",
+      "dep": "obl",
+      "dep_head": "בכיתי",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur",
+        "Person": "3"
+      }
+    },
+    {
+      "word": "שיש",
+      "lemma": "יש",
+      "pos": "VERB",
+      "dep": "advcl",
+      "dep_head": "בכיתי",
+      "feats": {}
+    },
+    {
+      "word": ",",
+      "lemma": ",",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "בכיתי",
+      "feats": {}
+    },
+    {
+      "word": "ואני",
+      "lemma": "אני",
+      "pos": "PRON",
+      "dep": "nsubj",
+      "dep_head": "חושש",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "1"
+      }
+    },
+    {
+      "word": "מתרגש",
+      "lemma": "מתרגש",
+      "pos": "VERB",
+      "dep": "conj",
+      "dep_head": "נראות",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "1",
+        "Tense": "Pres"
+      }
+    },
+    {
+      "word": ",",
+      "lemma": ",",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "חושש",
+      "feats": {}
+    },
+    {
+      "word": "אבל",
+      "lemma": "אבל",
+      "pos": "CCONJ",
+      "dep": "cc",
+      "dep_head": "חושש",
+      "feats": {}
+    },
+    {
+      "word": "גם",
+      "lemma": "גם",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "חושש",
+      "feats": {}
+    },
+    {
+      "word": "חושש",
+      "lemma": "חושש",
+      "pos": "VERB",
+      "dep": "conj",
+      "dep_head": "בכיתי",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "1,2,3",
+        "Tense": "Pres"
+      }
+    },
+    {
+      "word": ",",
+      "lemma": ",",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "חושש",
+      "feats": {}
+    },
+    {
+      "word": "אין",
+      "lemma": "אין",
+      "pos": "VERB",
+      "dep": "parataxis",
+      "dep_head": "מתחיל",
+      "feats": {}
+    },
+    {
+      "word": "הסבר",
+      "lemma": "הסבר",
+      "pos": "NOUN",
+      "dep": "nsubj",
+      "dep_head": "מתחיל",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "הגיוני",
+      "lemma": "הגיוני",
+      "pos": "ADJ",
+      "dep": "amod",
+      "dep_head": "הסבר",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "לאהבה",
+      "lemma": "אהבה",
+      "pos": "NOUN",
+      "dep": "nmod",
+      "dep_head": "הסבר",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": ",",
+      "lemma": ",",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "באה",
+      "feats": {}
+    },
+    {
+      "word": "למה",
+      "lemma": "למה",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "באה",
+      "feats": {}
+    },
+    {
+      "word": "אחרי",
+      "lemma": "אחרי",
+      "pos": "ADP",
+      "dep": "case",
+      "dep_head": "השחרור",
+      "feats": {}
+    },
+    {
+      "word": "השחרור",
+      "lemma": "שחרור",
+      "pos": "NOUN",
+      "dep": "obl",
+      "dep_head": "באה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "באה",
+      "lemma": "בא",
+      "pos": "VERB",
+      "dep": "parataxis",
+      "dep_head": "נראות",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Past"
+      }
+    },
+    {
+      "word": "אכזבה",
+      "lemma": "אכזבה",
+      "pos": "VERB",
+      "dep": "conj",
+      "dep_head": "נראות",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing",
+        "Tense": "Past"
+      }
+    },
+    {
+      "word": "?",
+      "lemma": "?",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "באה",
+      "feats": {}
+    },
+    {
+      "word": "הפנים",
+      "lemma": "פנים",
+      "pos": "NOUN",
+      "dep": "nsubj",
+      "dep_head": "מחזיר",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "היפות",
+      "lemma": "יפה",
+      "pos": "ADJ",
+      "dep": "amod",
+      "dep_head": "הפנים",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "במיטה",
+      "lemma": "מיטה",
+      "pos": "NOUN",
+      "dep": "nmod",
+      "dep_head": "הפנים",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "הן",
+      "lemma": "הוא",
+      "pos": "PRON",
+      "dep": "cop",
+      "dep_head": "שלך",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur",
+        "Person": "3"
+      }
+    },
+    {
+      "word": "שלך",
+      "lemma": "של",
+      "pos": "ADP",
+      "dep": "nmod:poss",
+      "dep_head": "והשיר",
+      "feats": {}
+    },
+    {
+      "word": ",",
+      "lemma": ",",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "נצרח",
+      "feats": {}
+    },
+    {
+      "word": "השפתיים",
+      "lemma": "שפה",
+      "pos": "NOUN",
+      "dep": "nsubj",
+      "dep_head": "שחק",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "חושקות",
+      "lemma": "חושק",
+      "pos": "VERB",
+      "dep": "ccomp",
+      "dep_head": "ששמעתי",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur",
+        "Person": "1,2,3"
+      }
+    },
+    {
+      "word": ",",
+      "lemma": ",",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "שחק",
+      "feats": {}
+    },
+    {
+      "word": "אז",
+      "lemma": "אז",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "מתחיל",
+      "feats": {}
+    },
+    {
+      "word": "תיכף",
+      "lemma": "תיכף",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "מתחיל",
+      "feats": {}
+    },
+    {
+      "word": "נצרח",
+      "lemma": "נרדם",
+      "pos": "VERB",
+      "dep": "advcl",
+      "dep_head": "מתחיל",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "1",
+        "Tense": "Fut"
+      }
+    },
+    {
+      "word": ".",
+      "lemma": ".",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "מחזיר",
+      "feats": {}
+    },
+    {
+      "word": "לא",
+      "lemma": "לא",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "מתחיל",
+      "feats": {}
+    },
+    {
+      "word": "מחזיר",
+      "lemma": "מחזיר",
+      "pos": "VERB",
+      "dep": "parataxis",
+      "dep_head": "נראות",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Pres"
+      }
+    },
+    {
+      "word": "לעולם",
+      "lemma": "עולם",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "מתחיל",
+      "feats": {}
+    },
+    {
+      "word": "את",
+      "lemma": "את",
+      "pos": "ADP",
+      "dep": "case:acc",
+      "dep_head": "מה",
+      "feats": {}
+    },
+    {
+      "word": "מה",
+      "lemma": "מה",
+      "pos": "PRON",
+      "dep": "obj",
+      "dep_head": "מחזיר",
+      "feats": {}
+    },
+    {
+      "word": "שיש",
+      "lemma": "יש",
+      "pos": "VERB",
+      "dep": "acl:relcl",
+      "dep_head": "מה",
+      "feats": {}
+    },
+    {
+      "word": ",",
+      "lemma": ",",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "ערב",
+      "feats": {}
+    },
+    {
+      "word": "בשבוע",
+      "lemma": "שבוע",
+      "pos": "NOUN",
+      "dep": "obl",
+      "dep_head": "מתחיל",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "הבא",
+      "lemma": "בא",
+      "pos": "ADJ",
+      "dep": "amod",
+      "dep_head": "בשבוע",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "שוב",
+      "lemma": "שוב",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "ניפגש",
+      "feats": {}
+    },
+    {
+      "word": "אולי",
+      "lemma": "אולי",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "ניפגש",
+      "feats": {}
+    },
+    {
+      "word": "ניפגש",
+      "lemma": "נפגש",
+      "pos": "VERB",
+      "dep": "ccomp",
+      "dep_head": "ששמעתי",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur",
+        "Person": "1",
+        "Tense": "Fut"
+      }
+    },
+    {
+      "word": ".",
+      "lemma": ".",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "תעשו",
+      "feats": {}
+    },
+    {
+      "word": "תעשו",
+      "lemma": "יעשה",
+      "pos": "VERB",
+      "dep": "parataxis",
+      "dep_head": "מתחיל",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur",
+        "Person": "2",
+        "Tense": "Fut"
+      }
+    },
+    {
+      "word": "לי",
+      "lemma": "לי",
+      "pos": "PRON",
+      "dep": "obl",
+      "dep_head": "תעשו",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "1"
+      }
+    },
+    {
+      "word": "טובה",
+      "lemma": "טוב",
+      "pos": "NOUN",
+      "dep": "obj",
+      "dep_head": "תעשו",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "תנו",
+      "lemma": "תנו",
+      "pos": "VERB",
+      "dep": "parataxis",
+      "dep_head": "מתחיל",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur",
+        "Person": "2",
+        "Tense": "Imp"
+      }
+    },
+    {
+      "word": "לי",
+      "lemma": "לי",
+      "pos": "PRON",
+      "dep": "obl",
+      "dep_head": "תנו",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "1"
+      }
+    },
+    {
+      "word": "רגע",
+      "lemma": "רגע",
+      "pos": "NOUN",
+      "dep": "obj",
+      "dep_head": "מחזיר",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "אחד",
+      "lemma": "אחד",
+      "pos": "NUM",
+      "dep": "nummod",
+      "dep_head": "רגע",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": ",",
+      "lemma": ",",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "ערב",
+      "feats": {}
+    },
+    {
+      "word": "ערב",
+      "lemma": "ערב",
+      "pos": "NOUN",
+      "dep": "nsubj",
+      "dep_head": "דומה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "קיץ",
+      "lemma": "קיץ",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "ערב",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "מופלא",
+      "lemma": "מופלא",
+      "pos": "ADJ",
+      "dep": "amod",
+      "dep_head": "רגע",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "על",
+      "lemma": "על",
+      "pos": "ADP",
+      "dep": "case",
+      "dep_head": "מרפסת",
+      "feats": {}
+    },
+    {
+      "word": "מרפסת",
+      "lemma": "מרפסת",
+      "pos": "NOUN",
+      "dep": "obl",
+      "dep_head": "החולף",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "וגג",
+      "lemma": "גג",
+      "pos": "NOUN",
+      "dep": "conj",
+      "dep_head": "מרפסת",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": ",",
+      "lemma": ",",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "בכיתי",
+      "feats": {}
+    },
+    {
+      "word": "מסיכות",
+      "lemma": "מסכה",
+      "pos": "NOUN",
+      "dep": "nsubj",
+      "dep_head": "דומה",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "מסיכות",
+      "lemma": "מסכה",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "מסיכות",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "נושרות",
+      "lemma": "נושר",
+      "pos": "VERB",
+      "dep": "conj",
+      "dep_head": "נראות",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur",
+        "Person": "3",
+        "Tense": "Pres"
+      }
+    },
+    {
+      "word": "מפני",
+      "lemma": "מפני",
+      "pos": "ADP",
+      "dep": "mark",
+      "dep_head": "קורעת",
+      "feats": {}
+    },
+    {
+      "word": ",",
+      "lemma": ",",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "קורעת",
+      "feats": {}
+    },
+    {
+      "word": "את",
+      "lemma": "את",
+      "pos": "PRON",
+      "dep": "nsubj",
+      "dep_head": "קורעת",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing",
+        "Person": "2"
+      }
+    },
+    {
+      "word": "קורעת",
+      "lemma": "קורע",
+      "pos": "VERB",
+      "dep": "parataxis",
+      "dep_head": "נראות",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Pres"
+      }
+    },
+    {
+      "word": "לי",
+      "lemma": "לי",
+      "pos": "PRON",
+      "dep": "obl",
+      "dep_head": "קורעת",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing",
+        "Person": "1"
+      }
+    },
+    {
+      "word": "ת",
+      "lemma": "ת",
+      "pos": "NOUN",
+      "dep": "reparandum",
+      "dep_head": "בכיתי",
+      "feats": {}
+    },
+    {
+      "word": "'",
+      "lemma": "'",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "בכיתי",
+      "feats": {}
+    },
+    {
+      "word": "נשמה",
+      "lemma": "נשמה",
+      "pos": "NOUN",
+      "dep": "parataxis",
+      "dep_head": "בכיתי",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "שוב",
+      "lemma": "שוב",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "בכיתי",
+      "feats": {}
+    },
+    {
+      "word": "בכיתי",
+      "lemma": "בכה",
+      "pos": "VERB",
+      "dep": "parataxis",
+      "dep_head": "רגע",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing",
+        "Person": "1",
+        "Tense": "Past"
+      }
+    },
+    {
+      "word": "מדי",
+      "lemma": "מדי",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "בכיתי",
+      "feats": {}
+    },
+    {
+      "word": ".",
+      "lemma": ".",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "בכיתי",
+      "feats": {}
+    },
+    {
+      "word": "הפנים",
+      "lemma": "פנים",
+      "pos": "NOUN",
+      "dep": "nsubj",
+      "dep_head": "קורעת",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "היפות",
+      "lemma": "יפה",
+      "pos": "ADJ",
+      "dep": "amod",
+      "dep_head": "הפנים",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "במיטה",
+      "lemma": "מיטה",
+      "pos": "NOUN",
+      "dep": "obl",
+      "dep_head": "החולף",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "הן",
+      "lemma": "הוא",
+      "pos": "PRON",
+      "dep": "cop",
+      "dep_head": "בכיתי",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur",
+        "Person": "3"
+      }
+    },
+    {
+      "word": "שלך",
+      "lemma": "של",
+      "pos": "ADP",
+      "dep": "obl",
+      "dep_head": "בכיתי",
+      "feats": {}
+    },
+    {
+      "word": ",",
+      "lemma": ",",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "קורעת",
+      "feats": {}
+    },
+    {
+      "word": "השפתיים",
+      "lemma": "שפה",
+      "pos": "NOUN",
+      "dep": "nsubj",
+      "dep_head": "קורעת",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "חושקות",
+      "lemma": "חושק",
+      "pos": "VERB",
+      "dep": "ccomp",
+      "dep_head": "בכיתי",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur",
+        "Person": "1,2,3"
+      }
+    },
+    {
+      "word": ",",
+      "lemma": ",",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "בכיתי",
+      "feats": {}
+    },
+    {
+      "word": "אז",
+      "lemma": "אז",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "בכיתי",
+      "feats": {}
+    },
+    {
+      "word": "תיכף",
+      "lemma": "תיכף",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "בכיתי",
+      "feats": {}
+    },
+    {
+      "word": "נצרח",
+      "lemma": "נפטר",
+      "pos": "VERB",
+      "dep": "advcl",
+      "dep_head": "בכיתי",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "1",
+        "Tense": "Fut"
+      }
+    },
+    {
+      "word": ".",
+      "lemma": ".",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "בכיתי",
+      "feats": {}
+    },
+    {
+      "word": "לא",
+      "lemma": "לא",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "מחזיר",
+      "feats": {}
+    },
+    {
+      "word": "מחזיר",
+      "lemma": "מחזיר",
+      "pos": "VERB",
+      "dep": "parataxis",
+      "dep_head": "בכיתי",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Pres"
+      }
+    },
+    {
+      "word": "לעולם",
+      "lemma": "עולם",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "באה",
+      "feats": {}
+    },
+    {
+      "word": "את",
+      "lemma": "את",
+      "pos": "ADP",
+      "dep": "case:acc",
+      "dep_head": "מה",
+      "feats": {}
+    },
+    {
+      "word": "מה",
+      "lemma": "מה",
+      "pos": "PRON",
+      "dep": "obj",
+      "dep_head": "מחזיר",
+      "feats": {}
+    },
+    {
+      "word": "שיש",
+      "lemma": "יש",
+      "pos": "VERB",
+      "dep": "acl:relcl",
+      "dep_head": "מה",
+      "feats": {}
+    },
+    {
+      "word": ",",
+      "lemma": ",",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "בכיתי",
+      "feats": {}
+    },
+    {
+      "word": "בשבוע",
+      "lemma": "שבוע",
+      "pos": "NOUN",
+      "dep": "obl",
+      "dep_head": "ניפגש",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "הבא",
+      "lemma": "בא",
+      "pos": "ADJ",
+      "dep": "amod",
+      "dep_head": "בשבוע",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "שוב",
+      "lemma": "שוב",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "ניפגש",
+      "feats": {}
+    },
+    {
+      "word": "אולי",
+      "lemma": "אולי",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "מתחיל",
+      "feats": {}
+    },
+    {
+      "word": "ניפגש",
+      "lemma": "נפגש",
+      "pos": "VERB",
+      "dep": "conj",
+      "dep_head": "שיש",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur",
+        "Person": "1",
+        "Tense": "Fut"
+      }
+    },
+    {
+      "word": ".",
+      "lemma": ".",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "מתחיל",
+      "feats": {}
+    },
+    {
+      "word": "הפנים",
+      "lemma": "פנים",
+      "pos": "NOUN",
+      "dep": "nsubj",
+      "dep_head": "מתחיל",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "המקוריות",
+      "lemma": "מקורי",
+      "pos": "ADJ",
+      "dep": "amod",
+      "dep_head": "הפנים",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "של",
+      "lemma": "של",
+      "pos": "ADP",
+      "dep": "case:gen",
+      "dep_head": "אבי",
+      "feats": {}
+    },
+    {
+      "word": "העצב",
+      "lemma": "עצב",
+      "pos": "NOUN",
+      "dep": "nmod",
+      "dep_head": "משחק",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "שלי",
+      "lemma": "של",
+      "pos": "ADP",
+      "dep": "nmod:poss",
+      "dep_head": "משחק",
+      "feats": {}
+    },
+    {
+      "word": ",",
+      "lemma": ",",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "אכזבה",
+      "feats": {}
+    },
+    {
+      "word": "הן",
+      "lemma": "הוא",
+      "pos": "PRON",
+      "dep": "nsubj",
+      "dep_head": "באה",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur",
+        "Person": "3"
+      }
+    },
+    {
+      "word": "של",
+      "lemma": "של",
+      "pos": "ADP",
+      "dep": "case:gen",
+      "dep_head": "אבי",
+      "feats": {}
+    },
+    {
+      "word": "אבי",
+      "lemma": "אבי",
+      "pos": "NOUN",
+      "dep": "nmod:poss",
+      "dep_head": "אכזבה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ואמי",
+      "lemma": "[BLANK]",
+      "pos": "NOUN",
+      "dep": "conj",
+      "dep_head": "אבי",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ושל",
+      "lemma": "של",
+      "pos": "ADP",
+      "dep": "case:gen",
+      "dep_head": "אחותי",
+      "feats": {}
+    },
+    {
+      "word": "אחותי",
+      "lemma": "אחות",
+      "pos": "NOUN",
+      "dep": "conj",
+      "dep_head": "אבי",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": ".",
+      "lemma": ".",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "נראות",
+      "feats": {}
+    },
+    {
+      "word": "והשיר",
+      "lemma": "שיר",
+      "pos": "NOUN",
+      "dep": "conj",
+      "dep_head": "אכזבה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "האחרון",
+      "lemma": "אחרון",
+      "pos": "ADJ",
+      "dep": "amod",
+      "dep_head": "והשיר",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ששמעתי",
+      "lemma": "שמע",
+      "pos": "VERB",
+      "dep": "acl:relcl",
+      "dep_head": "והשיר",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing",
+        "Person": "1",
+        "Tense": "Past"
+      }
+    },
+    {
+      "word": "בחג",
+      "lemma": "חג",
+      "pos": "NOUN",
+      "dep": "obl",
+      "dep_head": "ששמעתי",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": ",",
+      "lemma": ",",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "שחק",
+      "feats": {}
+    },
+    {
+      "word": "מתחיל",
+      "lemma": "התחיל",
+      "pos": "VERB",
+      "dep": "conj",
+      "dep_head": "נראות",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Pres"
+      }
+    },
+    {
+      "word": "במילים",
+      "lemma": "מילה",
+      "pos": "NOUN",
+      "dep": "obl",
+      "dep_head": "מתחיל",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "שחק",
+      "lemma": "שיחק",
+      "pos": "VERB",
+      "dep": "nsubj",
+      "dep_head": "מתחיל",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "2",
+        "Tense": "Imp"
+      }
+    },
+    {
+      "word": "שוב",
+      "lemma": "שוב",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "שחק",
+      "feats": {}
+    },
+    {
+      "word": "ת",
+      "lemma": "ת",
+      "pos": "X",
+      "dep": "flat",
+      "dep_head": "שחק",
+      "feats": {}
+    },
+    {
+      "word": "'",
+      "lemma": "'",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "שחק",
+      "feats": {}
+    },
+    {
+      "word": "משחק",
+      "lemma": "משחק",
+      "pos": "NOUN",
+      "dep": "obj",
+      "dep_head": "מתחיל",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": ".",
+      "lemma": ".",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "באה",
+      "feats": {}
+    },
+    {
+      "word": "כמו",
+      "lemma": "כמו",
+      "pos": "ADP",
+      "dep": "case",
+      "dep_head": "העץ",
+      "feats": {}
+    },
+    {
+      "word": "העץ",
+      "lemma": "עץ",
+      "pos": "NOUN",
+      "dep": "obj",
+      "dep_head": "מחזיר",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "הבודד",
+      "lemma": "בודד",
+      "pos": "ADJ",
+      "dep": "amod",
+      "dep_head": "העץ",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "בשדה",
+      "lemma": "שדה",
+      "pos": "NOUN",
+      "dep": "nmod",
+      "dep_head": "העץ",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": ".",
+      "lemma": ".",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "מחזיר",
+      "feats": {}
+    },
+    {
+      "word": ".",
+      "lemma": ".",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "מתחיל",
+      "feats": {}
+    },
+    {
+      "word": ".",
+      "lemma": ".",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "נראות",
+      "feats": {}
+    }
+  ],
+  "ner": []
+}

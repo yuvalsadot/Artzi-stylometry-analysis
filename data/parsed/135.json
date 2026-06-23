@@ -1,0 +1,1140 @@
+{
+  "song_id": 135,
+  "title": "את הלכת",
+  "year": 1975,
+  "album": "את ואני",
+  "morphology": [
+    {
+      "word": "את",
+      "lemma": "את",
+      "pos": "ADP",
+      "dep": "case:acc",
+      "dep_head": "הלכת",
+      "feats": {}
+    },
+    {
+      "word": "הלכת",
+      "lemma": "לכת",
+      "pos": "NOUN",
+      "dep": "obj",
+      "dep_head": "מנשב",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ולא",
+      "lemma": "לא",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "תשובי",
+      "feats": {}
+    },
+    {
+      "word": "תשובי",
+      "lemma": "שב",
+      "pos": "VERB",
+      "dep": "obl",
+      "dep_head": "מנשב",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur",
+        "Person": "3",
+        "Tense": "Fut"
+      }
+    },
+    {
+      "word": "את",
+      "lemma": "את",
+      "pos": "PRON",
+      "dep": "case:acc",
+      "dep_head": "הלכת",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing",
+        "Person": "2"
+      }
+    },
+    {
+      "word": "לא",
+      "lemma": "לא",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "תשובי",
+      "feats": {}
+    },
+    {
+      "word": "תשובי",
+      "lemma": "שב",
+      "pos": "VERB",
+      "dep": "obl",
+      "dep_head": "מנשב",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur",
+        "Person": "3",
+        "Tense": "Fut"
+      }
+    },
+    {
+      "word": "עוד",
+      "lemma": "עוד",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "חזרו",
+      "feats": {}
+    },
+    {
+      "word": "שוב",
+      "lemma": "שוב",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "חזרו",
+      "feats": {}
+    },
+    {
+      "word": "חזרו",
+      "lemma": "חזר",
+      "pos": "VERB",
+      "dep": "parataxis",
+      "dep_head": "מנשב",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur",
+        "Person": "3",
+        "Tense": "Past"
+      }
+    },
+    {
+      "word": "גשמי",
+      "lemma": "גשם",
+      "pos": "NOUN",
+      "dep": "nsubj",
+      "dep_head": "חזרו",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "הסתיו",
+      "lemma": "סתו",
+      "pos": "PROPN",
+      "dep": "compound:smixut",
+      "dep_head": "גשמי",
+      "feats": {
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "גם",
+      "lemma": "גם",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "חזרו",
+      "feats": {}
+    },
+    {
+      "word": "נבלו",
+      "lemma": "נבל",
+      "pos": "VERB",
+      "dep": "conj",
+      "dep_head": "חזרו",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur",
+        "Person": "3"
+      }
+    },
+    {
+      "word": "הרקפות",
+      "lemma": "רקוב",
+      "pos": "NOUN",
+      "dep": "obj",
+      "dep_head": "זוכר",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "רק",
+      "lemma": "רק",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "הרוח",
+      "feats": {}
+    },
+    {
+      "word": "הרוח",
+      "lemma": "רוח",
+      "pos": "NOUN",
+      "dep": "nsubj",
+      "dep_head": "מנשב",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "מטורף",
+      "lemma": "מטורף",
+      "pos": "ADJ",
+      "dep": "amod",
+      "dep_head": "חלום",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "מנשב",
+      "lemma": "מנש",
+      "pos": "VERB",
+      "dep": "acl",
+      "dep_head": "חלום",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Pres"
+      }
+    },
+    {
+      "word": "לו",
+      "lemma": "לו",
+      "pos": "ADP",
+      "dep": "obl",
+      "dep_head": "מנשב",
+      "feats": {}
+    },
+    {
+      "word": "מנשב",
+      "lemma": "מנש",
+      "pos": "VERB",
+      "dep": "obj",
+      "dep_head": "זוכר",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "1,2,3"
+      }
+    },
+    {
+      "word": "ואני",
+      "lemma": "אני",
+      "pos": "PRON",
+      "dep": "nsubj",
+      "dep_head": "מנשב",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "1"
+      }
+    },
+    {
+      "word": "אורג",
+      "lemma": "אורג",
+      "pos": "VERB",
+      "dep": "conj",
+      "dep_head": "חזרו",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "חלום",
+      "lemma": "חלום",
+      "pos": "NOUN",
+      "dep": "obj",
+      "dep_head": "אורג",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "רוקם",
+      "lemma": "רוקם",
+      "pos": "VERB",
+      "dep": "root",
+      "dep_head": "לאוהבים",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "חלום",
+      "lemma": "חלום",
+      "pos": "NOUN",
+      "dep": "obj",
+      "dep_head": "אורג",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "זוכר",
+      "lemma": "זוכר",
+      "pos": "VERB",
+      "dep": "acl",
+      "dep_head": "חלום",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "1,2,3"
+      }
+    },
+    {
+      "word": "ערבית",
+      "lemma": "ערבית",
+      "pos": "PROPN",
+      "dep": "obj",
+      "dep_head": "זוכר",
+      "feats": {}
+    },
+    {
+      "word": "ושמש",
+      "lemma": "שמש",
+      "pos": "PROPN",
+      "dep": "conj",
+      "dep_head": "תשובי",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "דום",
+      "lemma": "דום",
+      "pos": "NOUN",
+      "dep": "obj",
+      "dep_head": "זוכר",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ורק",
+      "lemma": "רק",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "לא",
+      "feats": {}
+    },
+    {
+      "word": "סתווים",
+      "lemma": "סתו",
+      "pos": "PROPN",
+      "dep": "obj",
+      "dep_head": "זוכר",
+      "feats": {
+        "Gender": "Masc"
+      }
+    },
+    {
+      "word": "כורים",
+      "lemma": "כורה",
+      "pos": "VERB",
+      "dep": "conj",
+      "dep_head": "נבלו",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "טווים",
+      "lemma": "טווי",
+      "pos": "VERB",
+      "dep": "amod",
+      "dep_head": "חלום",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "לאוהבים",
+      "lemma": "אוהב",
+      "pos": "VERB",
+      "dep": "nmod",
+      "dep_head": "הרוח",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "את",
+      "lemma": "את",
+      "pos": "ADP",
+      "dep": "case:acc",
+      "dep_head": "הלכת",
+      "feats": {}
+    },
+    {
+      "word": "הלכת",
+      "lemma": "לכת",
+      "pos": "NOUN",
+      "dep": "obj",
+      "dep_head": "טווים",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ולא",
+      "lemma": "לא",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "תשובי",
+      "feats": {}
+    },
+    {
+      "word": "תשובי",
+      "lemma": "שב",
+      "pos": "VERB",
+      "dep": "appos",
+      "dep_head": "כורים",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur",
+        "Person": "3",
+        "Tense": "Fut"
+      }
+    },
+    {
+      "word": "את",
+      "lemma": "את",
+      "pos": "PRON",
+      "dep": "nsubj",
+      "dep_head": "תשובי",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing",
+        "Person": "2"
+      }
+    },
+    {
+      "word": "לא",
+      "lemma": "לא",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "חזרו",
+      "feats": {}
+    },
+    {
+      "word": "תשובי",
+      "lemma": "שב",
+      "pos": "VERB",
+      "dep": "advcl",
+      "dep_head": "חזרו",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Fut"
+      }
+    },
+    {
+      "word": "עוד",
+      "lemma": "עוד",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "חזרו",
+      "feats": {}
+    },
+    {
+      "word": "שוב",
+      "lemma": "שוב",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "חזרו",
+      "feats": {}
+    },
+    {
+      "word": "חזרו",
+      "lemma": "חזרה",
+      "pos": "VERB",
+      "dep": "parataxis",
+      "dep_head": "נבלו",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur",
+        "Person": "3",
+        "Tense": "Past"
+      }
+    },
+    {
+      "word": "גשמי",
+      "lemma": "גשם",
+      "pos": "NOUN",
+      "dep": "nsubj",
+      "dep_head": "חזרו",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "הסתיו",
+      "lemma": "סתו",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "גשמי",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "גם",
+      "lemma": "גם",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "נבלו",
+      "feats": {}
+    },
+    {
+      "word": "נבלו",
+      "lemma": "נבל",
+      "pos": "VERB",
+      "dep": "obl",
+      "dep_head": "חזרו",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur",
+        "Person": "3"
+      }
+    },
+    {
+      "word": "הרקפות",
+      "lemma": "רקוב",
+      "pos": "NOUN",
+      "dep": "amod",
+      "dep_head": "נבלו",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "רק",
+      "lemma": "רק",
+      "pos": "ADV",
+      "dep": "det",
+      "dep_head": "הרוח",
+      "feats": {}
+    },
+    {
+      "word": "הרוח",
+      "lemma": "רוח",
+      "pos": "NOUN",
+      "dep": "nsubj",
+      "dep_head": "מנשב",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "מטורף",
+      "lemma": "מטורף",
+      "pos": "ADJ",
+      "dep": "obj",
+      "dep_head": "מנשב",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "מנשב",
+      "lemma": "מנש",
+      "pos": "VERB",
+      "dep": "parataxis",
+      "dep_head": "חזרו",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Pres"
+      }
+    },
+    {
+      "word": "לו",
+      "lemma": "לו",
+      "pos": "ADP",
+      "dep": "obl",
+      "dep_head": "מנשב",
+      "feats": {}
+    },
+    {
+      "word": "מנשב",
+      "lemma": "מנש",
+      "pos": "VERB",
+      "dep": "nsubj",
+      "dep_head": "מנשב",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ואני",
+      "lemma": "אני",
+      "pos": "PRON",
+      "dep": "nsubj",
+      "dep_head": "זוכר",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "1"
+      }
+    },
+    {
+      "word": "אורג",
+      "lemma": "אורג",
+      "pos": "VERB",
+      "dep": "parataxis",
+      "dep_head": "חזרו",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "חלום",
+      "lemma": "חלום",
+      "pos": "NOUN",
+      "dep": "obj",
+      "dep_head": "אורג",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "רוקם",
+      "lemma": "רוקם",
+      "pos": "VERB",
+      "dep": "compound:smixut",
+      "dep_head": "גשמי",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "חלום",
+      "lemma": "חלום",
+      "pos": "NOUN",
+      "dep": "obj",
+      "dep_head": "אורג",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "זוכר",
+      "lemma": "זוכר",
+      "pos": "VERB",
+      "dep": "acl",
+      "dep_head": "גשמי",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "1,2,3",
+        "Tense": "Pres"
+      }
+    },
+    {
+      "word": "ערבית",
+      "lemma": "ערבית",
+      "pos": "ADJ",
+      "dep": "obj",
+      "dep_head": "זוכר",
+      "feats": {
+        "Gender": "Fem"
+      }
+    },
+    {
+      "word": "ושמש",
+      "lemma": "שמש",
+      "pos": "PROPN",
+      "dep": "conj",
+      "dep_head": "תשובי",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "דום",
+      "lemma": "דום",
+      "pos": "NOUN",
+      "dep": "obj",
+      "dep_head": "זוכר",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ורק",
+      "lemma": "רק",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "זוכר",
+      "feats": {}
+    },
+    {
+      "word": "סתווים",
+      "lemma": "סתו",
+      "pos": "PROPN",
+      "dep": "obj",
+      "dep_head": "זוכר",
+      "feats": {}
+    },
+    {
+      "word": "כורים",
+      "lemma": "כורה",
+      "pos": "NOUN",
+      "dep": "nmod",
+      "dep_head": "הרוח",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "טווים",
+      "lemma": "טווי",
+      "pos": "VERB",
+      "dep": "amod",
+      "dep_head": "כורים",
+      "feats": {
+        "Gender": "Masc"
+      }
+    },
+    {
+      "word": "לאוהבים",
+      "lemma": "לאוהבים",
+      "pos": "NOUN",
+      "dep": "obl",
+      "dep_head": "חזרו",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "את",
+      "lemma": "את",
+      "pos": "ADP",
+      "dep": "case:acc",
+      "dep_head": "הלכת",
+      "feats": {}
+    },
+    {
+      "word": "הלכת",
+      "lemma": "לכת",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "טווים",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ולא",
+      "lemma": "לא",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "תשובי",
+      "feats": {}
+    },
+    {
+      "word": "תשובי",
+      "lemma": "שב",
+      "pos": "VERB",
+      "dep": "conj",
+      "dep_head": "נבלו",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur",
+        "Person": "3",
+        "Tense": "Fut"
+      }
+    },
+    {
+      "word": "את",
+      "lemma": "את",
+      "pos": "ADP",
+      "dep": "nsubj",
+      "dep_head": "תשובי",
+      "feats": {}
+    },
+    {
+      "word": "לא",
+      "lemma": "לא",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "תשובי",
+      "feats": {}
+    },
+    {
+      "word": "תשובי",
+      "lemma": "שב",
+      "pos": "VERB",
+      "dep": "advcl",
+      "dep_head": "נבלו",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur",
+        "Person": "3",
+        "Tense": "Fut"
+      }
+    },
+    {
+      "word": "עוד",
+      "lemma": "עוד",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "חזרו",
+      "feats": {}
+    },
+    {
+      "word": "שוב",
+      "lemma": "שוב",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "חזרו",
+      "feats": {}
+    },
+    {
+      "word": "חזרו",
+      "lemma": "חזר",
+      "pos": "VERB",
+      "dep": "parataxis",
+      "dep_head": "מנשב",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur",
+        "Person": "3",
+        "Tense": "Past"
+      }
+    },
+    {
+      "word": "גשמי",
+      "lemma": "גשם",
+      "pos": "NOUN",
+      "dep": "nsubj",
+      "dep_head": "חזרו",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "הסתיו",
+      "lemma": "סתו",
+      "pos": "PROPN",
+      "dep": "compound:smixut",
+      "dep_head": "גשמי",
+      "feats": {}
+    },
+    {
+      "word": "גם",
+      "lemma": "גם",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "חזרו",
+      "feats": {}
+    },
+    {
+      "word": "נבלו",
+      "lemma": "נבל",
+      "pos": "VERB",
+      "dep": "conj",
+      "dep_head": "חזרו",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur",
+        "Person": "3"
+      }
+    },
+    {
+      "word": "הרקפות",
+      "lemma": "רקוב",
+      "pos": "ADJ",
+      "dep": "obj",
+      "dep_head": "זוכר",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "רק",
+      "lemma": "רק",
+      "pos": "ADV",
+      "dep": "det",
+      "dep_head": "הרוח",
+      "feats": {}
+    },
+    {
+      "word": "הרוח",
+      "lemma": "רוח",
+      "pos": "NOUN",
+      "dep": "nsubj",
+      "dep_head": "מנשב",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "מטורף",
+      "lemma": "מטורף",
+      "pos": "ADJ",
+      "dep": "amod",
+      "dep_head": "הרוח",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "מנשב",
+      "lemma": "מנש",
+      "pos": "VERB",
+      "dep": "conj",
+      "dep_head": "חזרו",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Pres"
+      }
+    },
+    {
+      "word": "לו",
+      "lemma": "לו",
+      "pos": "ADP",
+      "dep": "obl",
+      "dep_head": "מנשב",
+      "feats": {}
+    },
+    {
+      "word": "מנשב",
+      "lemma": "מנש",
+      "pos": "VERB",
+      "dep": "compound:smixut",
+      "dep_head": "חלום",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3"
+      }
+    },
+    {
+      "word": "ואני",
+      "lemma": "אני",
+      "pos": "PRON",
+      "dep": "nsubj",
+      "dep_head": "הרוח",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "1"
+      }
+    },
+    {
+      "word": "אורג",
+      "lemma": "אורג",
+      "pos": "VERB",
+      "dep": "conj",
+      "dep_head": "מנשב",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "חלום",
+      "lemma": "חלום",
+      "pos": "NOUN",
+      "dep": "obj",
+      "dep_head": "אורג",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "רוקם",
+      "lemma": "רוקם",
+      "pos": "VERB",
+      "dep": "acl",
+      "dep_head": "חלום",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "חלום",
+      "lemma": "חלום",
+      "pos": "NOUN",
+      "dep": "obj",
+      "dep_head": "אורג",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "זוכר",
+      "lemma": "זוכר",
+      "pos": "VERB",
+      "dep": "acl",
+      "dep_head": "חלום",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "1,2,3",
+        "Tense": "Pres"
+      }
+    },
+    {
+      "word": "ערבית",
+      "lemma": "ערבית",
+      "pos": "PROPN",
+      "dep": "obj",
+      "dep_head": "זוכר",
+      "feats": {
+        "Gender": "Fem"
+      }
+    },
+    {
+      "word": "ושמש",
+      "lemma": "שמש",
+      "pos": "PROPN",
+      "dep": "conj",
+      "dep_head": "הלכת",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "דום",
+      "lemma": "דום",
+      "pos": "ADJ",
+      "dep": "amod",
+      "dep_head": "ושמש",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ורק",
+      "lemma": "רק",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "לא",
+      "feats": {}
+    },
+    {
+      "word": "סתווים",
+      "lemma": "סתו",
+      "pos": "VERB",
+      "dep": "obj",
+      "dep_head": "זוכר",
+      "feats": {
+        "Gender": "Masc"
+      }
+    },
+    {
+      "word": "כורים",
+      "lemma": "כורה",
+      "pos": "VERB",
+      "dep": "acl",
+      "dep_head": "הרוח",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "טווים",
+      "lemma": "טווי",
+      "pos": "VERB",
+      "dep": "amod",
+      "dep_head": "חלום",
+      "feats": {
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "לאוהבים",
+      "lemma": "לאוהבים",
+      "pos": "NOUN",
+      "dep": "nmod",
+      "dep_head": "הרוח",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur"
+      }
+    }
+  ],
+  "ner": [
+    {
+      "word": "",
+      "label": "TIMEX",
+      "start": 48,
+      "end": 53
+    },
+    {
+      "word": "",
+      "label": "ANG",
+      "start": 127,
+      "end": 132
+    },
+    {
+      "word": "",
+      "label": "TIMEX",
+      "start": 222,
+      "end": 227
+    },
+    {
+      "word": "",
+      "label": "ANG",
+      "start": 301,
+      "end": 306
+    },
+    {
+      "word": "",
+      "label": "TIMEX",
+      "start": 396,
+      "end": 401
+    },
+    {
+      "word": "",
+      "label": "ANG",
+      "start": 475,
+      "end": 480
+    }
+  ]
+}

@@ -1,0 +1,2061 @@
+{
+  "song_id": 156,
+  "title": "מרקו",
+  "year": 1970,
+  "album": "שלמה ארצי",
+  "morphology": [
+    {
+      "word": "על",
+      "lemma": "על",
+      "pos": "ADP",
+      "dep": "case",
+      "dep_head": "בפתח",
+      "feats": {}
+    },
+    {
+      "word": "שרפרף",
+      "lemma": "שרפרף",
+      "pos": "NOUN",
+      "dep": "obl",
+      "dep_head": "יושב",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "של",
+      "lemma": "של",
+      "pos": "ADP",
+      "dep": "case:gen",
+      "dep_head": "קש",
+      "feats": {}
+    },
+    {
+      "word": "קש",
+      "lemma": "קש",
+      "pos": "NOUN",
+      "dep": "nmod:poss",
+      "dep_head": "שרפרף",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "יושב",
+      "lemma": "יושב",
+      "pos": "VERB",
+      "dep": "acl",
+      "dep_head": "שרפרף",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Pres"
+      }
+    },
+    {
+      "word": "לו",
+      "lemma": "לו",
+      "pos": "ADP",
+      "dep": "obl",
+      "dep_head": "יושב",
+      "feats": {}
+    },
+    {
+      "word": "מרקו",
+      "lemma": "מרקו",
+      "pos": "PROPN",
+      "dep": "nsubj",
+      "dep_head": "יושב",
+      "feats": {}
+    },
+    {
+      "word": "הזקן",
+      "lemma": "זקן",
+      "pos": "ADJ",
+      "dep": "amod",
+      "dep_head": "מרקו",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "חושב",
+      "lemma": "חושב",
+      "pos": "VERB",
+      "dep": "parataxis",
+      "dep_head": "יושב",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "1,2,3",
+        "Tense": "Pres"
+      }
+    },
+    {
+      "word": "על",
+      "lemma": "על",
+      "pos": "ADP",
+      "dep": "case",
+      "dep_head": "מי",
+      "feats": {}
+    },
+    {
+      "word": "מי",
+      "lemma": "מי",
+      "pos": "PRON",
+      "dep": "obl",
+      "dep_head": "חושב",
+      "feats": {}
+    },
+    {
+      "word": "יודע",
+      "lemma": "יודע",
+      "pos": "VERB",
+      "dep": "parataxis",
+      "dep_head": "יושב",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Pres"
+      }
+    },
+    {
+      "word": "מה",
+      "lemma": "מה",
+      "pos": "PRON",
+      "dep": "obj",
+      "dep_head": "חולם",
+      "feats": {}
+    },
+    {
+      "word": "חולם",
+      "lemma": "חולם",
+      "pos": "VERB",
+      "dep": "ccomp",
+      "dep_head": "חושב",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3"
+      }
+    },
+    {
+      "word": "בפתח",
+      "lemma": "פתח",
+      "pos": "NOUN",
+      "dep": "obl",
+      "dep_head": "חולם",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "הקפה",
+      "lemma": "קפה",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "בפתח",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": ".",
+      "lemma": ".",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "חולם",
+      "feats": {}
+    },
+    {
+      "word": "מה",
+      "lemma": "מה",
+      "pos": "PRON",
+      "dep": "obj",
+      "dep_head": "אומרות",
+      "feats": {}
+    },
+    {
+      "word": "אומרות",
+      "lemma": "אומר",
+      "pos": "VERB",
+      "dep": "parataxis",
+      "dep_head": "יושב",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur",
+        "Person": "3",
+        "Tense": "Pres"
+      }
+    },
+    {
+      "word": "הקוביות",
+      "lemma": "קובייה",
+      "pos": "NOUN",
+      "dep": "obj",
+      "dep_head": "אומרות",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "למרקו",
+      "lemma": "מרק",
+      "pos": "PROPN",
+      "dep": "obl",
+      "dep_head": "יושב",
+      "feats": {}
+    },
+    {
+      "word": "שתי",
+      "lemma": "[BLANK]",
+      "pos": "NUM",
+      "dep": "nummod",
+      "dep_head": "עיניו",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "עיניו",
+      "lemma": "[BLANK]",
+      "pos": "NOUN",
+      "dep": "nsubj",
+      "dep_head": "יבוא",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "כבויות",
+      "lemma": "כבוי",
+      "pos": "VERB",
+      "dep": "ccomp",
+      "dep_head": "אומרות",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "רואות",
+      "lemma": "רואה",
+      "pos": "VERB",
+      "dep": "parataxis",
+      "dep_head": "יושב",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur",
+        "Person": "1,2,3"
+      }
+    },
+    {
+      "word": "איך",
+      "lemma": "איך",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "זורם",
+      "feats": {}
+    },
+    {
+      "word": "העולם",
+      "lemma": "עולם",
+      "pos": "NOUN",
+      "dep": "nsubj",
+      "dep_head": "יבוא",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "זורם",
+      "lemma": "זורם",
+      "pos": "VERB",
+      "dep": "acl:relcl",
+      "dep_head": "מה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Pres"
+      }
+    },
+    {
+      "word": "הרחק",
+      "lemma": "הרחיק",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "זורם",
+      "feats": {}
+    },
+    {
+      "word": "מפתח",
+      "lemma": "פתח",
+      "pos": "NOUN",
+      "dep": "obl",
+      "dep_head": "זורם",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "הקפה",
+      "lemma": "קפה",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "מפתח",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": ".",
+      "lemma": ".",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "יושב",
+      "feats": {}
+    },
+    {
+      "word": "מרקו",
+      "lemma": "מרקו",
+      "pos": "PROPN",
+      "dep": "nsubj",
+      "dep_head": "יושב",
+      "feats": {}
+    },
+    {
+      "word": ",",
+      "lemma": ",",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "חושב",
+      "feats": {}
+    },
+    {
+      "word": "מה",
+      "lemma": "מה",
+      "pos": "PRON",
+      "dep": "advmod",
+      "dep_head": "חושב",
+      "feats": {}
+    },
+    {
+      "word": "אתה",
+      "lemma": "אתה",
+      "pos": "PRON",
+      "dep": "nsubj",
+      "dep_head": "חושב",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "2"
+      }
+    },
+    {
+      "word": "חולם",
+      "lemma": "חולם",
+      "pos": "VERB",
+      "dep": "parataxis",
+      "dep_head": "יושב",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3"
+      }
+    },
+    {
+      "word": "מרקו",
+      "lemma": "מרקו",
+      "pos": "PROPN",
+      "dep": "vocative",
+      "dep_head": "חושב",
+      "feats": {}
+    },
+    {
+      "word": ",",
+      "lemma": ",",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "חולם",
+      "feats": {}
+    },
+    {
+      "word": "מה",
+      "lemma": "מה",
+      "pos": "ADV",
+      "dep": "obj",
+      "dep_head": "חולם",
+      "feats": {}
+    },
+    {
+      "word": "אתה",
+      "lemma": "אתה",
+      "pos": "PRON",
+      "dep": "nsubj",
+      "dep_head": "חולם",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "2"
+      }
+    },
+    {
+      "word": "חולם",
+      "lemma": "חולם",
+      "pos": "VERB",
+      "dep": "parataxis",
+      "dep_head": "רואה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Pres"
+      }
+    },
+    {
+      "word": ".",
+      "lemma": ".",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "חולם",
+      "feats": {}
+    },
+    {
+      "word": "מרקו",
+      "lemma": "מרקו",
+      "pos": "PROPN",
+      "dep": "parataxis",
+      "dep_head": "חולם",
+      "feats": {}
+    },
+    {
+      "word": ",",
+      "lemma": ",",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "חולם",
+      "feats": {}
+    },
+    {
+      "word": "מה",
+      "lemma": "מה",
+      "pos": "ADV",
+      "dep": "obj",
+      "dep_head": "חולם",
+      "feats": {}
+    },
+    {
+      "word": "אתה",
+      "lemma": "אתה",
+      "pos": "PRON",
+      "dep": "nsubj",
+      "dep_head": "חולם",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "2"
+      }
+    },
+    {
+      "word": "חולם",
+      "lemma": "חולם",
+      "pos": "VERB",
+      "dep": "parataxis",
+      "dep_head": "יושב",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "1",
+        "Tense": "Pres"
+      }
+    },
+    {
+      "word": "מרקו",
+      "lemma": "מרקו",
+      "pos": "PROPN",
+      "dep": "nsubj",
+      "dep_head": "חולם",
+      "feats": {}
+    },
+    {
+      "word": ",",
+      "lemma": ",",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "חולם",
+      "feats": {}
+    },
+    {
+      "word": "מה",
+      "lemma": "מה",
+      "pos": "PRON",
+      "dep": "obj",
+      "dep_head": "חולם",
+      "feats": {}
+    },
+    {
+      "word": "אתה",
+      "lemma": "אתה",
+      "pos": "PRON",
+      "dep": "nsubj",
+      "dep_head": "חולם",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "2"
+      }
+    },
+    {
+      "word": "חולם",
+      "lemma": "חולם",
+      "pos": "VERB",
+      "dep": "parataxis",
+      "dep_head": "יושב",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Pres"
+      }
+    },
+    {
+      "word": ".",
+      "lemma": ".",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "יושב",
+      "feats": {}
+    },
+    {
+      "word": "כוס",
+      "lemma": "כוס",
+      "pos": "NOUN",
+      "dep": "obj",
+      "dep_head": "חולם",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "הערק",
+      "lemma": "[BLANK]",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "כוס",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "כמו",
+      "lemma": "כמו",
+      "pos": "ADP",
+      "dep": "case",
+      "dep_head": "חלב",
+      "feats": {}
+    },
+    {
+      "word": "חלב",
+      "lemma": "חלב",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "כוס",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "תמיד",
+      "lemma": "תמיד",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "חולם",
+      "feats": {}
+    },
+    {
+      "word": "בין",
+      "lemma": "בין",
+      "pos": "ADP",
+      "dep": "case",
+      "dep_head": "אצבעות",
+      "feats": {}
+    },
+    {
+      "word": "אצבעות",
+      "lemma": "אצבע",
+      "pos": "NOUN",
+      "dep": "obl",
+      "dep_head": "יושב",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "ידיו",
+      "lemma": "יד",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "מפתח",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "כתמי",
+      "lemma": "כתם",
+      "pos": "NOUN",
+      "dep": "obj",
+      "dep_head": "חושב",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "צהוב",
+      "lemma": "צהוב",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "כתמי",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "סילון",
+      "lemma": "סילון",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "כתמי",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "עשן",
+      "lemma": "עשן",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "כתמי",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "בפתח",
+      "lemma": "פתח",
+      "pos": "NOUN",
+      "dep": "obl",
+      "dep_head": "יושב",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "הקפה",
+      "lemma": "קפה",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "בפתח",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": ".",
+      "lemma": ".",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "יושב",
+      "feats": {}
+    },
+    {
+      "word": "על",
+      "lemma": "על",
+      "pos": "ADP",
+      "dep": "case",
+      "dep_head": "זקנו",
+      "feats": {}
+    },
+    {
+      "word": "זקנו",
+      "lemma": "זקן",
+      "pos": "NOUN",
+      "dep": "obl",
+      "dep_head": "יושב",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "שלא",
+      "lemma": "לא",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "גולח",
+      "feats": {}
+    },
+    {
+      "word": "גולח",
+      "lemma": "חולם",
+      "pos": "VERB",
+      "dep": "advcl",
+      "dep_head": "יושב",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Past"
+      }
+    },
+    {
+      "word": "שלושה",
+      "lemma": "שלושה",
+      "pos": "NUM",
+      "dep": "nummod",
+      "dep_head": "ימים",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ימים",
+      "lemma": "יום",
+      "pos": "NOUN",
+      "dep": "obl",
+      "dep_head": "יושב",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "השמש",
+      "lemma": "שמש",
+      "pos": "NOUN",
+      "dep": "nsubj",
+      "dep_head": "יושב",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "נח",
+      "lemma": "נח",
+      "pos": "VERB",
+      "dep": "parataxis",
+      "dep_head": "יושב",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "1,2,3"
+      }
+    },
+    {
+      "word": "לוהט",
+      "lemma": "לוהט",
+      "pos": "ADJ",
+      "dep": "xcomp",
+      "dep_head": "יודע",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "אבק",
+      "lemma": "אבק",
+      "pos": "NOUN",
+      "dep": "nsubj",
+      "dep_head": "עולה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "המדרכות",
+      "lemma": "מדרכה",
+      "pos": "NOUN",
+      "dep": "nsubj",
+      "dep_head": "עולה",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "עולה",
+      "lemma": "עולה",
+      "pos": "VERB",
+      "dep": "parataxis",
+      "dep_head": "יושב",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Pres"
+      }
+    },
+    {
+      "word": "בפתח",
+      "lemma": "פתח",
+      "pos": "NOUN",
+      "dep": "obl",
+      "dep_head": "עולה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "הקפה",
+      "lemma": "קפה",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "בפתח",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": ".",
+      "lemma": ".",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "חושב",
+      "feats": {}
+    },
+    {
+      "word": "מרקו",
+      "lemma": "מרקו",
+      "pos": "PROPN",
+      "dep": "nsubj",
+      "dep_head": "יושב",
+      "feats": {}
+    },
+    {
+      "word": ",",
+      "lemma": ",",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "יודע",
+      "feats": {}
+    },
+    {
+      "word": "מה",
+      "lemma": "מה",
+      "pos": "PRON",
+      "dep": "obj",
+      "dep_head": "חולם",
+      "feats": {}
+    },
+    {
+      "word": "אתה",
+      "lemma": "אתה",
+      "pos": "PRON",
+      "dep": "nsubj",
+      "dep_head": "יודע",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "2"
+      }
+    },
+    {
+      "word": "חולם",
+      "lemma": "חולם",
+      "pos": "VERB",
+      "dep": "ccomp",
+      "dep_head": "אומרות",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3"
+      }
+    },
+    {
+      "word": "מרקו",
+      "lemma": "מרקו",
+      "pos": "PROPN",
+      "dep": "nsubj",
+      "dep_head": "חולם",
+      "feats": {}
+    },
+    {
+      "word": ",",
+      "lemma": ",",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "יודע",
+      "feats": {}
+    },
+    {
+      "word": "מה",
+      "lemma": "מה",
+      "pos": "PRON",
+      "dep": "obj",
+      "dep_head": "יודע",
+      "feats": {}
+    },
+    {
+      "word": "אתה",
+      "lemma": "אתה",
+      "pos": "PRON",
+      "dep": "nsubj",
+      "dep_head": "חולם",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "2"
+      }
+    },
+    {
+      "word": "חולם",
+      "lemma": "חולם",
+      "pos": "VERB",
+      "dep": "ccomp",
+      "dep_head": "אומרות",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3"
+      }
+    },
+    {
+      "word": ".",
+      "lemma": ".",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "חושב",
+      "feats": {}
+    },
+    {
+      "word": "מרקו",
+      "lemma": "מרקו",
+      "pos": "PROPN",
+      "dep": "nsubj",
+      "dep_head": "יושב",
+      "feats": {}
+    },
+    {
+      "word": ",",
+      "lemma": ",",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "חולם",
+      "feats": {}
+    },
+    {
+      "word": "מה",
+      "lemma": "מה",
+      "pos": "PRON",
+      "dep": "obj",
+      "dep_head": "חולם",
+      "feats": {}
+    },
+    {
+      "word": "אתה",
+      "lemma": "אתה",
+      "pos": "PRON",
+      "dep": "nsubj",
+      "dep_head": "חולם",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "2"
+      }
+    },
+    {
+      "word": "חולם",
+      "lemma": "חולם",
+      "pos": "VERB",
+      "dep": "parataxis",
+      "dep_head": "יושב",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Pres"
+      }
+    },
+    {
+      "word": "מרקו",
+      "lemma": "מרקו",
+      "pos": "PROPN",
+      "dep": "nsubj",
+      "dep_head": "חולם",
+      "feats": {}
+    },
+    {
+      "word": ",",
+      "lemma": ",",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "יודע",
+      "feats": {}
+    },
+    {
+      "word": "מה",
+      "lemma": "מה",
+      "pos": "PRON",
+      "dep": "obj",
+      "dep_head": "חולם",
+      "feats": {}
+    },
+    {
+      "word": "אתה",
+      "lemma": "אתה",
+      "pos": "PRON",
+      "dep": "nsubj",
+      "dep_head": "יודע",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "2"
+      }
+    },
+    {
+      "word": "חולם",
+      "lemma": "חולם",
+      "pos": "VERB",
+      "dep": "ccomp",
+      "dep_head": "אומרות",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Pres"
+      }
+    },
+    {
+      "word": ".",
+      "lemma": ".",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "חושב",
+      "feats": {}
+    },
+    {
+      "word": "מי",
+      "lemma": "מי",
+      "pos": "PRON",
+      "dep": "nsubj",
+      "dep_head": "יודע",
+      "feats": {}
+    },
+    {
+      "word": "יודע",
+      "lemma": "יודע",
+      "pos": "VERB",
+      "dep": "ccomp",
+      "dep_head": "אומרות",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Pres"
+      }
+    },
+    {
+      "word": "את",
+      "lemma": "את",
+      "pos": "ADP",
+      "dep": "case:acc",
+      "dep_head": "ליבו",
+      "feats": {}
+    },
+    {
+      "word": "ליבו",
+      "lemma": "לב",
+      "pos": "NOUN",
+      "dep": "obj",
+      "dep_head": "יודע",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "האם",
+      "lemma": "אם",
+      "pos": "ADV",
+      "dep": "mark:q",
+      "dep_head": "יודע",
+      "feats": {}
+    },
+    {
+      "word": "ימתין",
+      "lemma": "המתין",
+      "pos": "VERB",
+      "dep": "ccomp",
+      "dep_head": "אומרות",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Fut"
+      }
+    },
+    {
+      "word": "ומי",
+      "lemma": "מי",
+      "pos": "PRON",
+      "dep": "nsubj",
+      "dep_head": "יבוא",
+      "feats": {}
+    },
+    {
+      "word": "יבוא",
+      "lemma": "יבוא",
+      "pos": "VERB",
+      "dep": "conj",
+      "dep_head": "יודע",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Fut"
+      }
+    },
+    {
+      "word": "ממה",
+      "lemma": "מה",
+      "pos": "PRON",
+      "dep": "obl",
+      "dep_head": "יבוא",
+      "feats": {}
+    },
+    {
+      "word": "יצחק",
+      "lemma": "יצחק",
+      "pos": "PROPN",
+      "dep": "nsubj",
+      "dep_head": "יבוא",
+      "feats": {}
+    },
+    {
+      "word": "על",
+      "lemma": "על",
+      "pos": "ADP",
+      "dep": "case",
+      "dep_head": "מה",
+      "feats": {}
+    },
+    {
+      "word": "מה",
+      "lemma": "מה",
+      "pos": "PRON",
+      "dep": "obl",
+      "dep_head": "יבוא",
+      "feats": {}
+    },
+    {
+      "word": "יבכה",
+      "lemma": "בכו",
+      "pos": "VERB",
+      "dep": "conj",
+      "dep_head": "זורם",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Fut"
+      }
+    },
+    {
+      "word": "בפתח",
+      "lemma": "פתח",
+      "pos": "NOUN",
+      "dep": "obl",
+      "dep_head": "זורם",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "הקפה",
+      "lemma": "קפה",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "בפתח",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": ".",
+      "lemma": ".",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "יושב",
+      "feats": {}
+    },
+    {
+      "word": "על",
+      "lemma": "על",
+      "pos": "ADP",
+      "dep": "case",
+      "dep_head": "מפתח",
+      "feats": {}
+    },
+    {
+      "word": "שרפרף",
+      "lemma": "שרפרף",
+      "pos": "NOUN",
+      "dep": "obl",
+      "dep_head": "זורם",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "של",
+      "lemma": "של",
+      "pos": "ADP",
+      "dep": "case:gen",
+      "dep_head": "קש",
+      "feats": {}
+    },
+    {
+      "word": "קש",
+      "lemma": "קש",
+      "pos": "NOUN",
+      "dep": "nmod:poss",
+      "dep_head": "שרפרף",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "יושב",
+      "lemma": "יושב",
+      "pos": "VERB",
+      "dep": "root",
+      "dep_head": ".",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3"
+      }
+    },
+    {
+      "word": "לו",
+      "lemma": "לו",
+      "pos": "ADP",
+      "dep": "obl",
+      "dep_head": "יושב",
+      "feats": {}
+    },
+    {
+      "word": "מרקו",
+      "lemma": "מרקו",
+      "pos": "PROPN",
+      "dep": "nsubj",
+      "dep_head": "חושב",
+      "feats": {}
+    },
+    {
+      "word": "הזקן",
+      "lemma": "זקן",
+      "pos": "ADJ",
+      "dep": "amod",
+      "dep_head": "מרקו",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "חושב",
+      "lemma": "חושב",
+      "pos": "VERB",
+      "dep": "parataxis",
+      "dep_head": "יושב",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "1",
+        "Tense": "Pres"
+      }
+    },
+    {
+      "word": "רואה",
+      "lemma": "רואה",
+      "pos": "VERB",
+      "dep": "parataxis",
+      "dep_head": "חושב",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3"
+      }
+    },
+    {
+      "word": "את",
+      "lemma": "את",
+      "pos": "ADP",
+      "dep": "case:acc",
+      "dep_head": "העולם",
+      "feats": {}
+    },
+    {
+      "word": "העולם",
+      "lemma": "עולם",
+      "pos": "NOUN",
+      "dep": "obj",
+      "dep_head": "רואה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "זורם",
+      "lemma": "זורם",
+      "pos": "VERB",
+      "dep": "parataxis",
+      "dep_head": "רואה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Pres"
+      }
+    },
+    {
+      "word": "הרחק",
+      "lemma": "הרחיק",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "זורם",
+      "feats": {}
+    },
+    {
+      "word": "מפתח",
+      "lemma": "פתח",
+      "pos": "NOUN",
+      "dep": "obl",
+      "dep_head": "הרחק",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "הקפה",
+      "lemma": "קפה",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "מפתח",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": ".",
+      "lemma": ".",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "חולם",
+      "feats": {}
+    },
+    {
+      "word": "מרקו",
+      "lemma": "מרקו",
+      "pos": "PROPN",
+      "dep": "parataxis",
+      "dep_head": "חולם",
+      "feats": {}
+    },
+    {
+      "word": ",",
+      "lemma": ",",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "חולם",
+      "feats": {}
+    },
+    {
+      "word": "מה",
+      "lemma": "מה",
+      "pos": "ADV",
+      "dep": "obj",
+      "dep_head": "חולם",
+      "feats": {}
+    },
+    {
+      "word": "אתה",
+      "lemma": "אתה",
+      "pos": "PRON",
+      "dep": "nsubj",
+      "dep_head": "חולם",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "2"
+      }
+    },
+    {
+      "word": "חולם",
+      "lemma": "חולם",
+      "pos": "VERB",
+      "dep": "acl:relcl",
+      "dep_head": "איך",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "1",
+        "Tense": "Pres"
+      }
+    },
+    {
+      "word": "מרקו",
+      "lemma": "מרקו",
+      "pos": "PROPN",
+      "dep": "nsubj",
+      "dep_head": "יושב",
+      "feats": {}
+    },
+    {
+      "word": ",",
+      "lemma": ",",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "חולם",
+      "feats": {}
+    },
+    {
+      "word": "מה",
+      "lemma": "מה",
+      "pos": "PRON",
+      "dep": "obj",
+      "dep_head": "חושב",
+      "feats": {}
+    },
+    {
+      "word": "אתה",
+      "lemma": "את",
+      "pos": "PRON",
+      "dep": "nsubj",
+      "dep_head": "חושב",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "2"
+      }
+    },
+    {
+      "word": "חולם",
+      "lemma": "חולם",
+      "pos": "VERB",
+      "dep": "parataxis",
+      "dep_head": "יושב",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "1",
+        "Tense": "Pres"
+      }
+    },
+    {
+      "word": ".",
+      "lemma": ".",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "יושב",
+      "feats": {}
+    },
+    {
+      "word": "מרקו",
+      "lemma": "מרקו",
+      "pos": "PROPN",
+      "dep": "nsubj",
+      "dep_head": "יושב",
+      "feats": {}
+    },
+    {
+      "word": ",",
+      "lemma": ",",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "חולם",
+      "feats": {}
+    },
+    {
+      "word": "מה",
+      "lemma": "מה",
+      "pos": "PRON",
+      "dep": "obj",
+      "dep_head": "חולם",
+      "feats": {}
+    },
+    {
+      "word": "אתה",
+      "lemma": "אתה",
+      "pos": "PRON",
+      "dep": "nsubj",
+      "dep_head": "חולם",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "2"
+      }
+    },
+    {
+      "word": "חולם",
+      "lemma": "חולם",
+      "pos": "VERB",
+      "dep": "parataxis",
+      "dep_head": "רואה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Pres"
+      }
+    },
+    {
+      "word": "מרקו",
+      "lemma": "מרקו",
+      "pos": "PROPN",
+      "dep": "nsubj",
+      "dep_head": "חולם",
+      "feats": {}
+    },
+    {
+      "word": ",",
+      "lemma": ",",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "חולם",
+      "feats": {}
+    },
+    {
+      "word": "מה",
+      "lemma": "מה",
+      "pos": "PRON",
+      "dep": "obj",
+      "dep_head": "חולם",
+      "feats": {}
+    },
+    {
+      "word": "אתה",
+      "lemma": "אתה",
+      "pos": "PRON",
+      "dep": "nsubj",
+      "dep_head": "חולם",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "2"
+      }
+    },
+    {
+      "word": "חולם",
+      "lemma": "חולם",
+      "pos": "VERB",
+      "dep": "parataxis",
+      "dep_head": "רואה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Pres"
+      }
+    },
+    {
+      "word": ".",
+      "lemma": ".",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "חושב",
+      "feats": {}
+    },
+    {
+      "word": "מרקו",
+      "lemma": "מרקו",
+      "pos": "PROPN",
+      "dep": "nsubj",
+      "dep_head": "חושב",
+      "feats": {}
+    },
+    {
+      "word": ",",
+      "lemma": ",",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "חולם",
+      "feats": {}
+    },
+    {
+      "word": "מה",
+      "lemma": "מה",
+      "pos": "PRON",
+      "dep": "obj",
+      "dep_head": "חולם",
+      "feats": {}
+    },
+    {
+      "word": "אתה",
+      "lemma": "אתה",
+      "pos": "PRON",
+      "dep": "nsubj",
+      "dep_head": "חולם",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "2"
+      }
+    },
+    {
+      "word": "חולם",
+      "lemma": "חולם",
+      "pos": "VERB",
+      "dep": "appos",
+      "dep_head": "כתמי",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "1",
+        "Tense": "Pres"
+      }
+    },
+    {
+      "word": "מרקו",
+      "lemma": "מרקו",
+      "pos": "PROPN",
+      "dep": "nsubj",
+      "dep_head": "יושב",
+      "feats": {}
+    },
+    {
+      "word": ",",
+      "lemma": ",",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "חולם",
+      "feats": {}
+    },
+    {
+      "word": "מה",
+      "lemma": "מה",
+      "pos": "PRON",
+      "dep": "obj",
+      "dep_head": "חולם",
+      "feats": {}
+    },
+    {
+      "word": "אתה",
+      "lemma": "את",
+      "pos": "PRON",
+      "dep": "nsubj",
+      "dep_head": "חולם",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "2"
+      }
+    },
+    {
+      "word": "חולם",
+      "lemma": "חולם",
+      "pos": "VERB",
+      "dep": "parataxis",
+      "dep_head": "יושב",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Pres"
+      }
+    },
+    {
+      "word": ".",
+      "lemma": ".",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "יושב",
+      "feats": {}
+    },
+    {
+      "word": "מרקו",
+      "lemma": "מרקו",
+      "pos": "PROPN",
+      "dep": "nsubj",
+      "dep_head": "יושב",
+      "feats": {}
+    },
+    {
+      "word": ",",
+      "lemma": ",",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "חולם",
+      "feats": {}
+    },
+    {
+      "word": "מה",
+      "lemma": "מה",
+      "pos": "PRON",
+      "dep": "obj",
+      "dep_head": "חולם",
+      "feats": {}
+    },
+    {
+      "word": "אתה",
+      "lemma": "את",
+      "pos": "PRON",
+      "dep": "nsubj",
+      "dep_head": "חולם",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "2"
+      }
+    },
+    {
+      "word": "חולם",
+      "lemma": "חולם",
+      "pos": "VERB",
+      "dep": "parataxis",
+      "dep_head": "יושב",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Pres"
+      }
+    },
+    {
+      "word": "מרקו",
+      "lemma": "מרקו",
+      "pos": "PROPN",
+      "dep": "nsubj",
+      "dep_head": "יושב",
+      "feats": {}
+    },
+    {
+      "word": ",",
+      "lemma": ",",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "חולם",
+      "feats": {}
+    },
+    {
+      "word": "מה",
+      "lemma": "מה",
+      "pos": "PRON",
+      "dep": "obj",
+      "dep_head": "חולם",
+      "feats": {}
+    },
+    {
+      "word": "אתה",
+      "lemma": "את",
+      "pos": "PRON",
+      "dep": "nsubj",
+      "dep_head": "חולם",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "2"
+      }
+    },
+    {
+      "word": "חולם",
+      "lemma": "חולם",
+      "pos": "VERB",
+      "dep": "parataxis",
+      "dep_head": "יושב",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Pres"
+      }
+    },
+    {
+      "word": ".",
+      "lemma": ".",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "חושב",
+      "feats": {}
+    },
+    {
+      "word": "מרקו",
+      "lemma": "מרקו",
+      "pos": "PROPN",
+      "dep": "nsubj",
+      "dep_head": "חושב",
+      "feats": {}
+    },
+    {
+      "word": ",",
+      "lemma": ",",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "יודע",
+      "feats": {}
+    },
+    {
+      "word": "מה",
+      "lemma": "מה",
+      "pos": "PRON",
+      "dep": "obj",
+      "dep_head": "חולם",
+      "feats": {}
+    },
+    {
+      "word": "אתה",
+      "lemma": "את",
+      "pos": "PRON",
+      "dep": "nsubj",
+      "dep_head": "חולם",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "2"
+      }
+    },
+    {
+      "word": "חולם",
+      "lemma": "חולם",
+      "pos": "VERB",
+      "dep": "parataxis",
+      "dep_head": "יושב",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Pres"
+      }
+    },
+    {
+      "word": "מרקו",
+      "lemma": "מרקו",
+      "pos": "PROPN",
+      "dep": "nsubj",
+      "dep_head": "יושב",
+      "feats": {}
+    },
+    {
+      "word": ",",
+      "lemma": ",",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "יודע",
+      "feats": {}
+    },
+    {
+      "word": "מה",
+      "lemma": "מה",
+      "pos": "PRON",
+      "dep": "obj",
+      "dep_head": "יודע",
+      "feats": {}
+    },
+    {
+      "word": "אתה",
+      "lemma": "את",
+      "pos": "PRON",
+      "dep": "nsubj",
+      "dep_head": "יודע",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "2"
+      }
+    },
+    {
+      "word": "חולם",
+      "lemma": "חולם",
+      "pos": "VERB",
+      "dep": "ccomp",
+      "dep_head": "אומרות",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Pres"
+      }
+    },
+    {
+      "word": ".",
+      "lemma": ".",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "יושב",
+      "feats": {}
+    }
+  ],
+  "ner": [
+    {
+      "word": "",
+      "label": "PER",
+      "start": 23,
+      "end": 27
+    },
+    {
+      "word": "",
+      "label": "PER",
+      "start": 86,
+      "end": 91
+    },
+    {
+      "word": "",
+      "label": "PER",
+      "start": 146,
+      "end": 150
+    },
+    {
+      "word": "",
+      "label": "PER",
+      "start": 164,
+      "end": 168
+    },
+    {
+      "word": "",
+      "label": "PER",
+      "start": 183,
+      "end": 187
+    },
+    {
+      "word": "",
+      "label": "PER",
+      "start": 201,
+      "end": 205
+    },
+    {
+      "word": "",
+      "label": "PER",
+      "start": 359,
+      "end": 363
+    },
+    {
+      "word": "",
+      "label": "PER",
+      "start": 377,
+      "end": 381
+    },
+    {
+      "word": "",
+      "label": "PER",
+      "start": 396,
+      "end": 400
+    },
+    {
+      "word": "",
+      "label": "PER",
+      "start": 414,
+      "end": 418
+    },
+    {
+      "word": "",
+      "label": "PER",
+      "start": 473,
+      "end": 477
+    },
+    {
+      "word": "",
+      "label": "PER",
+      "start": 523,
+      "end": 527
+    },
+    {
+      "word": "",
+      "label": "PER",
+      "start": 573,
+      "end": 577
+    },
+    {
+      "word": "",
+      "label": "PER",
+      "start": 591,
+      "end": 595
+    },
+    {
+      "word": "",
+      "label": "PER",
+      "start": 610,
+      "end": 614
+    },
+    {
+      "word": "",
+      "label": "PER",
+      "start": 628,
+      "end": 632
+    },
+    {
+      "word": "",
+      "label": "PER",
+      "start": 647,
+      "end": 651
+    },
+    {
+      "word": "",
+      "label": "PER",
+      "start": 665,
+      "end": 669
+    },
+    {
+      "word": "",
+      "label": "PER",
+      "start": 684,
+      "end": 688
+    },
+    {
+      "word": "",
+      "label": "PER",
+      "start": 702,
+      "end": 706
+    },
+    {
+      "word": "",
+      "label": "PER",
+      "start": 721,
+      "end": 725
+    },
+    {
+      "word": "",
+      "label": "PER",
+      "start": 739,
+      "end": 743
+    }
+  ]
+}

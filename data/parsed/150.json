@@ -1,0 +1,791 @@
+{
+  "song_id": 150,
+  "title": "שיר אהבה",
+  "year": 1975,
+  "album": "משחקי 26",
+  "morphology": [
+    {
+      "word": "כשלא",
+      "lemma": "לא",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "היה",
+      "feats": {}
+    },
+    {
+      "word": "היה",
+      "lemma": "היי",
+      "pos": "VERB",
+      "dep": "advcl",
+      "dep_head": "קראתיך",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Past"
+      }
+    },
+    {
+      "word": "לי",
+      "lemma": "לי",
+      "pos": "PRON",
+      "dep": "obl",
+      "dep_head": "היה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "1"
+      }
+    },
+    {
+      "word": "בית",
+      "lemma": "בית",
+      "pos": "NOUN",
+      "dep": "nsubj",
+      "dep_head": "היה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ידייך",
+      "lemma": "יד",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "בית",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "היו",
+      "lemma": "היי",
+      "pos": "AUX",
+      "dep": "cop",
+      "dep_head": "טיילנו",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur",
+        "Person": "3",
+        "Tense": "Past"
+      }
+    },
+    {
+      "word": "ביתי",
+      "lemma": "בית",
+      "pos": "NOUN",
+      "dep": "obl",
+      "dep_head": "טיילנו",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "כבשים",
+      "lemma": "כבש",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "בית",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "לבנים",
+      "lemma": "לבן",
+      "pos": "NOUN",
+      "dep": "amod",
+      "dep_head": "בארץ",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "ידייך",
+      "lemma": "יד",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "בית",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": ",",
+      "lemma": ",",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "אהובתי",
+      "feats": {}
+    },
+    {
+      "word": "ידייך",
+      "lemma": "יד",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "בית",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": ",",
+      "lemma": ",",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "אהובתי",
+      "feats": {}
+    },
+    {
+      "word": "אהובתי",
+      "lemma": "אהובה",
+      "pos": "NOUN",
+      "dep": "appos",
+      "dep_head": "בית",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": ".",
+      "lemma": ".",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "טיילנו",
+      "feats": {}
+    },
+    {
+      "word": "כשלא",
+      "lemma": "לא",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "היה",
+      "feats": {}
+    },
+    {
+      "word": "היה",
+      "lemma": "היי",
+      "pos": "VERB",
+      "dep": "cop",
+      "dep_head": "ביתי",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Past"
+      }
+    },
+    {
+      "word": "לי",
+      "lemma": "לי",
+      "pos": "PRON",
+      "dep": "obl",
+      "dep_head": "היה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "1"
+      }
+    },
+    {
+      "word": "בית",
+      "lemma": "בית",
+      "pos": "NOUN",
+      "dep": "nsubj",
+      "dep_head": "טיילנו",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ידייך",
+      "lemma": "יד",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "בית",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "היו",
+      "lemma": "היי",
+      "pos": "AUX",
+      "dep": "cop",
+      "dep_head": "ביתי",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur",
+        "Person": "3",
+        "Tense": "Past"
+      }
+    },
+    {
+      "word": "ביתי",
+      "lemma": "בית",
+      "pos": "NOUN",
+      "dep": "obl",
+      "dep_head": "טיילנו",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "כבשים",
+      "lemma": "כבש",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "בית",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "לבנים",
+      "lemma": "לבן",
+      "pos": "ADJ",
+      "dep": "amod",
+      "dep_head": "אהובתי",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "ידייך",
+      "lemma": "יד",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "בית",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": ",",
+      "lemma": ",",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "אהובתי",
+      "feats": {}
+    },
+    {
+      "word": "ידייך",
+      "lemma": "יד",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "בית",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": ",",
+      "lemma": ",",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "אהובתי",
+      "feats": {}
+    },
+    {
+      "word": "אהובתי",
+      "lemma": "אהובה",
+      "pos": "NOUN",
+      "dep": "conj",
+      "dep_head": "קראתיך",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": ".",
+      "lemma": ".",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "קראתיך",
+      "feats": {}
+    },
+    {
+      "word": "כשלא",
+      "lemma": "לא",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "היה",
+      "feats": {}
+    },
+    {
+      "word": "היה",
+      "lemma": "היי",
+      "pos": "VERB",
+      "dep": "ccomp",
+      "dep_head": "קראתיך",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Past"
+      }
+    },
+    {
+      "word": "לך",
+      "lemma": "לי",
+      "pos": "PRON",
+      "dep": "obl",
+      "dep_head": "היה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "2"
+      }
+    },
+    {
+      "word": "בית",
+      "lemma": "בית",
+      "pos": "NOUN",
+      "dep": "nsubj",
+      "dep_head": "היה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "בכנף",
+      "lemma": "כנף",
+      "pos": "NOUN",
+      "dep": "nmod",
+      "dep_head": "בית",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "מעילי",
+      "lemma": "מעיל",
+      "pos": "NOUN",
+      "dep": "nsubj",
+      "dep_head": "היה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "כיסיתיך",
+      "lemma": "כיס",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "מעילי",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "כשלא",
+      "lemma": "לא",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "היה",
+      "feats": {}
+    },
+    {
+      "word": "היה",
+      "lemma": "היי",
+      "pos": "VERB",
+      "dep": "ccomp",
+      "dep_head": "קראתיך",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Past"
+      }
+    },
+    {
+      "word": "לי",
+      "lemma": "לי",
+      "pos": "PRON",
+      "dep": "obl",
+      "dep_head": "היה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "1"
+      }
+    },
+    {
+      "word": "אל",
+      "lemma": "אל",
+      "pos": "ADP",
+      "dep": "case",
+      "dep_head": "ממעמקים",
+      "feats": {}
+    },
+    {
+      "word": "ממעמקים",
+      "lemma": "מעמק",
+      "pos": "NOUN",
+      "dep": "obl",
+      "dep_head": "היה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "קראתיך",
+      "lemma": "קרא",
+      "pos": "VERB",
+      "dep": "root",
+      "dep_head": "אהובתי",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "1",
+        "Tense": "Past"
+      }
+    },
+    {
+      "word": "קראתיך",
+      "lemma": "קרא",
+      "pos": "VERB",
+      "dep": "xcomp",
+      "dep_head": "קראתיך",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing",
+        "Tense": "Past"
+      }
+    },
+    {
+      "word": "קראתיך",
+      "lemma": "קרא",
+      "pos": "VERB",
+      "dep": "xcomp",
+      "dep_head": "קראתיך",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing",
+        "Tense": "Past"
+      }
+    },
+    {
+      "word": "כשלא",
+      "lemma": "לא",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "היה",
+      "feats": {}
+    },
+    {
+      "word": "היה",
+      "lemma": "היי",
+      "pos": "VERB",
+      "dep": "ccomp",
+      "dep_head": "קראתיך",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Past"
+      }
+    },
+    {
+      "word": "לי",
+      "lemma": "לי",
+      "pos": "PRON",
+      "dep": "obl",
+      "dep_head": "היה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "1"
+      }
+    },
+    {
+      "word": "בית",
+      "lemma": "בית",
+      "pos": "NOUN",
+      "dep": "nsubj",
+      "dep_head": "היה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ולא",
+      "lemma": "לא",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "הייתה",
+      "feats": {}
+    },
+    {
+      "word": "הייתה",
+      "lemma": "היי",
+      "pos": "VERB",
+      "dep": "conj",
+      "dep_head": "טיילנו",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Past"
+      }
+    },
+    {
+      "word": "שעה",
+      "lemma": "שעה",
+      "pos": "NOUN",
+      "dep": "obl:tmod",
+      "dep_head": "היה",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "טיילנו",
+      "lemma": "טייל",
+      "pos": "VERB",
+      "dep": "parataxis",
+      "dep_head": "קראתיך",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur",
+        "Person": "1",
+        "Tense": "Past"
+      }
+    },
+    {
+      "word": "יחפים",
+      "lemma": "יחפים",
+      "pos": "ADJ",
+      "dep": "obl",
+      "dep_head": "טיילנו",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "בארץ",
+      "lemma": "ארץ",
+      "pos": "NOUN",
+      "dep": "obl",
+      "dep_head": "טיילנו",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "נפלאה",
+      "lemma": "נפלא",
+      "pos": "ADJ",
+      "dep": "amod",
+      "dep_head": "בארץ",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "כשלא",
+      "lemma": "לא",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "היה",
+      "feats": {}
+    },
+    {
+      "word": "היה",
+      "lemma": "היי",
+      "pos": "VERB",
+      "dep": "advcl",
+      "dep_head": "טיילנו",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Past"
+      }
+    },
+    {
+      "word": "לנו",
+      "lemma": "לי",
+      "pos": "PRON",
+      "dep": "obl",
+      "dep_head": "היה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur",
+        "Person": "1"
+      }
+    },
+    {
+      "word": "בית",
+      "lemma": "בית",
+      "pos": "NOUN",
+      "dep": "nsubj",
+      "dep_head": "היה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "שפתייך",
+      "lemma": "שפה",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "בית",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "היו",
+      "lemma": "היי",
+      "pos": "AUX",
+      "dep": "cop",
+      "dep_head": "חמים",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur",
+        "Person": "3",
+        "Tense": "Past"
+      }
+    },
+    {
+      "word": "ביתי",
+      "lemma": "בית",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "בית",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "תותים",
+      "lemma": "תות",
+      "pos": "NOUN",
+      "dep": "nsubj",
+      "dep_head": "היה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "חמים",
+      "lemma": "חם",
+      "pos": "ADJ",
+      "dep": "amod",
+      "dep_head": "בארץ",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "שפתייך",
+      "lemma": "שפה",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "בית",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "שפתייך",
+      "lemma": "שפה",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "בית",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "אהובתי",
+      "lemma": "אהובה",
+      "pos": "NOUN",
+      "dep": "conj",
+      "dep_head": "ביתי",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "שפתייך",
+      "lemma": "שפה",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "בית",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "אהובתי",
+      "lemma": "אהובה",
+      "pos": "NOUN",
+      "dep": "conj",
+      "dep_head": "ביתי",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "שפתייך",
+      "lemma": "שפה",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "בית",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "אהובתי",
+      "lemma": "אהובה",
+      "pos": "NOUN",
+      "dep": "appos",
+      "dep_head": "אהובתי",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    }
+  ],
+  "ner": []
+}

@@ -1,0 +1,2435 @@
+{
+  "song_id": 153,
+  "title": "שיר על ילד מפורסם",
+  "year": 1975,
+  "album": "משחקי 26",
+  "morphology": [
+    {
+      "word": "הוא",
+      "lemma": "הוא",
+      "pos": "PRON",
+      "dep": "nsubj",
+      "dep_head": "לוקח",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3"
+      }
+    },
+    {
+      "word": "לוקח",
+      "lemma": "לוקח",
+      "pos": "VERB",
+      "dep": "root",
+      "dep_head": "חשיש",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Pres"
+      }
+    },
+    {
+      "word": "סמים",
+      "lemma": "סם",
+      "pos": "NOUN",
+      "dep": "obj",
+      "dep_head": "לוקח",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "הרגל",
+      "lemma": "רגל",
+      "pos": "NOUN",
+      "dep": "obj",
+      "dep_head": "לוקח",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "הפך",
+      "lemma": "הפך",
+      "pos": "VERB",
+      "dep": "conj",
+      "dep_head": "לוקח",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Past"
+      }
+    },
+    {
+      "word": "לטבע",
+      "lemma": "טבע",
+      "pos": "NOUN",
+      "dep": "obl",
+      "dep_head": "הפך",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "מעשן",
+      "lemma": "עישן",
+      "pos": "VERB",
+      "dep": "acl",
+      "dep_head": "לטבע",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "חשיש",
+      "lemma": "חשיש",
+      "pos": "NOUN",
+      "dep": "obj",
+      "dep_head": "מעשן",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "מהלך",
+      "lemma": "מהלך",
+      "pos": "NOUN",
+      "dep": "conj",
+      "dep_head": "לוקח",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "כמו",
+      "lemma": "כמו",
+      "pos": "ADP",
+      "dep": "case",
+      "dep_head": "סומא",
+      "feats": {}
+    },
+    {
+      "word": "סומא",
+      "lemma": "סומא",
+      "pos": "PROPN",
+      "dep": "nmod",
+      "dep_head": "מהלך",
+      "feats": {
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ילד",
+      "lemma": "ילד",
+      "pos": "NOUN",
+      "dep": "appos",
+      "dep_head": "סומא",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "מפורסם",
+      "lemma": "פורסם",
+      "pos": "ADJ",
+      "dep": "amod",
+      "dep_head": "ילד",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "משמש",
+      "lemma": "שימש",
+      "pos": "VERB",
+      "dep": "nsubj",
+      "dep_head": "ילד",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3"
+      }
+    },
+    {
+      "word": "דוגמא",
+      "lemma": "דוגמה",
+      "pos": "NOUN",
+      "dep": "obj",
+      "dep_head": "משמש",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "לקח",
+      "lemma": "לקח",
+      "pos": "NOUN",
+      "dep": "nsubj",
+      "dep_head": "משמש",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "גלולה",
+      "lemma": "גלולה",
+      "pos": "NOUN",
+      "dep": "obj",
+      "dep_head": "לקח",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "בן",
+      "lemma": "בן",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "לקח",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "מסטול",
+      "lemma": "מסטול",
+      "pos": "NOUN",
+      "dep": "conj",
+      "dep_head": "בן",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "של",
+      "lemma": "של",
+      "pos": "ADP",
+      "dep": "case:gen",
+      "dep_head": "מריחואנה",
+      "feats": {}
+    },
+    {
+      "word": "האומה",
+      "lemma": "אומה",
+      "pos": "NOUN",
+      "dep": "nmod:poss",
+      "dep_head": "בן",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "הוא",
+      "lemma": "הוא",
+      "pos": "PRON",
+      "dep": "nsubj",
+      "dep_head": "טוען",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3"
+      }
+    },
+    {
+      "word": "טוען",
+      "lemma": "טוען",
+      "pos": "VERB",
+      "dep": "conj",
+      "dep_head": "לוקח",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Pres"
+      }
+    },
+    {
+      "word": "שהוא",
+      "lemma": "הוא",
+      "pos": "PRON",
+      "dep": "nsubj",
+      "dep_head": "תעזור",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3"
+      }
+    },
+    {
+      "word": "רואה",
+      "lemma": "רואה",
+      "pos": "VERB",
+      "dep": "ccomp",
+      "dep_head": "טוען",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Pres"
+      }
+    },
+    {
+      "word": "את",
+      "lemma": "את",
+      "pos": "ADP",
+      "dep": "case:acc",
+      "dep_head": "העולם",
+      "feats": {}
+    },
+    {
+      "word": "העולם",
+      "lemma": "עולם",
+      "pos": "NOUN",
+      "dep": "obj",
+      "dep_head": "רואה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "אחרת",
+      "lemma": "אחר",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "תעזור",
+      "feats": {}
+    },
+    {
+      "word": "מנקודת",
+      "lemma": "נקודה",
+      "pos": "NOUN",
+      "dep": "obl",
+      "dep_head": "חושש",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ראות",
+      "lemma": "ראות",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "מנקודת",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "מוזרת",
+      "lemma": "מוזר",
+      "pos": "ADJ",
+      "dep": "amod",
+      "dep_head": "מנקודת",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "מראות",
+      "lemma": "הראה",
+      "pos": "VERB",
+      "dep": "conj",
+      "dep_head": "לוקח",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur",
+        "Person": "3",
+        "Tense": "Pres"
+      }
+    },
+    {
+      "word": "פתאום",
+      "lemma": "פתאום",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "מראות",
+      "feats": {}
+    },
+    {
+      "word": "יפים",
+      "lemma": "יפה",
+      "pos": "ADJ",
+      "dep": "obj",
+      "dep_head": "מראות",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "הוא",
+      "lemma": "הוא",
+      "pos": "PRON",
+      "dep": "nsubj",
+      "dep_head": "חושש",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3"
+      }
+    },
+    {
+      "word": "מתעופף",
+      "lemma": "עף",
+      "pos": "VERB",
+      "dep": "ccomp",
+      "dep_head": "מראות",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Pres"
+      }
+    },
+    {
+      "word": "גבוה",
+      "lemma": "גבוה",
+      "pos": "ADV",
+      "dep": "xcomp",
+      "dep_head": "רואה",
+      "feats": {}
+    },
+    {
+      "word": "כולם",
+      "lemma": "כול",
+      "pos": "DET",
+      "dep": "nsubj",
+      "dep_head": "שיתעורר",
+      "feats": {}
+    },
+    {
+      "word": "מתעופפים",
+      "lemma": "[BLANK]",
+      "pos": "VERB",
+      "dep": "advcl",
+      "dep_head": "לחשוב",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur",
+        "Person": "3",
+        "Tense": "Pres"
+      }
+    },
+    {
+      "word": "סמים",
+      "lemma": "סם",
+      "pos": "NOUN",
+      "dep": "nsubj",
+      "dep_head": "קבור",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "הוא",
+      "lemma": "הוא",
+      "pos": "PRON",
+      "dep": "nsubj",
+      "dep_head": "יודע",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3"
+      }
+    },
+    {
+      "word": "לא",
+      "lemma": "לא",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "יודע",
+      "feats": {}
+    },
+    {
+      "word": "יודע",
+      "lemma": "יודע",
+      "pos": "VERB",
+      "dep": "parataxis",
+      "dep_head": "לחשוב",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Pres"
+      }
+    },
+    {
+      "word": "תמיד",
+      "lemma": "תמיד",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "נרדם",
+      "feats": {}
+    },
+    {
+      "word": "מבלפים",
+      "lemma": "[BLANK]",
+      "pos": "VERB",
+      "dep": "advcl",
+      "dep_head": "לחשוב",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur",
+        "Person": "3",
+        "Tense": "Pres"
+      }
+    },
+    {
+      "word": "מה",
+      "lemma": "מה",
+      "pos": "PRON",
+      "dep": "obj",
+      "dep_head": "רואה",
+      "feats": {}
+    },
+    {
+      "word": "הוא",
+      "lemma": "הוא",
+      "pos": "PRON",
+      "dep": "nsubj",
+      "dep_head": "רואה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3"
+      }
+    },
+    {
+      "word": "רואה",
+      "lemma": "רואה",
+      "pos": "VERB",
+      "dep": "acl:relcl",
+      "dep_head": "מה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Pres"
+      }
+    },
+    {
+      "word": "שם",
+      "lemma": "שם",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "רואה",
+      "feats": {}
+    },
+    {
+      "word": "?",
+      "lemma": "?",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "רואה",
+      "feats": {}
+    },
+    {
+      "word": "מה",
+      "lemma": "מה",
+      "pos": "PRON",
+      "dep": "obj",
+      "dep_head": "רואה",
+      "feats": {}
+    },
+    {
+      "word": "הוא",
+      "lemma": "הוא",
+      "pos": "PRON",
+      "dep": "nsubj",
+      "dep_head": "מרגיש",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3"
+      }
+    },
+    {
+      "word": "מרגיש",
+      "lemma": "מרגיש",
+      "pos": "VERB",
+      "dep": "acl:relcl",
+      "dep_head": "מה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Pres"
+      }
+    },
+    {
+      "word": "?",
+      "lemma": "?",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "קבור",
+      "feats": {}
+    },
+    {
+      "word": "קבור",
+      "lemma": "קבור",
+      "pos": "VERB",
+      "dep": "parataxis",
+      "dep_head": "רואה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "בגלולות",
+      "lemma": "גלולה",
+      "pos": "NOUN",
+      "dep": "obl",
+      "dep_head": "קבור",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "כמו",
+      "lemma": "כמו",
+      "pos": "ADP",
+      "dep": "case",
+      "dep_head": "בקורי",
+      "feats": {}
+    },
+    {
+      "word": "בקורי",
+      "lemma": "קור",
+      "pos": "NOUN",
+      "dep": "obl",
+      "dep_head": "קבור",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "עכביש",
+      "lemma": "עכביש",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "בקורי",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "למה",
+      "lemma": "למה",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "נרדם",
+      "feats": {}
+    },
+    {
+      "word": "הוא",
+      "lemma": "הוא",
+      "pos": "PRON",
+      "dep": "nsubj",
+      "dep_head": "נרדם",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3"
+      }
+    },
+    {
+      "word": "נרדם",
+      "lemma": "נרדם",
+      "pos": "VERB",
+      "dep": "advcl",
+      "dep_head": "רואה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Pres"
+      }
+    },
+    {
+      "word": "הוא",
+      "lemma": "הוא",
+      "pos": "PRON",
+      "dep": "nsubj",
+      "dep_head": "נרדם",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3"
+      }
+    },
+    {
+      "word": "לא",
+      "lemma": "לא",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "נרדם",
+      "feats": {}
+    },
+    {
+      "word": "נרדם",
+      "lemma": "נרדם",
+      "pos": "VERB",
+      "dep": "conj",
+      "dep_head": "רואה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Past"
+      }
+    },
+    {
+      "word": "הוא",
+      "lemma": "הוא",
+      "pos": "PRON",
+      "dep": "nsubj",
+      "dep_head": "נרדם",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3"
+      }
+    },
+    {
+      "word": "סתם",
+      "lemma": "סתם",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "נרדם",
+      "feats": {}
+    },
+    {
+      "word": "אדיש",
+      "lemma": "אדיש",
+      "pos": "ADJ",
+      "dep": "xcomp",
+      "dep_head": "מרגיש",
+      "feats": {
+        "Gender": "Masc"
+      }
+    },
+    {
+      "word": "ילד",
+      "lemma": "ילד",
+      "pos": "NOUN",
+      "dep": "nsubj",
+      "dep_head": "קבור",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "של",
+      "lemma": "של",
+      "pos": "ADP",
+      "dep": "case:gen",
+      "dep_head": "מריחואנה",
+      "feats": {}
+    },
+    {
+      "word": "מריחואנה",
+      "lemma": "מריחואנה",
+      "pos": "NOUN",
+      "dep": "nmod:poss",
+      "dep_head": "ילד",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ילד",
+      "lemma": "ילד",
+      "pos": "NOUN",
+      "dep": "nsubj",
+      "dep_head": "קבור",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "של",
+      "lemma": "של",
+      "pos": "ADP",
+      "dep": "case:gen",
+      "dep_head": "מריחואנה",
+      "feats": {}
+    },
+    {
+      "word": "מריחואנה",
+      "lemma": "מריחואנה",
+      "pos": "NOUN",
+      "dep": "nmod:poss",
+      "dep_head": "ילד",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ילד",
+      "lemma": "ילד",
+      "pos": "NOUN",
+      "dep": "parataxis",
+      "dep_head": "קבור",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "של",
+      "lemma": "של",
+      "pos": "ADP",
+      "dep": "case:gen",
+      "dep_head": "מריחואנה",
+      "feats": {}
+    },
+    {
+      "word": "מריחואנה",
+      "lemma": "מריחואנה",
+      "pos": "NOUN",
+      "dep": "nmod:poss",
+      "dep_head": "ילד",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ושאיפות",
+      "lemma": "שאיפה",
+      "pos": "NOUN",
+      "dep": "conj",
+      "dep_head": "ילד",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "חשיש",
+      "lemma": "חשיש",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "ושאיפות",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "הוא",
+      "lemma": "הוא",
+      "pos": "PRON",
+      "dep": "cop",
+      "dep_head": "ילד",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3"
+      }
+    },
+    {
+      "word": "ילד",
+      "lemma": "ילד",
+      "pos": "NOUN",
+      "dep": "parataxis",
+      "dep_head": "מהלך",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "של",
+      "lemma": "של",
+      "pos": "ADP",
+      "dep": "case:gen",
+      "dep_head": "מריחואנה",
+      "feats": {}
+    },
+    {
+      "word": "מריחואנה",
+      "lemma": "מריחואנה",
+      "pos": "NOUN",
+      "dep": "nmod:poss",
+      "dep_head": "ילד",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ילד",
+      "lemma": "ילד",
+      "pos": "NOUN",
+      "dep": "parataxis",
+      "dep_head": "ילד",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "של",
+      "lemma": "של",
+      "pos": "ADP",
+      "dep": "case:gen",
+      "dep_head": "מריחואנה",
+      "feats": {}
+    },
+    {
+      "word": "מריחואנה",
+      "lemma": "מריחואנה",
+      "pos": "NOUN",
+      "dep": "nmod:poss",
+      "dep_head": "ילד",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ילד",
+      "lemma": "ילד",
+      "pos": "NOUN",
+      "dep": "nsubj",
+      "dep_head": "לקח",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "של",
+      "lemma": "של",
+      "pos": "ADP",
+      "dep": "case:gen",
+      "dep_head": "מריחואנה",
+      "feats": {}
+    },
+    {
+      "word": "מריחואנה",
+      "lemma": "מריחואנה",
+      "pos": "NOUN",
+      "dep": "nmod:poss",
+      "dep_head": "ילד",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ושאיפות",
+      "lemma": "שאיפה",
+      "pos": "NOUN",
+      "dep": "conj",
+      "dep_head": "ילד",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "חשיש",
+      "lemma": "חשיש",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "ושאיפות",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "לקח",
+      "lemma": "לקח",
+      "pos": "VERB",
+      "dep": "conj",
+      "dep_head": "לוקח",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Past"
+      }
+    },
+    {
+      "word": "אתמול",
+      "lemma": "אתמול",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "לקח",
+      "feats": {}
+    },
+    {
+      "word": "בצהריים",
+      "lemma": "[BLANK]",
+      "pos": "NOUN",
+      "dep": "obl",
+      "dep_head": "אתמול",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "בין",
+      "lemma": "בין",
+      "pos": "ADP",
+      "dep": "case",
+      "dep_head": "הארוחות",
+      "feats": {}
+    },
+    {
+      "word": "הארוחות",
+      "lemma": "ארוחה",
+      "pos": "NOUN",
+      "dep": "obl",
+      "dep_head": "לקח",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "עם",
+      "lemma": "עם",
+      "pos": "ADP",
+      "dep": "case",
+      "dep_head": "מוסיקה",
+      "feats": {}
+    },
+    {
+      "word": "מוסיקה",
+      "lemma": "מוזיקה",
+      "pos": "NOUN",
+      "dep": "obl",
+      "dep_head": "לקח",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "של",
+      "lemma": "של",
+      "pos": "ADP",
+      "dep": "case:gen",
+      "dep_head": "קצב",
+      "feats": {}
+    },
+    {
+      "word": "קצב",
+      "lemma": "קצב",
+      "pos": "NOUN",
+      "dep": "nmod:poss",
+      "dep_head": "מוסיקה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "להוסיף",
+      "lemma": "הוסיף",
+      "pos": "VERB",
+      "dep": "xcomp",
+      "dep_head": "לקח",
+      "feats": {}
+    },
+    {
+      "word": "לאווירה",
+      "lemma": "אווירה",
+      "pos": "NOUN",
+      "dep": "obl",
+      "dep_head": "להוסיף",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "לקח",
+      "lemma": "לקח",
+      "pos": "NOUN",
+      "dep": "obj",
+      "dep_head": "לקח",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "גלולה",
+      "lemma": "גלולה",
+      "pos": "NOUN",
+      "dep": "xcomp",
+      "dep_head": "תעזור",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "מסטול",
+      "lemma": "מסטול",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "מריחואנה",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "לא",
+      "lemma": "לא",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "תעזור",
+      "feats": {}
+    },
+    {
+      "word": "תעזור",
+      "lemma": "יעזור",
+      "pos": "VERB",
+      "dep": "parataxis",
+      "dep_head": "לקח",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Fut"
+      }
+    },
+    {
+      "word": "לו",
+      "lemma": "לו",
+      "pos": "PRON",
+      "dep": "obl",
+      "dep_head": "תעזור",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3"
+      }
+    },
+    {
+      "word": "גם",
+      "lemma": "גם",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "סטירה",
+      "feats": {}
+    },
+    {
+      "word": "סטירה",
+      "lemma": "סטירה",
+      "pos": "NOUN",
+      "dep": "obj",
+      "dep_head": "לקח",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "הוא",
+      "lemma": "הוא",
+      "pos": "PRON",
+      "dep": "nsubj",
+      "dep_head": "תעזור",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3"
+      }
+    },
+    {
+      "word": "לא",
+      "lemma": "לא",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "חושש",
+      "feats": {}
+    },
+    {
+      "word": "חושש",
+      "lemma": "חושש",
+      "pos": "VERB",
+      "dep": "parataxis",
+      "dep_head": "מראות",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Pres"
+      }
+    },
+    {
+      "word": "העיתונים",
+      "lemma": "עיתון",
+      "pos": "NOUN",
+      "dep": "nsubj",
+      "dep_head": "כותבים",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "כותבים",
+      "lemma": "כותב",
+      "pos": "VERB",
+      "dep": "ccomp",
+      "dep_head": "טוען",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur",
+        "Person": "3",
+        "Tense": "Pres"
+      }
+    },
+    {
+      "word": "זה",
+      "lemma": "זה",
+      "pos": "PRON",
+      "dep": "expl",
+      "dep_head": "רע",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3"
+      }
+    },
+    {
+      "word": "רע",
+      "lemma": "רע",
+      "pos": "ADJ",
+      "dep": "ccomp",
+      "dep_head": "כותבים",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "זה",
+      "lemma": "זה",
+      "pos": "PRON",
+      "dep": "expl",
+      "dep_head": "רע",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3"
+      }
+    },
+    {
+      "word": "רע",
+      "lemma": "רע",
+      "pos": "ADJ",
+      "dep": "ccomp",
+      "dep_head": "מראות",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "אור",
+      "lemma": "אור",
+      "pos": "NOUN",
+      "dep": "nsubj",
+      "dep_head": "רע",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "אחד",
+      "lemma": "אחד",
+      "pos": "NUM",
+      "dep": "nummod",
+      "dep_head": "אור",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "אדום",
+      "lemma": "אדום",
+      "pos": "ADJ",
+      "dep": "amod",
+      "dep_head": "אור",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "נכנס",
+      "lemma": "נכנס",
+      "pos": "VERB",
+      "dep": "ccomp",
+      "dep_head": "מראות",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Pres"
+      }
+    },
+    {
+      "word": "לו",
+      "lemma": "לו",
+      "pos": "PRON",
+      "dep": "obl",
+      "dep_head": "נכנס",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3"
+      }
+    },
+    {
+      "word": "לעיניים",
+      "lemma": "[BLANK]",
+      "pos": "NOUN",
+      "dep": "obl",
+      "dep_head": "נכנס",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "מטושטש",
+      "lemma": "מטושטש",
+      "pos": "ADJ",
+      "dep": "ccomp",
+      "dep_head": "מראות",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "לגמרי",
+      "lemma": "לגמרי",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "מטושטש",
+      "feats": {}
+    },
+    {
+      "word": "באור",
+      "lemma": "אור",
+      "pos": "NOUN",
+      "dep": "obl",
+      "dep_head": "לחשוב",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "כחול",
+      "lemma": "כחול",
+      "pos": "ADJ",
+      "dep": "amod",
+      "dep_head": "באור",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "הוא",
+      "lemma": "הוא",
+      "pos": "PRON",
+      "dep": "nsubj",
+      "dep_head": "לחשוב",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3"
+      }
+    },
+    {
+      "word": "כבר",
+      "lemma": "כבר",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "לא",
+      "feats": {}
+    },
+    {
+      "word": "לא",
+      "lemma": "לא",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "לחשוב",
+      "feats": {}
+    },
+    {
+      "word": "יכול",
+      "lemma": "יכול",
+      "pos": "AUX",
+      "dep": "aux",
+      "dep_head": "לחשוב",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "לחשוב",
+      "lemma": "חשב",
+      "pos": "VERB",
+      "dep": "parataxis",
+      "dep_head": "מראות",
+      "feats": {}
+    },
+    {
+      "word": "הוא",
+      "lemma": "הוא",
+      "pos": "PRON",
+      "dep": "nsubj",
+      "dep_head": "יודע",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3"
+      }
+    },
+    {
+      "word": "כבר",
+      "lemma": "כבר",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "לא",
+      "feats": {}
+    },
+    {
+      "word": "לא",
+      "lemma": "לא",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "יודע",
+      "feats": {}
+    },
+    {
+      "word": "יכול",
+      "lemma": "יכול",
+      "pos": "AUX",
+      "dep": "aux",
+      "dep_head": "לחשוב",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "רק",
+      "lemma": "רק",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "לא",
+      "feats": {}
+    },
+    {
+      "word": "שיתעורר",
+      "lemma": "[BLANK]",
+      "pos": "VERB",
+      "dep": "parataxis",
+      "dep_head": "יודע",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Fut"
+      }
+    },
+    {
+      "word": "בבוקר",
+      "lemma": "בוקר",
+      "pos": "NOUN",
+      "dep": "obl",
+      "dep_head": "שיתעורר",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "וישכח",
+      "lemma": "[BLANK]",
+      "pos": "VERB",
+      "dep": "conj",
+      "dep_head": "שיתעורר",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Pres"
+      }
+    },
+    {
+      "word": "הכל",
+      "lemma": "כול",
+      "pos": "NOUN",
+      "dep": "obj",
+      "dep_head": "וישכח",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "מה",
+      "lemma": "מה",
+      "pos": "PRON",
+      "dep": "obj",
+      "dep_head": "רואה",
+      "feats": {}
+    },
+    {
+      "word": "הוא",
+      "lemma": "הוא",
+      "pos": "PRON",
+      "dep": "nsubj",
+      "dep_head": "רואה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3"
+      }
+    },
+    {
+      "word": "רואה",
+      "lemma": "רואה",
+      "pos": "VERB",
+      "dep": "acl:relcl",
+      "dep_head": "מה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Pres"
+      }
+    },
+    {
+      "word": "שם",
+      "lemma": "שם",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "רואה",
+      "feats": {}
+    },
+    {
+      "word": "?",
+      "lemma": "?",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "רואה",
+      "feats": {}
+    },
+    {
+      "word": "מה",
+      "lemma": "מה",
+      "pos": "PRON",
+      "dep": "obj",
+      "dep_head": "רואה",
+      "feats": {}
+    },
+    {
+      "word": "הוא",
+      "lemma": "הוא",
+      "pos": "PRON",
+      "dep": "nsubj",
+      "dep_head": "רואה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3"
+      }
+    },
+    {
+      "word": "מרגיש",
+      "lemma": "מרגיש",
+      "pos": "VERB",
+      "dep": "acl:relcl",
+      "dep_head": "מה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Pres"
+      }
+    },
+    {
+      "word": "?",
+      "lemma": "?",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "קבור",
+      "feats": {}
+    },
+    {
+      "word": "קבור",
+      "lemma": "קבור",
+      "pos": "VERB",
+      "dep": "parataxis",
+      "dep_head": "רואה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Pres"
+      }
+    },
+    {
+      "word": "בגלולות",
+      "lemma": "הגלולה",
+      "pos": "NOUN",
+      "dep": "obl",
+      "dep_head": "קבור",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "כמו",
+      "lemma": "כמו",
+      "pos": "ADP",
+      "dep": "case",
+      "dep_head": "בקורי",
+      "feats": {}
+    },
+    {
+      "word": "בקורי",
+      "lemma": "קור",
+      "pos": "NOUN",
+      "dep": "obl",
+      "dep_head": "קבור",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "עכביש",
+      "lemma": "עכביש",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "בקורי",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "למה",
+      "lemma": "למה",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "נרדם",
+      "feats": {}
+    },
+    {
+      "word": "הוא",
+      "lemma": "הוא",
+      "pos": "PRON",
+      "dep": "nsubj",
+      "dep_head": "נרדם",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3"
+      }
+    },
+    {
+      "word": "נרדם",
+      "lemma": "נרדם",
+      "pos": "VERB",
+      "dep": "acl:relcl",
+      "dep_head": "מה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Pres"
+      }
+    },
+    {
+      "word": "הוא",
+      "lemma": "הוא",
+      "pos": "PRON",
+      "dep": "nsubj",
+      "dep_head": "נרדם",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3"
+      }
+    },
+    {
+      "word": "לא",
+      "lemma": "לא",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "נרדם",
+      "feats": {}
+    },
+    {
+      "word": "נרדם",
+      "lemma": "נרדם",
+      "pos": "VERB",
+      "dep": "conj",
+      "dep_head": "נרדם",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Pres"
+      }
+    },
+    {
+      "word": "הוא",
+      "lemma": "הוא",
+      "pos": "PRON",
+      "dep": "nsubj",
+      "dep_head": "נרדם",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3"
+      }
+    },
+    {
+      "word": "סתם",
+      "lemma": "סתם",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "נרדם",
+      "feats": {}
+    },
+    {
+      "word": "אדיש",
+      "lemma": "אדיש",
+      "pos": "ADJ",
+      "dep": "xcomp",
+      "dep_head": "רואה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ילד",
+      "lemma": "ילד",
+      "pos": "NOUN",
+      "dep": "parataxis",
+      "dep_head": "נרדם",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "של",
+      "lemma": "של",
+      "pos": "ADP",
+      "dep": "case:gen",
+      "dep_head": "מריחואנה",
+      "feats": {}
+    },
+    {
+      "word": "מריחואנה",
+      "lemma": "מריחואנה",
+      "pos": "NOUN",
+      "dep": "nmod:poss",
+      "dep_head": "ילד",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ילד",
+      "lemma": "ילד",
+      "pos": "NOUN",
+      "dep": "nsubj",
+      "dep_head": "קבור",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "של",
+      "lemma": "של",
+      "pos": "ADP",
+      "dep": "case:gen",
+      "dep_head": "מריחואנה",
+      "feats": {}
+    },
+    {
+      "word": "מריחואנה",
+      "lemma": "מריחואנה",
+      "pos": "NOUN",
+      "dep": "nmod:poss",
+      "dep_head": "ילד",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ילד",
+      "lemma": "ילד",
+      "pos": "NOUN",
+      "dep": "parataxis",
+      "dep_head": "קבור",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "של",
+      "lemma": "של",
+      "pos": "ADP",
+      "dep": "case:gen",
+      "dep_head": "מריחואנה",
+      "feats": {}
+    },
+    {
+      "word": "מריחואנה",
+      "lemma": "מריחואנה",
+      "pos": "NOUN",
+      "dep": "nmod:poss",
+      "dep_head": "ילד",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ושאיפות",
+      "lemma": "שאיפה",
+      "pos": "NOUN",
+      "dep": "conj",
+      "dep_head": "ילד",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "חשיש",
+      "lemma": "חשיש",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "ושאיפות",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ילד",
+      "lemma": "ילד",
+      "pos": "NOUN",
+      "dep": "nsubj",
+      "dep_head": "קבור",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "של",
+      "lemma": "של",
+      "pos": "ADP",
+      "dep": "case:gen",
+      "dep_head": "מריחואנה",
+      "feats": {}
+    },
+    {
+      "word": "מריחואנה",
+      "lemma": "מריחואנה",
+      "pos": "NOUN",
+      "dep": "nmod:poss",
+      "dep_head": "ילד",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ילד",
+      "lemma": "ילד",
+      "pos": "NOUN",
+      "dep": "nsubj",
+      "dep_head": "קבור",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "של",
+      "lemma": "של",
+      "pos": "ADP",
+      "dep": "case:gen",
+      "dep_head": "מריחואנה",
+      "feats": {}
+    },
+    {
+      "word": "מריחואנה",
+      "lemma": "מריחואנה",
+      "pos": "NOUN",
+      "dep": "nmod:poss",
+      "dep_head": "ילד",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ילד",
+      "lemma": "ילד",
+      "pos": "NOUN",
+      "dep": "nsubj",
+      "dep_head": "קבור",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "של",
+      "lemma": "של",
+      "pos": "ADP",
+      "dep": "case:gen",
+      "dep_head": "מריחואנה",
+      "feats": {}
+    },
+    {
+      "word": "מריחואנה",
+      "lemma": "מריחואנה",
+      "pos": "NOUN",
+      "dep": "nmod:poss",
+      "dep_head": "ילד",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ושאיפות",
+      "lemma": "שאיפה",
+      "pos": "NOUN",
+      "dep": "conj",
+      "dep_head": "ילד",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "חשיש",
+      "lemma": "חשיש",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "ושאיפות",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ילד",
+      "lemma": "ילד",
+      "pos": "NOUN",
+      "dep": "nsubj",
+      "dep_head": "לקח",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "של",
+      "lemma": "של",
+      "pos": "ADP",
+      "dep": "case:gen",
+      "dep_head": "מריחואנה",
+      "feats": {}
+    },
+    {
+      "word": "מריחואנה",
+      "lemma": "מריחואנה",
+      "pos": "NOUN",
+      "dep": "nmod:poss",
+      "dep_head": "ילד",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ילד",
+      "lemma": "ילד",
+      "pos": "NOUN",
+      "dep": "appos",
+      "dep_head": "מריחואנה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "של",
+      "lemma": "של",
+      "pos": "ADP",
+      "dep": "case:gen",
+      "dep_head": "מריחואנה",
+      "feats": {}
+    },
+    {
+      "word": "מריחואנה",
+      "lemma": "מריחואנה",
+      "pos": "NOUN",
+      "dep": "nmod:poss",
+      "dep_head": "ילד",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ילד",
+      "lemma": "ילד",
+      "pos": "NOUN",
+      "dep": "appos",
+      "dep_head": "ושאיפות",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "של",
+      "lemma": "של",
+      "pos": "ADP",
+      "dep": "case:gen",
+      "dep_head": "מריחואנה",
+      "feats": {}
+    },
+    {
+      "word": "מריחואנה",
+      "lemma": "מריחואנה",
+      "pos": "NOUN",
+      "dep": "nmod:poss",
+      "dep_head": "ילד",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ושאיפות",
+      "lemma": "שאיפה",
+      "pos": "NOUN",
+      "dep": "conj",
+      "dep_head": "מוסיקה",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "חשיש",
+      "lemma": "חשיש",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "ושאיפות",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ילד",
+      "lemma": "ילד",
+      "pos": "NOUN",
+      "dep": "appos",
+      "dep_head": "ושאיפות",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "של",
+      "lemma": "של",
+      "pos": "ADP",
+      "dep": "case:gen",
+      "dep_head": "מריחואנה",
+      "feats": {}
+    },
+    {
+      "word": "מריחואנה",
+      "lemma": "מריחואנה",
+      "pos": "NOUN",
+      "dep": "nmod:poss",
+      "dep_head": "ילד",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ילד",
+      "lemma": "ילד",
+      "pos": "NOUN",
+      "dep": "appos",
+      "dep_head": "ילד",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "של",
+      "lemma": "של",
+      "pos": "ADP",
+      "dep": "case:gen",
+      "dep_head": "מריחואנה",
+      "feats": {}
+    },
+    {
+      "word": "מריחואנה",
+      "lemma": "מריחואנה",
+      "pos": "NOUN",
+      "dep": "nmod:poss",
+      "dep_head": "ילד",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ילד",
+      "lemma": "ילד",
+      "pos": "NOUN",
+      "dep": "appos",
+      "dep_head": "מריחואנה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "של",
+      "lemma": "של",
+      "pos": "ADP",
+      "dep": "case:gen",
+      "dep_head": "מריחואנה",
+      "feats": {}
+    },
+    {
+      "word": "מריחואנה",
+      "lemma": "מריחואנה",
+      "pos": "NOUN",
+      "dep": "nmod:poss",
+      "dep_head": "ילד",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ושאיפות",
+      "lemma": "שאיפה",
+      "pos": "NOUN",
+      "dep": "conj",
+      "dep_head": "ילד",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "חשיש",
+      "lemma": "חשיש",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "ושאיפות",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ילד",
+      "lemma": "ילד",
+      "pos": "NOUN",
+      "dep": "parataxis",
+      "dep_head": "לקח",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "של",
+      "lemma": "של",
+      "pos": "ADP",
+      "dep": "case:gen",
+      "dep_head": "מריחואנה",
+      "feats": {}
+    },
+    {
+      "word": "מריחואנה",
+      "lemma": "מריחואנה",
+      "pos": "NOUN",
+      "dep": "nmod:poss",
+      "dep_head": "ילד",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ילד",
+      "lemma": "ילד",
+      "pos": "NOUN",
+      "dep": "appos",
+      "dep_head": "מריחואנה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "של",
+      "lemma": "של",
+      "pos": "ADP",
+      "dep": "case:gen",
+      "dep_head": "מריחואנה",
+      "feats": {}
+    },
+    {
+      "word": "מריחואנה",
+      "lemma": "מריחואנה",
+      "pos": "NOUN",
+      "dep": "nmod:poss",
+      "dep_head": "ילד",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ילד",
+      "lemma": "ילד",
+      "pos": "NOUN",
+      "dep": "appos",
+      "dep_head": "סטירה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "של",
+      "lemma": "של",
+      "pos": "ADP",
+      "dep": "case:gen",
+      "dep_head": "מריחואנה",
+      "feats": {}
+    },
+    {
+      "word": "מריחואנה",
+      "lemma": "מריחואנה",
+      "pos": "NOUN",
+      "dep": "nmod:poss",
+      "dep_head": "ילד",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ושאיפות",
+      "lemma": "שאיפה",
+      "pos": "NOUN",
+      "dep": "conj",
+      "dep_head": "סטירה",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "חשיש",
+      "lemma": "חשיש",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "ושאיפות",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ילד",
+      "lemma": "ילד",
+      "pos": "NOUN",
+      "dep": "appos",
+      "dep_head": "ושאיפות",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "של",
+      "lemma": "של",
+      "pos": "ADP",
+      "dep": "case:gen",
+      "dep_head": "מריחואנה",
+      "feats": {}
+    },
+    {
+      "word": "מריחואנה",
+      "lemma": "מריחואנה",
+      "pos": "NOUN",
+      "dep": "nmod:poss",
+      "dep_head": "ילד",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ילד",
+      "lemma": "ילד",
+      "pos": "NOUN",
+      "dep": "appos",
+      "dep_head": "ילד",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "של",
+      "lemma": "של",
+      "pos": "ADP",
+      "dep": "case:gen",
+      "dep_head": "מריחואנה",
+      "feats": {}
+    },
+    {
+      "word": "מריחואנה",
+      "lemma": "מריחואנה",
+      "pos": "NOUN",
+      "dep": "nmod:poss",
+      "dep_head": "ילד",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ילד",
+      "lemma": "ילד",
+      "pos": "NOUN",
+      "dep": "appos",
+      "dep_head": "ילד",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "של",
+      "lemma": "של",
+      "pos": "ADP",
+      "dep": "case:gen",
+      "dep_head": "מריחואנה",
+      "feats": {}
+    },
+    {
+      "word": "מריחואנה",
+      "lemma": "מריחואנה",
+      "pos": "NOUN",
+      "dep": "nmod:poss",
+      "dep_head": "ילד",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ושאיפות",
+      "lemma": "שאיפה",
+      "pos": "NOUN",
+      "dep": "conj",
+      "dep_head": "ילד",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "חשיש",
+      "lemma": "חשיש",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "ושאיפות",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    }
+  ],
+  "ner": []
+}

@@ -1,0 +1,2050 @@
+{
+  "song_id": 164,
+  "title": "נח״ל ים",
+  "year": 1970,
+  "album": "שלמה ארצי",
+  "morphology": [
+    {
+      "word": "איך",
+      "lemma": "איך",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "לראות",
+      "feats": {}
+    },
+    {
+      "word": "פסענו",
+      "lemma": "פסע",
+      "pos": "VERB",
+      "dep": "root",
+      "dep_head": ".",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur",
+        "Person": "1",
+        "Tense": "Past"
+      }
+    },
+    {
+      "word": "לאט",
+      "lemma": "לאט",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "פסענו",
+      "feats": {}
+    },
+    {
+      "word": "על",
+      "lemma": "על",
+      "pos": "ADP",
+      "dep": "case",
+      "dep_head": "השביל",
+      "feats": {}
+    },
+    {
+      "word": "השביל",
+      "lemma": "שביל",
+      "pos": "NOUN",
+      "dep": "obl",
+      "dep_head": "לראות",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "המוביל",
+      "lemma": "מוביל",
+      "pos": "VERB",
+      "dep": "acl:relcl",
+      "dep_head": "השביל",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Pres"
+      }
+    },
+    {
+      "word": "אל",
+      "lemma": "אל",
+      "pos": "ADP",
+      "dep": "case",
+      "dep_head": "צריפי",
+      "feats": {}
+    },
+    {
+      "word": "צריפי",
+      "lemma": "[BLANK]",
+      "pos": "NOUN",
+      "dep": "obl",
+      "dep_head": "לראות",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "דייגים",
+      "lemma": "דייג",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "צריפי",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": ",",
+      "lemma": ",",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "ימת",
+      "feats": {}
+    },
+    {
+      "word": "מול",
+      "lemma": "מול",
+      "pos": "ADP",
+      "dep": "case",
+      "dep_head": "ימת",
+      "feats": {}
+    },
+    {
+      "word": "ימת",
+      "lemma": "ימה",
+      "pos": "PROPN",
+      "dep": "obl",
+      "dep_head": "המוביל",
+      "feats": {}
+    },
+    {
+      "word": "ברדוויל",
+      "lemma": "[BLANK]",
+      "pos": "PROPN",
+      "dep": "compound:smixut",
+      "dep_head": "ימת",
+      "feats": {}
+    },
+    {
+      "word": "ונשמנו",
+      "lemma": "נושם",
+      "pos": "VERB",
+      "dep": "conj",
+      "dep_head": "פסענו",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur",
+        "Person": "1",
+        "Tense": "Past"
+      }
+    },
+    {
+      "word": "את",
+      "lemma": "את",
+      "pos": "ADP",
+      "dep": "case:acc",
+      "dep_head": "רוח",
+      "feats": {}
+    },
+    {
+      "word": "רוח",
+      "lemma": "רוח",
+      "pos": "NOUN",
+      "dep": "obj",
+      "dep_head": "ונשמנו",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "הקיץ",
+      "lemma": "קיץ",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "רוח",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "החם",
+      "lemma": "חם",
+      "pos": "ADJ",
+      "dep": "amod",
+      "dep_head": "לצריף",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": ",",
+      "lemma": ",",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "שנשא",
+      "feats": {}
+    },
+    {
+      "word": "שנשא",
+      "lemma": "נשא",
+      "pos": "VERB",
+      "dep": "ccomp",
+      "dep_head": "חכה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Past"
+      }
+    },
+    {
+      "word": "ענן",
+      "lemma": "ענן",
+      "pos": "NOUN",
+      "dep": "obj",
+      "dep_head": "שנשא",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "חול",
+      "lemma": "חול",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "ענן",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "אל",
+      "lemma": "אל",
+      "pos": "ADP",
+      "dep": "case",
+      "dep_head": "חצר",
+      "feats": {}
+    },
+    {
+      "word": "חצר",
+      "lemma": "חצר",
+      "pos": "NOUN",
+      "dep": "obl",
+      "dep_head": "שנשא",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "נחל",
+      "lemma": "נחל",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "חצר",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ים",
+      "lemma": "ים",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "נחל",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": ".",
+      "lemma": ".",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "נחל",
+      "feats": {}
+    },
+    {
+      "word": "ונשמנו",
+      "lemma": "נושם",
+      "pos": "VERB",
+      "dep": "conj",
+      "dep_head": "פסענו",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur",
+        "Person": "1",
+        "Tense": "Past"
+      }
+    },
+    {
+      "word": "את",
+      "lemma": "את",
+      "pos": "ADP",
+      "dep": "case:acc",
+      "dep_head": "רוח",
+      "feats": {}
+    },
+    {
+      "word": "רוח",
+      "lemma": "רוח",
+      "pos": "NOUN",
+      "dep": "obj",
+      "dep_head": "שנשא",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "הקיץ",
+      "lemma": "קיץ",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "רוח",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "החם",
+      "lemma": "חם",
+      "pos": "ADJ",
+      "dep": "amod",
+      "dep_head": "לאורכו",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": ",",
+      "lemma": ",",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "שנשא",
+      "feats": {}
+    },
+    {
+      "word": "שנשא",
+      "lemma": "נשא",
+      "pos": "VERB",
+      "dep": "acl:relcl",
+      "dep_head": "והכסיף",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Past"
+      }
+    },
+    {
+      "word": "ענן",
+      "lemma": "ענן",
+      "pos": "NOUN",
+      "dep": "obj",
+      "dep_head": "שנשא",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "חול",
+      "lemma": "חול",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "ענן",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "אל",
+      "lemma": "אל",
+      "pos": "ADP",
+      "dep": "case",
+      "dep_head": "חצר",
+      "feats": {}
+    },
+    {
+      "word": "חצר",
+      "lemma": "חצר",
+      "pos": "NOUN",
+      "dep": "obl",
+      "dep_head": "שנשא",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "נחל",
+      "lemma": "נחל",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "חצר",
+      "feats": {
+        "Gender": "Masc"
+      }
+    },
+    {
+      "word": "ים",
+      "lemma": "ים",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "נחל",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": ".",
+      "lemma": ".",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "נחל",
+      "feats": {}
+    },
+    {
+      "word": "נחל",
+      "lemma": "נחל",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "חצר",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ים",
+      "lemma": "ים",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "נחל",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": ",",
+      "lemma": ",",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "נחל",
+      "feats": {}
+    },
+    {
+      "word": "נחל",
+      "lemma": "נחל",
+      "pos": "NOUN",
+      "dep": "appos",
+      "dep_head": "חצר",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ים",
+      "lemma": "ים",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "נחל",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": ",",
+      "lemma": ",",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "נחל",
+      "feats": {}
+    },
+    {
+      "word": "לא",
+      "lemma": "לא",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "סתם",
+      "feats": {}
+    },
+    {
+      "word": "סתם",
+      "lemma": "סתם",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "נחל",
+      "feats": {}
+    },
+    {
+      "word": "נחל",
+      "lemma": "נחל",
+      "pos": "NOUN",
+      "dep": "nsubj",
+      "dep_head": "לאורכו",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "אכזב",
+      "lemma": "אכזב",
+      "pos": "ADJ",
+      "dep": "compound:smixut",
+      "dep_head": "נחל",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "אלא",
+      "lemma": "אלא",
+      "pos": "CCONJ",
+      "dep": "cc",
+      "dep_head": "נחל",
+      "feats": {}
+    },
+    {
+      "word": "נחל",
+      "lemma": "נחל",
+      "pos": "NOUN",
+      "dep": "conj",
+      "dep_head": "חולות",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "איתן",
+      "lemma": "איתן",
+      "pos": "PROPN",
+      "dep": "compound:smixut",
+      "dep_head": "נחל",
+      "feats": {}
+    },
+    {
+      "word": ".",
+      "lemma": ".",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "נחל",
+      "feats": {}
+    },
+    {
+      "word": "נחל",
+      "lemma": "נחל",
+      "pos": "NOUN",
+      "dep": "acl",
+      "dep_head": "חולות",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ים",
+      "lemma": "ים",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "נחל",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": ",",
+      "lemma": ",",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "נחל",
+      "feats": {}
+    },
+    {
+      "word": "נחל",
+      "lemma": "נחל",
+      "pos": "NOUN",
+      "dep": "conj",
+      "dep_head": "חולות",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ים",
+      "lemma": "ים",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "נחל",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": ",",
+      "lemma": ",",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "נחל",
+      "feats": {}
+    },
+    {
+      "word": "לא",
+      "lemma": "לא",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "סתם",
+      "feats": {}
+    },
+    {
+      "word": "סתם",
+      "lemma": "סתם",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "נחל",
+      "feats": {}
+    },
+    {
+      "word": "נחל",
+      "lemma": "נחל",
+      "pos": "NOUN",
+      "dep": "xcomp",
+      "dep_head": "לראות",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "אכזב",
+      "lemma": "אכזב",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "נחל",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "אלא",
+      "lemma": "אלא",
+      "pos": "CCONJ",
+      "dep": "cc",
+      "dep_head": "נחל",
+      "feats": {}
+    },
+    {
+      "word": "נחל",
+      "lemma": "נחל",
+      "pos": "NOUN",
+      "dep": "conj",
+      "dep_head": "נחל",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "איתן",
+      "lemma": "איתן",
+      "pos": "PROPN",
+      "dep": "compound:smixut",
+      "dep_head": "נחל",
+      "feats": {}
+    },
+    {
+      "word": ".",
+      "lemma": ".",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "פסענו",
+      "feats": {}
+    },
+    {
+      "word": "איך",
+      "lemma": "איך",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "לראות",
+      "feats": {}
+    },
+    {
+      "word": "השלכנו",
+      "lemma": "השל",
+      "pos": "VERB",
+      "dep": "acl:relcl",
+      "dep_head": "איך",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur",
+        "Person": "1",
+        "Tense": "Past"
+      }
+    },
+    {
+      "word": "חכה",
+      "lemma": "חיכה",
+      "pos": "VERB",
+      "dep": "obj",
+      "dep_head": "השלכנו",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "2",
+        "Tense": "Imp"
+      }
+    },
+    {
+      "word": "לימה",
+      "lemma": "לימה",
+      "pos": "PROPN",
+      "dep": "obl",
+      "dep_head": "המוביל",
+      "feats": {}
+    },
+    {
+      "word": "ללא",
+      "lemma": "ללא",
+      "pos": "ADP",
+      "dep": "case",
+      "dep_head": "גל",
+      "feats": {}
+    },
+    {
+      "word": "גל",
+      "lemma": "גל",
+      "pos": "NOUN",
+      "dep": "obl",
+      "dep_head": "המוביל",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": ",",
+      "lemma": ",",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "קפץ",
+      "feats": {}
+    },
+    {
+      "word": "ובין",
+      "lemma": "בין",
+      "pos": "ADP",
+      "dep": "case",
+      "dep_head": "סבך",
+      "feats": {}
+    },
+    {
+      "word": "סבך",
+      "lemma": "סבך",
+      "pos": "NOUN",
+      "dep": "obl",
+      "dep_head": "לראות",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "רשתות",
+      "lemma": "רשת",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "סבך",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "גם",
+      "lemma": "גם",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "העוזי",
+      "feats": {}
+    },
+    {
+      "word": "העוזי",
+      "lemma": "עוז",
+      "pos": "PROPN",
+      "dep": "compound:smixut",
+      "dep_head": "נחל",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "מוטל",
+      "lemma": "הוטל",
+      "pos": "VERB",
+      "dep": "parataxis",
+      "dep_head": "נחל",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": ".",
+      "lemma": ".",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "מוטל",
+      "feats": {}
+    },
+    {
+      "word": "ודג",
+      "lemma": "דג",
+      "pos": "NOUN",
+      "dep": "conj",
+      "dep_head": "קפץ",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "-",
+      "lemma": "-",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "בורי",
+      "feats": {}
+    },
+    {
+      "word": "בורי",
+      "lemma": "בורי",
+      "pos": "PROPN",
+      "dep": "compound:smixut",
+      "dep_head": "נחל",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "קפץ",
+      "lemma": "קפץ",
+      "pos": "VERB",
+      "dep": "conj",
+      "dep_head": "פסענו",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Past"
+      }
+    },
+    {
+      "word": "והכסיף",
+      "lemma": "[BLANK]",
+      "pos": "NOUN",
+      "dep": "conj",
+      "dep_head": "קפץ",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "וצלל",
+      "lemma": "[BLANK]",
+      "pos": "VERB",
+      "dep": "conj",
+      "dep_head": "קפץ",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Tense": "Past"
+      }
+    },
+    {
+      "word": "וחזרנו",
+      "lemma": "חזר",
+      "pos": "VERB",
+      "dep": "conj",
+      "dep_head": "פסענו",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur",
+        "Person": "1",
+        "Tense": "Past"
+      }
+    },
+    {
+      "word": "עם",
+      "lemma": "עם",
+      "pos": "ADP",
+      "dep": "case",
+      "dep_head": "ערב",
+      "feats": {}
+    },
+    {
+      "word": "ערב",
+      "lemma": "ערב",
+      "pos": "NOUN",
+      "dep": "obl",
+      "dep_head": "וחזרנו",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "לצריף",
+      "lemma": "צריף",
+      "pos": "NOUN",
+      "dep": "obl",
+      "dep_head": "וחזרנו",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "המוצל",
+      "lemma": "מוצל",
+      "pos": "ADJ",
+      "dep": "amod",
+      "dep_head": "לצריף",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": ".",
+      "lemma": ".",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "קפץ",
+      "feats": {}
+    },
+    {
+      "word": "ודג",
+      "lemma": "דג",
+      "pos": "NOUN",
+      "dep": "conj",
+      "dep_head": "קפץ",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "-",
+      "lemma": "-",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "בורי",
+      "feats": {}
+    },
+    {
+      "word": "בורי",
+      "lemma": "בורי",
+      "pos": "PROPN",
+      "dep": "compound:smixut",
+      "dep_head": "נחל",
+      "feats": {
+        "Gender": "Masc"
+      }
+    },
+    {
+      "word": "קפץ",
+      "lemma": "קפץ",
+      "pos": "VERB",
+      "dep": "conj",
+      "dep_head": "פסענו",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Past"
+      }
+    },
+    {
+      "word": "והכסיף",
+      "lemma": "[BLANK]",
+      "pos": "NOUN",
+      "dep": "conj",
+      "dep_head": "קפץ",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "וצלל",
+      "lemma": "[BLANK]",
+      "pos": "VERB",
+      "dep": "conj",
+      "dep_head": "קפץ",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "וחזרנו",
+      "lemma": "חזר",
+      "pos": "VERB",
+      "dep": "conj",
+      "dep_head": "קפץ",
+      "feats": {
+        "Gender": "Fem,Masc",
+        "Number": "Plur",
+        "Person": "1",
+        "Tense": "Past"
+      }
+    },
+    {
+      "word": "עם",
+      "lemma": "עם",
+      "pos": "ADP",
+      "dep": "case",
+      "dep_head": "ערב",
+      "feats": {}
+    },
+    {
+      "word": "ערב",
+      "lemma": "ערב",
+      "pos": "NOUN",
+      "dep": "obl",
+      "dep_head": "וחזרנו",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "לצריף",
+      "lemma": "צריף",
+      "pos": "NOUN",
+      "dep": "obl",
+      "dep_head": "וחזרנו",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "המוצל",
+      "lemma": "מוצל",
+      "pos": "ADJ",
+      "dep": "amod",
+      "dep_head": "לצריף",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": ".",
+      "lemma": ".",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "קפץ",
+      "feats": {}
+    },
+    {
+      "word": "נחל",
+      "lemma": "נחל",
+      "pos": "PROPN",
+      "dep": "appos",
+      "dep_head": "חצר",
+      "feats": {}
+    },
+    {
+      "word": "ים",
+      "lemma": "ים",
+      "pos": "PROPN",
+      "dep": "compound:smixut",
+      "dep_head": "נחל",
+      "feats": {}
+    },
+    {
+      "word": ",",
+      "lemma": ",",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "נחל",
+      "feats": {}
+    },
+    {
+      "word": "נחל",
+      "lemma": "נחל",
+      "pos": "PROPN",
+      "dep": "appos",
+      "dep_head": "חצר",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ים",
+      "lemma": "ים",
+      "pos": "PROPN",
+      "dep": "compound:smixut",
+      "dep_head": "נחל",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": ",",
+      "lemma": ",",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "נחל",
+      "feats": {}
+    },
+    {
+      "word": "לא",
+      "lemma": "לא",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "סתם",
+      "feats": {}
+    },
+    {
+      "word": "סתם",
+      "lemma": "סתם",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "נחל",
+      "feats": {}
+    },
+    {
+      "word": "נחל",
+      "lemma": "נחל",
+      "pos": "NOUN",
+      "dep": "appos",
+      "dep_head": "חצר",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "אכזב",
+      "lemma": "אכזב",
+      "pos": "ADJ",
+      "dep": "compound:smixut",
+      "dep_head": "נחל",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "אלא",
+      "lemma": "אלא",
+      "pos": "CCONJ",
+      "dep": "cc",
+      "dep_head": "נחל",
+      "feats": {}
+    },
+    {
+      "word": "נחל",
+      "lemma": "נחל",
+      "pos": "PROPN",
+      "dep": "conj",
+      "dep_head": "לאורכו",
+      "feats": {
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "איתן",
+      "lemma": "איתן",
+      "pos": "PROPN",
+      "dep": "compound:smixut",
+      "dep_head": "נחל",
+      "feats": {}
+    },
+    {
+      "word": ".",
+      "lemma": ".",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "לאורכו",
+      "feats": {}
+    },
+    {
+      "word": "נחל",
+      "lemma": "נחל",
+      "pos": "PROPN",
+      "dep": "nsubj",
+      "dep_head": "לאורכו",
+      "feats": {
+        "Gender": "Masc"
+      }
+    },
+    {
+      "word": "ים",
+      "lemma": "ים",
+      "pos": "PROPN",
+      "dep": "compound:smixut",
+      "dep_head": "נחל",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": ",",
+      "lemma": ",",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "נחל",
+      "feats": {}
+    },
+    {
+      "word": "נחל",
+      "lemma": "נחל",
+      "pos": "PROPN",
+      "dep": "appos",
+      "dep_head": "חצר",
+      "feats": {}
+    },
+    {
+      "word": "ים",
+      "lemma": "ים",
+      "pos": "PROPN",
+      "dep": "compound:smixut",
+      "dep_head": "נחל",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": ",",
+      "lemma": ",",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "נחל",
+      "feats": {}
+    },
+    {
+      "word": "לא",
+      "lemma": "לא",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "סתם",
+      "feats": {}
+    },
+    {
+      "word": "סתם",
+      "lemma": "סתם",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "חצר",
+      "feats": {}
+    },
+    {
+      "word": "נחל",
+      "lemma": "נחל",
+      "pos": "NOUN",
+      "dep": "appos",
+      "dep_head": "חצר",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "אכזב",
+      "lemma": "אכזב",
+      "pos": "ADJ",
+      "dep": "compound:smixut",
+      "dep_head": "נחל",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "אלא",
+      "lemma": "אלא",
+      "pos": "CCONJ",
+      "dep": "cc",
+      "dep_head": "נחל",
+      "feats": {}
+    },
+    {
+      "word": "נחל",
+      "lemma": "נחל",
+      "pos": "NOUN",
+      "dep": "conj",
+      "dep_head": "חצר",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "איתן",
+      "lemma": "איתן",
+      "pos": "PROPN",
+      "dep": "compound:smixut",
+      "dep_head": "נחל",
+      "feats": {}
+    },
+    {
+      "word": ".",
+      "lemma": ".",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "נחל",
+      "feats": {}
+    },
+    {
+      "word": "ונמשך",
+      "lemma": "נמשך",
+      "pos": "VERB",
+      "dep": "conj",
+      "dep_head": "ההולך",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3"
+      }
+    },
+    {
+      "word": "המבט",
+      "lemma": "מבט",
+      "pos": "NOUN",
+      "dep": "nsubj",
+      "dep_head": "ונמשך",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "לאורכו",
+      "lemma": "[BLANK]",
+      "pos": "NOUN",
+      "dep": "obl",
+      "dep_head": "לראות",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "של",
+      "lemma": "של",
+      "pos": "ADP",
+      "dep": "case:gen",
+      "dep_head": "הכביש",
+      "feats": {}
+    },
+    {
+      "word": "הכביש",
+      "lemma": "כביש",
+      "pos": "NOUN",
+      "dep": "nmod:poss",
+      "dep_head": "לאורכו",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ההולך",
+      "lemma": "הולך",
+      "pos": "VERB",
+      "dep": "acl:relcl",
+      "dep_head": "הכביש",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3"
+      }
+    },
+    {
+      "word": "וניבלע",
+      "lemma": "נפלט",
+      "pos": "VERB",
+      "dep": "conj",
+      "dep_head": "ההולך",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Past"
+      }
+    },
+    {
+      "word": "בין",
+      "lemma": "בין",
+      "pos": "ADP",
+      "dep": "case",
+      "dep_head": "חולות",
+      "feats": {}
+    },
+    {
+      "word": "חולות",
+      "lemma": "חולה",
+      "pos": "PROPN",
+      "dep": "nmod:poss",
+      "dep_head": "לאורכו",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "אל",
+      "lemma": "אל",
+      "pos": "PROPN",
+      "dep": "compound:smixut",
+      "dep_head": "חולות",
+      "feats": {}
+    },
+    {
+      "word": "עריש",
+      "lemma": "עריש",
+      "pos": "PROPN",
+      "dep": "flat",
+      "dep_head": "אל",
+      "feats": {}
+    },
+    {
+      "word": ".",
+      "lemma": ".",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "נחל",
+      "feats": {}
+    },
+    {
+      "word": "כבר",
+      "lemma": "כבר",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "אשמורת",
+      "feats": {}
+    },
+    {
+      "word": "אשמורת",
+      "lemma": "אשמורת",
+      "pos": "PROPN",
+      "dep": "nsubj",
+      "dep_head": "נחל",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "שניה",
+      "lemma": "שנייה",
+      "pos": "ADJ",
+      "dep": "amod",
+      "dep_head": "אשמורת",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "והים",
+      "lemma": "ים",
+      "pos": "NOUN",
+      "dep": "nsubj",
+      "dep_head": "מחריש",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "כה",
+      "lemma": "כה",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "מחריש",
+      "feats": {}
+    },
+    {
+      "word": "מחריש",
+      "lemma": "מחריש",
+      "pos": "ADJ",
+      "dep": "amod",
+      "dep_head": "נחל",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": ",",
+      "lemma": ",",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "נחל",
+      "feats": {}
+    },
+    {
+      "word": "נחל",
+      "lemma": "נחל",
+      "pos": "NOUN",
+      "dep": "nsubj",
+      "dep_head": "נחל",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ים",
+      "lemma": "ים",
+      "pos": "PROPN",
+      "dep": "compound:smixut",
+      "dep_head": "נחל",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "אין",
+      "lemma": "אין",
+      "pos": "VERB",
+      "dep": "parataxis",
+      "dep_head": "לראות",
+      "feats": {}
+    },
+    {
+      "word": "לראות",
+      "lemma": "ראתה",
+      "pos": "VERB",
+      "dep": "advcl",
+      "dep_head": "ונמשך",
+      "feats": {}
+    },
+    {
+      "word": "אלא",
+      "lemma": "אלא",
+      "pos": "CCONJ",
+      "dep": "cc",
+      "dep_head": "להרגיש",
+      "feats": {}
+    },
+    {
+      "word": "רק",
+      "lemma": "רק",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "להרגיש",
+      "feats": {}
+    },
+    {
+      "word": "להרגיש",
+      "lemma": "הרגיש",
+      "pos": "VERB",
+      "dep": "xcomp",
+      "dep_head": "לראות",
+      "feats": {}
+    },
+    {
+      "word": ".",
+      "lemma": ".",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "לראות",
+      "feats": {}
+    },
+    {
+      "word": "כבר",
+      "lemma": "כבר",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "אין",
+      "feats": {}
+    },
+    {
+      "word": "אשמורת",
+      "lemma": "אשמורת",
+      "pos": "PROPN",
+      "dep": "conj",
+      "dep_head": "לאורכו",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "שניה",
+      "lemma": "שנייה",
+      "pos": "ADJ",
+      "dep": "amod",
+      "dep_head": "אשמורת",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "והים",
+      "lemma": "ים",
+      "pos": "NOUN",
+      "dep": "conj",
+      "dep_head": "קפץ",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "כה",
+      "lemma": "כה",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "נחל",
+      "feats": {}
+    },
+    {
+      "word": "מחריש",
+      "lemma": "מחריש",
+      "pos": "ADJ",
+      "dep": "amod",
+      "dep_head": "נחל",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": ",",
+      "lemma": ",",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "גל",
+      "feats": {}
+    },
+    {
+      "word": "נחל",
+      "lemma": "נחל",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "סבך",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ים",
+      "lemma": "ים",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "נחל",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "אין",
+      "lemma": "אין",
+      "pos": "VERB",
+      "dep": "parataxis",
+      "dep_head": "לראות",
+      "feats": {}
+    },
+    {
+      "word": "לראות",
+      "lemma": "הראה",
+      "pos": "VERB",
+      "dep": "csubj",
+      "dep_head": "אין",
+      "feats": {}
+    },
+    {
+      "word": "אלא",
+      "lemma": "אלא",
+      "pos": "CCONJ",
+      "dep": "cc",
+      "dep_head": "להרגיש",
+      "feats": {}
+    },
+    {
+      "word": "רק",
+      "lemma": "רק",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "נחל",
+      "feats": {}
+    },
+    {
+      "word": "להרגיש",
+      "lemma": "הרגיש",
+      "pos": "VERB",
+      "dep": "xcomp",
+      "dep_head": "לראות",
+      "feats": {}
+    },
+    {
+      "word": ".",
+      "lemma": ".",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "קפץ",
+      "feats": {}
+    },
+    {
+      "word": "נחל",
+      "lemma": "נחל",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "סבך",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ים",
+      "lemma": "ים",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "נחל",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": ",",
+      "lemma": ",",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "נחל",
+      "feats": {}
+    },
+    {
+      "word": "נחל",
+      "lemma": "נחל",
+      "pos": "NOUN",
+      "dep": "nsubj",
+      "dep_head": "נחל",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ים",
+      "lemma": "ים",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "נחל",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": ",",
+      "lemma": ",",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "נחל",
+      "feats": {}
+    },
+    {
+      "word": "לא",
+      "lemma": "לא",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "סתם",
+      "feats": {}
+    },
+    {
+      "word": "סתם",
+      "lemma": "סתם",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "נחל",
+      "feats": {}
+    },
+    {
+      "word": "נחל",
+      "lemma": "נחל",
+      "pos": "NOUN",
+      "dep": "appos",
+      "dep_head": "לאורכו",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "אכזב",
+      "lemma": "אכזב",
+      "pos": "ADJ",
+      "dep": "compound:smixut",
+      "dep_head": "נחל",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "אלא",
+      "lemma": "אלא",
+      "pos": "CCONJ",
+      "dep": "cc",
+      "dep_head": "נחל",
+      "feats": {}
+    },
+    {
+      "word": "נחל",
+      "lemma": "נחל",
+      "pos": "NOUN",
+      "dep": "conj",
+      "dep_head": "נחל",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "איתן",
+      "lemma": "איתן",
+      "pos": "PROPN",
+      "dep": "compound:smixut",
+      "dep_head": "נחל",
+      "feats": {}
+    },
+    {
+      "word": ".",
+      "lemma": ".",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "קפץ",
+      "feats": {}
+    },
+    {
+      "word": "נחל",
+      "lemma": "נחל",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "סבך",
+      "feats": {
+        "Gender": "Masc"
+      }
+    },
+    {
+      "word": "ים",
+      "lemma": "ים",
+      "pos": "PROPN",
+      "dep": "compound:smixut",
+      "dep_head": "נחל",
+      "feats": {
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": ",",
+      "lemma": ",",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "נחל",
+      "feats": {}
+    },
+    {
+      "word": "נחל",
+      "lemma": "נחל",
+      "pos": "NOUN",
+      "dep": "appos",
+      "dep_head": "נחל",
+      "feats": {
+        "Gender": "Masc"
+      }
+    },
+    {
+      "word": "ים",
+      "lemma": "ים",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "נחל",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": ",",
+      "lemma": ",",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "נחל",
+      "feats": {}
+    },
+    {
+      "word": "לא",
+      "lemma": "לא",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "סתם",
+      "feats": {}
+    },
+    {
+      "word": "סתם",
+      "lemma": "סתם",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "נחל",
+      "feats": {}
+    },
+    {
+      "word": "נחל",
+      "lemma": "נחל",
+      "pos": "NOUN",
+      "dep": "appos",
+      "dep_head": "חצר",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "אכזב",
+      "lemma": "אכזב",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "נחל",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "אלא",
+      "lemma": "אלא",
+      "pos": "CCONJ",
+      "dep": "cc",
+      "dep_head": "נחל",
+      "feats": {}
+    },
+    {
+      "word": "נחל",
+      "lemma": "נחל",
+      "pos": "NOUN",
+      "dep": "conj",
+      "dep_head": "נחל",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "איתן",
+      "lemma": "איתן",
+      "pos": "PROPN",
+      "dep": "compound:smixut",
+      "dep_head": "נחל",
+      "feats": {}
+    },
+    {
+      "word": ".",
+      "lemma": ".",
+      "pos": "PUNCT",
+      "dep": "punct",
+      "dep_head": "פסענו",
+      "feats": {}
+    }
+  ],
+  "ner": [
+    {
+      "word": "",
+      "label": "LOC",
+      "start": 51,
+      "end": 62
+    },
+    {
+      "word": "",
+      "label": "LOC",
+      "start": 208,
+      "end": 212
+    },
+    {
+      "word": "",
+      "label": "LOC",
+      "start": 424,
+      "end": 430
+    },
+    {
+      "word": "",
+      "label": "LOC",
+      "start": 432,
+      "end": 435
+    },
+    {
+      "word": "",
+      "label": "LOC",
+      "start": 460,
+      "end": 468
+    },
+    {
+      "word": "",
+      "label": "LOC",
+      "start": 506,
+      "end": 509
+    },
+    {
+      "word": "",
+      "label": "LOC",
+      "start": 567,
+      "end": 574
+    },
+    {
+      "word": "",
+      "label": "LOC",
+      "start": 743,
+      "end": 747
+    },
+    {
+      "word": "",
+      "label": "LOC",
+      "start": 785,
+      "end": 793
+    }
+  ]
+}

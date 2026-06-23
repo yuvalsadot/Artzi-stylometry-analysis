@@ -1,0 +1,3351 @@
+{
+  "song_id": 155,
+  "title": "משחקי 26",
+  "year": 1975,
+  "album": "משחקי 26",
+  "morphology": [
+    {
+      "word": "הספינה",
+      "lemma": "ספינה",
+      "pos": "NOUN",
+      "dep": "nsubj",
+      "dep_head": "בא",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "שלנו",
+      "lemma": "של",
+      "pos": "ADP",
+      "dep": "nmod:poss",
+      "dep_head": "הספינה",
+      "feats": {}
+    },
+    {
+      "word": "שטה",
+      "lemma": "שטה",
+      "pos": "PROPN",
+      "dep": "nmod",
+      "dep_head": "הספינה",
+      "feats": {
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "שטה",
+      "lemma": "שטה",
+      "pos": "VERB",
+      "dep": "parataxis",
+      "dep_head": "שטה",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "בלי",
+      "lemma": "בל",
+      "pos": "ADP",
+      "dep": "case",
+      "dep_head": "שלום",
+      "feats": {}
+    },
+    {
+      "word": "מפרש",
+      "lemma": "פירש",
+      "pos": "NOUN",
+      "dep": "obl",
+      "dep_head": "צועק",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "רב",
+      "lemma": "רב",
+      "pos": "NOUN",
+      "dep": "amod",
+      "dep_head": "שלום",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "המלחים",
+      "lemma": "מלח",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "רב",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "למטה",
+      "lemma": "למטה",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "רשמו",
+      "feats": {}
+    },
+    {
+      "word": "מתנפח",
+      "lemma": "מתנפח",
+      "pos": "VERB",
+      "dep": "conj",
+      "dep_head": "שלום",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "כמו",
+      "lemma": "כמו",
+      "pos": "ADP",
+      "dep": "case",
+      "dep_head": "ביטחון",
+      "feats": {}
+    },
+    {
+      "word": "טווס",
+      "lemma": "טווס",
+      "pos": "NOUN",
+      "dep": "conj",
+      "dep_head": "שלום",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "רב",
+      "lemma": "רב",
+      "pos": "ADJ",
+      "dep": "amod",
+      "dep_head": "טווס",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "המלחים",
+      "lemma": "מלח",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "רב",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "גבוה",
+      "lemma": "גבוה",
+      "pos": "ADJ",
+      "dep": "amod",
+      "dep_head": "לילה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "רב",
+      "lemma": "רב",
+      "pos": "ADJ",
+      "dep": "amod",
+      "dep_head": "לילה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ראשים",
+      "lemma": "ראש",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "רב",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "כמו",
+      "lemma": "כמו",
+      "pos": "ADP",
+      "dep": "case",
+      "dep_head": "אלוהים",
+      "feats": {}
+    },
+    {
+      "word": "אלוהים",
+      "lemma": "אלוהים",
+      "pos": "NOUN",
+      "dep": "obl",
+      "dep_head": "גבוה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ואנחנו",
+      "lemma": "אני",
+      "pos": "PRON",
+      "dep": "nsubj",
+      "dep_head": "בא",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur",
+        "Person": "1"
+      }
+    },
+    {
+      "word": "פה",
+      "lemma": "פה",
+      "pos": "ADV",
+      "dep": "parataxis",
+      "dep_head": "שטים",
+      "feats": {}
+    },
+    {
+      "word": "שמונה",
+      "lemma": "שמונה",
+      "pos": "NUM",
+      "dep": "nummod",
+      "dep_head": "מלחים",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "מלחים",
+      "lemma": "מלח",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "רב",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "זהים",
+      "lemma": "זהה",
+      "pos": "ADJ",
+      "dep": "amod",
+      "dep_head": "מלחים",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "זה",
+      "lemma": "זה",
+      "pos": "PRON",
+      "dep": "nsubj",
+      "dep_head": "לילה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3"
+      }
+    },
+    {
+      "word": "מלח",
+      "lemma": "מלח",
+      "pos": "NOUN",
+      "dep": "ccomp",
+      "dep_head": "צועק",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "מדגם",
+      "lemma": "דגם",
+      "pos": "NOUN",
+      "dep": "nmod",
+      "dep_head": "מנדולינות",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "בני",
+      "lemma": "בני",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "מדגם",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "זה",
+      "lemma": "זה",
+      "pos": "PRON",
+      "dep": "det",
+      "dep_head": "מדגם",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3"
+      }
+    },
+    {
+      "word": "מלח",
+      "lemma": "מלח",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "רב",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "עברי",
+      "lemma": "עברי",
+      "pos": "ADJ",
+      "dep": "amod",
+      "dep_head": "מלח",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "וג",
+      "lemma": "אנגלי",
+      "pos": "PROPN",
+      "dep": "conj",
+      "dep_head": "עשרים",
+      "feats": {}
+    },
+    {
+      "word": "'",
+      "lemma": "'",
+      "pos": "X",
+      "dep": "flat",
+      "dep_head": "וג",
+      "feats": {}
+    },
+    {
+      "word": "רי",
+      "lemma": "רי",
+      "pos": "PROPN",
+      "dep": "flat",
+      "dep_head": "וג",
+      "feats": {}
+    },
+    {
+      "word": "זה",
+      "lemma": "זה",
+      "pos": "PRON",
+      "dep": "det",
+      "dep_head": "מלח",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3"
+      }
+    },
+    {
+      "word": "מלח",
+      "lemma": "מלח",
+      "pos": "NOUN",
+      "dep": "obj",
+      "dep_head": "רשמו",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "נורא",
+      "lemma": "נורא",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "מלח",
+      "feats": {}
+    },
+    {
+      "word": "היגייני",
+      "lemma": "אנגלי",
+      "pos": "ADJ",
+      "dep": "compound:smixut",
+      "dep_head": "סך",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "זה",
+      "lemma": "זה",
+      "pos": "PRON",
+      "dep": "det",
+      "dep_head": "לילה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3"
+      }
+    },
+    {
+      "word": "סימפטי",
+      "lemma": "סימפטי",
+      "pos": "ADJ",
+      "dep": "amod",
+      "dep_head": "לילה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "זה",
+      "lemma": "זה",
+      "pos": "PRON",
+      "dep": "det",
+      "dep_head": "לילה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3"
+      }
+    },
+    {
+      "word": "עצום",
+      "lemma": "עצום",
+      "pos": "ADJ",
+      "dep": "amod",
+      "dep_head": "לילה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "זאת",
+      "lemma": "זה",
+      "pos": "PRON",
+      "dep": "det",
+      "dep_head": "קסום",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing",
+        "Person": "3"
+      }
+    },
+    {
+      "word": "רצתה",
+      "lemma": "רוצה",
+      "pos": "VERB",
+      "dep": "parataxis",
+      "dep_head": "לילה",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Past"
+      }
+    },
+    {
+      "word": "להיות",
+      "lemma": "היה",
+      "pos": "AUX",
+      "dep": "xcomp",
+      "dep_head": "רצתה",
+      "feats": {}
+    },
+    {
+      "word": "מלח",
+      "lemma": "מלח",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "משחקי",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "אך",
+      "lemma": "אך",
+      "pos": "CCONJ",
+      "dep": "cc",
+      "dep_head": "בא",
+      "feats": {}
+    },
+    {
+      "word": "היה",
+      "lemma": "היי",
+      "pos": "AUX",
+      "dep": "cop",
+      "dep_head": "בא",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Past"
+      }
+    },
+    {
+      "word": "כבר",
+      "lemma": "כבר",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "מאוחר",
+      "feats": {}
+    },
+    {
+      "word": "מאוחר",
+      "lemma": "מאוחר",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "בא",
+      "feats": {}
+    },
+    {
+      "word": "כשיצאנו",
+      "lemma": "יוצא",
+      "pos": "VERB",
+      "dep": "advcl",
+      "dep_head": "בא",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur",
+        "Person": "1",
+        "Tense": "Past"
+      }
+    },
+    {
+      "word": "אל",
+      "lemma": "אל",
+      "pos": "ADP",
+      "dep": "case",
+      "dep_head": "הדרך",
+      "feats": {}
+    },
+    {
+      "word": "הדרך",
+      "lemma": "דרך",
+      "pos": "NOUN",
+      "dep": "obl",
+      "dep_head": "כשיצאנו",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "בא",
+      "lemma": "בא",
+      "pos": "VERB",
+      "dep": "parataxis",
+      "dep_head": "לילה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Past"
+      }
+    },
+    {
+      "word": "הבוקר",
+      "lemma": "בקר",
+      "pos": "NOUN",
+      "dep": "nsubj",
+      "dep_head": "בא",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ושר",
+      "lemma": "שר",
+      "pos": "VERB",
+      "dep": "conj",
+      "dep_head": "בא",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3"
+      }
+    },
+    {
+      "word": "משחקי",
+      "lemma": "משחק",
+      "pos": "NOUN",
+      "dep": "nmod",
+      "dep_head": "לילה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "עשרים",
+      "lemma": "עשרה",
+      "pos": "NUM",
+      "dep": "compound:smixut",
+      "dep_head": "משחקי",
+      "feats": {
+        "Gender": "Masc"
+      }
+    },
+    {
+      "word": "ושש",
+      "lemma": "שש",
+      "pos": "NUM",
+      "dep": "conj",
+      "dep_head": "עשרים",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "רשמו",
+      "lemma": "רשם",
+      "pos": "VERB",
+      "dep": "conj",
+      "dep_head": "בא",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur",
+        "Person": "3",
+        "Tense": "Past"
+      }
+    },
+    {
+      "word": "קרני",
+      "lemma": "קרן",
+      "pos": "NOUN",
+      "dep": "obj",
+      "dep_head": "רשמו",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "החמה",
+      "lemma": "חמה",
+      "pos": "ADJ",
+      "dep": "compound:smixut",
+      "dep_head": "קרני",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "משחקי",
+      "lemma": "משחק",
+      "pos": "NOUN",
+      "dep": "amod",
+      "dep_head": "לילה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "עשרים",
+      "lemma": "עשרה",
+      "pos": "NUM",
+      "dep": "compound:smixut",
+      "dep_head": "קרני",
+      "feats": {
+        "Gender": "Fem"
+      }
+    },
+    {
+      "word": "ושש",
+      "lemma": "שש",
+      "pos": "NUM",
+      "dep": "conj",
+      "dep_head": "עשרים",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "הבוקר",
+      "lemma": "בקר",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "קרני",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "בא",
+      "lemma": "בא",
+      "pos": "VERB",
+      "dep": "conj",
+      "dep_head": "בא",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Past"
+      }
+    },
+    {
+      "word": "בדממה",
+      "lemma": "דממה",
+      "pos": "NOUN",
+      "dep": "obl",
+      "dep_head": "בא",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "משחקי",
+      "lemma": "משחק",
+      "pos": "NOUN",
+      "dep": "appos",
+      "dep_head": "לילה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "עשרים",
+      "lemma": "עשרה",
+      "pos": "NUM",
+      "dep": "compound:smixut",
+      "dep_head": "משחקי",
+      "feats": {}
+    },
+    {
+      "word": "ושש",
+      "lemma": "שש",
+      "pos": "NUM",
+      "dep": "conj",
+      "dep_head": "עשרים",
+      "feats": {
+        "Gender": "Fem"
+      }
+    },
+    {
+      "word": "היה",
+      "lemma": "היי",
+      "pos": "AUX",
+      "dep": "conj",
+      "dep_head": "בא",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Past"
+      }
+    },
+    {
+      "word": "לילה",
+      "lemma": "לילה",
+      "pos": "NOUN",
+      "dep": "conj",
+      "dep_head": "בא",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "קסום",
+      "lemma": "קסום",
+      "pos": "ADJ",
+      "dep": "amod",
+      "dep_head": "לילה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "משחקי",
+      "lemma": "משחק",
+      "pos": "NOUN",
+      "dep": "appos",
+      "dep_head": "לילה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "עשרים",
+      "lemma": "עשרה",
+      "pos": "NUM",
+      "dep": "compound:smixut",
+      "dep_head": "קרני",
+      "feats": {
+        "Gender": "Fem"
+      }
+    },
+    {
+      "word": "ושש",
+      "lemma": "שש",
+      "pos": "NUM",
+      "dep": "conj",
+      "dep_head": "עשרים",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "הספינה",
+      "lemma": "ספינה",
+      "pos": "NOUN",
+      "dep": "nsubj",
+      "dep_head": "רשמו",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "שלנו",
+      "lemma": "של",
+      "pos": "ADP",
+      "dep": "nmod:poss",
+      "dep_head": "אמא",
+      "feats": {}
+    },
+    {
+      "word": "שטה",
+      "lemma": "שטה",
+      "pos": "PROPN",
+      "dep": "appos",
+      "dep_head": "לחמא",
+      "feats": {
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "שטה",
+      "lemma": "שטה",
+      "pos": "PROPN",
+      "dep": "nmod",
+      "dep_head": "הספינה",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "בלי",
+      "lemma": "בל",
+      "pos": "ADP",
+      "dep": "case",
+      "dep_head": "ביטחון",
+      "feats": {}
+    },
+    {
+      "word": "מפרש",
+      "lemma": "מפרש",
+      "pos": "NOUN",
+      "dep": "obl",
+      "dep_head": "מתרחק",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "רב",
+      "lemma": "רב",
+      "pos": "NOUN",
+      "dep": "amod",
+      "dep_head": "טווס",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "המלחים",
+      "lemma": "מלח",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "רב",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "למטה",
+      "lemma": "למטה",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "מתרחק",
+      "feats": {}
+    },
+    {
+      "word": "מתנפח",
+      "lemma": "מתנפח",
+      "pos": "NOUN",
+      "dep": "conj",
+      "dep_head": "עשרים",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "כמו",
+      "lemma": "כמו",
+      "pos": "ADP",
+      "dep": "case",
+      "dep_head": "אלוהים",
+      "feats": {}
+    },
+    {
+      "word": "טווס",
+      "lemma": "טווס",
+      "pos": "NOUN",
+      "dep": "conj",
+      "dep_head": "עשרים",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "עשרים",
+      "lemma": "עשרה",
+      "pos": "NUM",
+      "dep": "compound:smixut",
+      "dep_head": "קרני",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ושש",
+      "lemma": "שש",
+      "pos": "NUM",
+      "dep": "conj",
+      "dep_head": "עשרים",
+      "feats": {
+        "Gender": "Fem"
+      }
+    },
+    {
+      "word": "שנה",
+      "lemma": "שנה",
+      "pos": "NOUN",
+      "dep": "obl",
+      "dep_head": "בא",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "שטים",
+      "lemma": "שטו",
+      "pos": "VERB",
+      "dep": "conj",
+      "dep_head": "עשרים",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "בים",
+      "lemma": "ים",
+      "pos": "NOUN",
+      "dep": "obl",
+      "dep_head": "שטים",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "התיכון",
+      "lemma": "תיכון",
+      "pos": "ADJ",
+      "dep": "amod",
+      "dep_head": "בים",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "עם",
+      "lemma": "עם",
+      "pos": "ADP",
+      "dep": "case",
+      "dep_head": "צלילים",
+      "feats": {}
+    },
+    {
+      "word": "צלילים",
+      "lemma": "צליל",
+      "pos": "NOUN",
+      "dep": "obl",
+      "dep_head": "בא",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "של",
+      "lemma": "של",
+      "pos": "ADP",
+      "dep": "case:gen",
+      "dep_head": "מנדולינות",
+      "feats": {}
+    },
+    {
+      "word": "מנדולינות",
+      "lemma": "לבטיחות",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "משחקי",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "וציונות",
+      "lemma": "ציונות",
+      "pos": "NOUN",
+      "dep": "conj",
+      "dep_head": "מנדולינות",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "בלי",
+      "lemma": "בל",
+      "pos": "ADP",
+      "dep": "case",
+      "dep_head": "ביטחון",
+      "feats": {}
+    },
+    {
+      "word": "ביטחון",
+      "lemma": "ביטחון",
+      "pos": "NOUN",
+      "dep": "obl",
+      "dep_head": "בא",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "זה",
+      "lemma": "זה",
+      "pos": "PRON",
+      "dep": "det",
+      "dep_head": "ביטחון",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3"
+      }
+    },
+    {
+      "word": "מלח",
+      "lemma": "מלח",
+      "pos": "NOUN",
+      "dep": "conj",
+      "dep_head": "עשרים",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "מדגם",
+      "lemma": "דגם",
+      "pos": "NOUN",
+      "dep": "nmod",
+      "dep_head": "קרני",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ארץ",
+      "lemma": "ארץ",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "מדגם",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "זה",
+      "lemma": "זה",
+      "pos": "PRON",
+      "dep": "det",
+      "dep_head": "ארץ",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3"
+      }
+    },
+    {
+      "word": "מלח",
+      "lemma": "מלח",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "ארץ",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "של",
+      "lemma": "של",
+      "pos": "ADP",
+      "dep": "case:gen",
+      "dep_head": "אהבה",
+      "feats": {}
+    },
+    {
+      "word": "אהבה",
+      "lemma": "אהבה",
+      "pos": "NOUN",
+      "dep": "nmod:poss",
+      "dep_head": "משחקי",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "זה",
+      "lemma": "זה",
+      "pos": "PRON",
+      "dep": "det",
+      "dep_head": "מלח",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3"
+      }
+    },
+    {
+      "word": "מלח",
+      "lemma": "מלח",
+      "pos": "NOUN",
+      "dep": "obj",
+      "dep_head": "רשמו",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "כמו",
+      "lemma": "כמו",
+      "pos": "ADP",
+      "dep": "case",
+      "dep_head": "אלוהים",
+      "feats": {}
+    },
+    {
+      "word": "שוקה",
+      "lemma": "שוקה",
+      "pos": "PROPN",
+      "dep": "compound:smixut",
+      "dep_head": "משחקי",
+      "feats": {}
+    },
+    {
+      "word": "פרץ",
+      "lemma": "פרץ",
+      "pos": "PROPN",
+      "dep": "flat",
+      "dep_head": "שוקה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "זה",
+      "lemma": "זה",
+      "pos": "PRON",
+      "dep": "cop",
+      "dep_head": "לילה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3"
+      }
+    },
+    {
+      "word": "מלח",
+      "lemma": "מלח",
+      "pos": "NOUN",
+      "dep": "parataxis",
+      "dep_head": "רשמו",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "בלי",
+      "lemma": "בל",
+      "pos": "ADP",
+      "dep": "case",
+      "dep_head": "מלח",
+      "feats": {}
+    },
+    {
+      "word": "שום",
+      "lemma": "שום",
+      "pos": "DET",
+      "dep": "det",
+      "dep_head": "תקווה",
+      "feats": {}
+    },
+    {
+      "word": "תקווה",
+      "lemma": "תקווה",
+      "pos": "NOUN",
+      "dep": "obl",
+      "dep_head": "בא",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "זה",
+      "lemma": "זה",
+      "pos": "PRON",
+      "dep": "det",
+      "dep_head": "מלח",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3"
+      }
+    },
+    {
+      "word": "מלח",
+      "lemma": "מלח",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "קרני",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "שהתאהב",
+      "lemma": "התאהב",
+      "pos": "VERB",
+      "dep": "acl:relcl",
+      "dep_head": "מלח",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Past"
+      }
+    },
+    {
+      "word": "זה",
+      "lemma": "זה",
+      "pos": "PRON",
+      "dep": "det",
+      "dep_head": "מלח",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3"
+      }
+    },
+    {
+      "word": "מלח",
+      "lemma": "מלח",
+      "pos": "NOUN",
+      "dep": "nmod",
+      "dep_head": "ארץ",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "כבר",
+      "lemma": "כבר",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "בא",
+      "feats": {}
+    },
+    {
+      "word": "לצבא",
+      "lemma": "צבא",
+      "pos": "NOUN",
+      "dep": "obl",
+      "dep_head": "רשמו",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "זה",
+      "lemma": "זה",
+      "pos": "PRON",
+      "dep": "det",
+      "dep_head": "מלח",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3"
+      }
+    },
+    {
+      "word": "מלח",
+      "lemma": "מלח",
+      "pos": "NOUN",
+      "dep": "obj",
+      "dep_head": "רשמו",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "זה",
+      "lemma": "זה",
+      "pos": "PRON",
+      "dep": "det",
+      "dep_head": "מלח",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3"
+      }
+    },
+    {
+      "word": "לחמניות",
+      "lemma": "לחמנייה",
+      "pos": "NOUN",
+      "dep": "obj",
+      "dep_head": "רשמו",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "הא",
+      "lemma": "הא",
+      "pos": "X",
+      "dep": "appos",
+      "dep_head": "לילה",
+      "feats": {}
+    },
+    {
+      "word": "לחמא",
+      "lemma": "[BLANK]",
+      "pos": "PROPN",
+      "dep": "obl",
+      "dep_head": "צועק",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "עניא",
+      "lemma": "[BLANK]",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "לחמא",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "משחקי",
+      "lemma": "משחק",
+      "pos": "NOUN",
+      "dep": "appos",
+      "dep_head": "לילה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "עשרים",
+      "lemma": "עשרה",
+      "pos": "NUM",
+      "dep": "compound:smixut",
+      "dep_head": "משחקי",
+      "feats": {
+        "Gender": "Fem"
+      }
+    },
+    {
+      "word": "ושש",
+      "lemma": "שש",
+      "pos": "NUM",
+      "dep": "conj",
+      "dep_head": "עשרים",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "רשמו",
+      "lemma": "רשם",
+      "pos": "VERB",
+      "dep": "conj",
+      "dep_head": "רצתה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur",
+        "Person": "3",
+        "Tense": "Past"
+      }
+    },
+    {
+      "word": "קרני",
+      "lemma": "קרן",
+      "pos": "NOUN",
+      "dep": "obj",
+      "dep_head": "רשמו",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "החמה",
+      "lemma": "חמה",
+      "pos": "ADJ",
+      "dep": "amod",
+      "dep_head": "קרני",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "משחקי",
+      "lemma": "משחק",
+      "pos": "NOUN",
+      "dep": "amod",
+      "dep_head": "לילה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "עשרים",
+      "lemma": "עשרה",
+      "pos": "NUM",
+      "dep": "compound:smixut",
+      "dep_head": "משחקי",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ושש",
+      "lemma": "שש",
+      "pos": "NUM",
+      "dep": "conj",
+      "dep_head": "עשרים",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "הבוקר",
+      "lemma": "בקר",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "סך",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "בא",
+      "lemma": "בא",
+      "pos": "VERB",
+      "dep": "conj",
+      "dep_head": "שהתאהב",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Past"
+      }
+    },
+    {
+      "word": "בדממה",
+      "lemma": "דממה",
+      "pos": "NOUN",
+      "dep": "obl",
+      "dep_head": "בא",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "משחקי",
+      "lemma": "משחק",
+      "pos": "NOUN",
+      "dep": "appos",
+      "dep_head": "לילה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "עשרים",
+      "lemma": "עשרה",
+      "pos": "NUM",
+      "dep": "compound:smixut",
+      "dep_head": "משחקי",
+      "feats": {}
+    },
+    {
+      "word": "ושש",
+      "lemma": "שש",
+      "pos": "NUM",
+      "dep": "conj",
+      "dep_head": "עשרים",
+      "feats": {
+        "Gender": "Fem"
+      }
+    },
+    {
+      "word": "היה",
+      "lemma": "היי",
+      "pos": "AUX",
+      "dep": "cop",
+      "dep_head": "לילה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Past"
+      }
+    },
+    {
+      "word": "לילה",
+      "lemma": "לילה",
+      "pos": "NOUN",
+      "dep": "conj",
+      "dep_head": "בא",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "קסום",
+      "lemma": "קסום",
+      "pos": "ADJ",
+      "dep": "amod",
+      "dep_head": "לילה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "משחקי",
+      "lemma": "משחק",
+      "pos": "NOUN",
+      "dep": "appos",
+      "dep_head": "לילה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "עשרים",
+      "lemma": "עשרה",
+      "pos": "NUM",
+      "dep": "compound:smixut",
+      "dep_head": "משחקי",
+      "feats": {
+        "Gender": "Fem"
+      }
+    },
+    {
+      "word": "ושש",
+      "lemma": "שש",
+      "pos": "NUM",
+      "dep": "conj",
+      "dep_head": "עשרים",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "הספינה",
+      "lemma": "ספינה",
+      "pos": "NOUN",
+      "dep": "nsubj",
+      "dep_head": "רשמו",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "שלנו",
+      "lemma": "של",
+      "pos": "ADP",
+      "dep": "nmod:poss",
+      "dep_head": "הספינה",
+      "feats": {}
+    },
+    {
+      "word": "שטה",
+      "lemma": "שטה",
+      "pos": "PROPN",
+      "dep": "nmod",
+      "dep_head": "הספינה",
+      "feats": {}
+    },
+    {
+      "word": "שטה",
+      "lemma": "שטה",
+      "pos": "VERB",
+      "dep": "xcomp",
+      "dep_head": "רצתה",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "בלי",
+      "lemma": "בל",
+      "pos": "ADP",
+      "dep": "case",
+      "dep_head": "מפרש",
+      "feats": {}
+    },
+    {
+      "word": "מפרש",
+      "lemma": "מפרש",
+      "pos": "NOUN",
+      "dep": "obl",
+      "dep_head": "בא",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "רב",
+      "lemma": "רב",
+      "pos": "ADJ",
+      "dep": "amod",
+      "dep_head": "מפרש",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "המלחים",
+      "lemma": "מלח",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "סך",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "למטה",
+      "lemma": "למטה",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "משחקי",
+      "feats": {}
+    },
+    {
+      "word": "מתנפח",
+      "lemma": "מתנפח",
+      "pos": "NOUN",
+      "dep": "conj",
+      "dep_head": "מלח",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "כמו",
+      "lemma": "כמו",
+      "pos": "ADP",
+      "dep": "case",
+      "dep_head": "הדרך",
+      "feats": {}
+    },
+    {
+      "word": "טווס",
+      "lemma": "טווס",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "סך",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "סך",
+      "lemma": "סך",
+      "pos": "NOUN",
+      "dep": "appos",
+      "dep_head": "לילה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "הכל",
+      "lemma": "כול",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "סך",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "שטים",
+      "lemma": "שטו",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "קסום",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "קדימה",
+      "lemma": "קדימה",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "צועק",
+      "feats": {}
+    },
+    {
+      "word": "רב",
+      "lemma": "רב",
+      "pos": "NOUN",
+      "dep": "nsubj",
+      "dep_head": "צועק",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "המלחים",
+      "lemma": "מלח",
+      "pos": "NOUN",
+      "dep": "nsubj",
+      "dep_head": "צועק",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "צועק",
+      "lemma": "צועק",
+      "pos": "VERB",
+      "dep": "conj",
+      "dep_head": "בא",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Pres"
+      }
+    },
+    {
+      "word": "היי",
+      "lemma": "היי",
+      "pos": "ADV",
+      "dep": "advmod",
+      "dep_head": "שלום",
+      "feats": {}
+    },
+    {
+      "word": "שלום",
+      "lemma": "שלום",
+      "pos": "NOUN",
+      "dep": "obj",
+      "dep_head": "רשמו",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "שלום",
+      "lemma": "שלום",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "שלום",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "לך",
+      "lemma": "לו",
+      "pos": "PRON",
+      "dep": "obl",
+      "dep_head": "צועק",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "2"
+      }
+    },
+    {
+      "word": "אמא",
+      "lemma": "אמא",
+      "pos": "NOUN",
+      "dep": "nsubj",
+      "dep_head": "רשמו",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "היה",
+      "lemma": "היי",
+      "pos": "AUX",
+      "dep": "cop",
+      "dep_head": "רשמו",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Past"
+      }
+    },
+    {
+      "word": "שלום",
+      "lemma": "שלום",
+      "pos": "NOUN",
+      "dep": "nsubj",
+      "dep_head": "היה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "חוף",
+      "lemma": "חוף",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "שלום",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "מתרחק",
+      "lemma": "מתרחק",
+      "pos": "VERB",
+      "dep": "acl:relcl",
+      "dep_head": "לילה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "1,2,3"
+      }
+    },
+    {
+      "word": "משחקי",
+      "lemma": "משחק",
+      "pos": "NOUN",
+      "dep": "appos",
+      "dep_head": "מפרש",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "עשרים",
+      "lemma": "עשרה",
+      "pos": "NUM",
+      "dep": "compound:smixut",
+      "dep_head": "משחקי",
+      "feats": {
+        "Gender": "Fem"
+      }
+    },
+    {
+      "word": "ושש",
+      "lemma": "שש",
+      "pos": "NUM",
+      "dep": "conj",
+      "dep_head": "עשרים",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "רשמו",
+      "lemma": "רשם",
+      "pos": "VERB",
+      "dep": "parataxis",
+      "dep_head": "מתרחק",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur",
+        "Person": "3",
+        "Tense": "Past"
+      }
+    },
+    {
+      "word": "קרני",
+      "lemma": "קרן",
+      "pos": "NOUN",
+      "dep": "obj",
+      "dep_head": "רשמו",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "החמה",
+      "lemma": "חמה",
+      "pos": "ADJ",
+      "dep": "amod",
+      "dep_head": "קרני",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "משחקי",
+      "lemma": "משחק",
+      "pos": "NOUN",
+      "dep": "conj",
+      "dep_head": "עשרים",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "עשרים",
+      "lemma": "עשרה",
+      "pos": "NUM",
+      "dep": "compound:smixut",
+      "dep_head": "משחקי",
+      "feats": {
+        "Gender": "Fem"
+      }
+    },
+    {
+      "word": "ושש",
+      "lemma": "שש",
+      "pos": "NUM",
+      "dep": "conj",
+      "dep_head": "עשרים",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "הבוקר",
+      "lemma": "בקר",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "סך",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "בא",
+      "lemma": "בא",
+      "pos": "VERB",
+      "dep": "parataxis",
+      "dep_head": "צועק",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Past"
+      }
+    },
+    {
+      "word": "בדממה",
+      "lemma": "דממה",
+      "pos": "NOUN",
+      "dep": "obl",
+      "dep_head": "בא",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "משחקי",
+      "lemma": "משחק",
+      "pos": "NOUN",
+      "dep": "obj",
+      "dep_head": "צועק",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "עשרים",
+      "lemma": "עשרה",
+      "pos": "NUM",
+      "dep": "compound:smixut",
+      "dep_head": "משחקי",
+      "feats": {
+        "Gender": "Fem"
+      }
+    },
+    {
+      "word": "ושש",
+      "lemma": "שש",
+      "pos": "NUM",
+      "dep": "conj",
+      "dep_head": "עשרים",
+      "feats": {
+        "Gender": "Fem"
+      }
+    },
+    {
+      "word": "היה",
+      "lemma": "היי",
+      "pos": "AUX",
+      "dep": "cop",
+      "dep_head": "לילה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Past"
+      }
+    },
+    {
+      "word": "לילה",
+      "lemma": "לילה",
+      "pos": "NOUN",
+      "dep": "nsubj",
+      "dep_head": "בא",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "קסום",
+      "lemma": "קסום",
+      "pos": "ADJ",
+      "dep": "amod",
+      "dep_head": "לילה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "משחקי",
+      "lemma": "משחק",
+      "pos": "NOUN",
+      "dep": "appos",
+      "dep_head": "מפרש",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "עשרים",
+      "lemma": "עשרה",
+      "pos": "NUM",
+      "dep": "compound:smixut",
+      "dep_head": "משחקי",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ושש",
+      "lemma": "שש",
+      "pos": "NUM",
+      "dep": "conj",
+      "dep_head": "עשרים",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "משחקי",
+      "lemma": "משחק",
+      "pos": "NOUN",
+      "dep": "appos",
+      "dep_head": "מפרש",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "עשרים",
+      "lemma": "עשרה",
+      "pos": "NUM",
+      "dep": "compound:smixut",
+      "dep_head": "משחקי",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ושש",
+      "lemma": "שש",
+      "pos": "NUM",
+      "dep": "conj",
+      "dep_head": "עשרים",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "רשמו",
+      "lemma": "רשם",
+      "pos": "VERB",
+      "dep": "conj",
+      "dep_head": "מתרחק",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur",
+        "Person": "3",
+        "Tense": "Past"
+      }
+    },
+    {
+      "word": "קרני",
+      "lemma": "קרן",
+      "pos": "NOUN",
+      "dep": "obj",
+      "dep_head": "רשמו",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "החמה",
+      "lemma": "חמה",
+      "pos": "ADJ",
+      "dep": "amod",
+      "dep_head": "קרני",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "משחקי",
+      "lemma": "משחק",
+      "pos": "NOUN",
+      "dep": "appos",
+      "dep_head": "מפרש",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "עשרים",
+      "lemma": "עשרה",
+      "pos": "NUM",
+      "dep": "compound:smixut",
+      "dep_head": "קרני",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ושש",
+      "lemma": "שש",
+      "pos": "NUM",
+      "dep": "conj",
+      "dep_head": "עשרים",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "הבוקר",
+      "lemma": "בקר",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "משחקי",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "בא",
+      "lemma": "בא",
+      "pos": "VERB",
+      "dep": "parataxis",
+      "dep_head": "צועק",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Past"
+      }
+    },
+    {
+      "word": "בדממה",
+      "lemma": "דממה",
+      "pos": "NOUN",
+      "dep": "obl",
+      "dep_head": "בא",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "משחקי",
+      "lemma": "משחק",
+      "pos": "NOUN",
+      "dep": "obj",
+      "dep_head": "צועק",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "עשרים",
+      "lemma": "עשרה",
+      "pos": "NUM",
+      "dep": "nummod",
+      "dep_head": "שנה",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ושש",
+      "lemma": "שש",
+      "pos": "NUM",
+      "dep": "conj",
+      "dep_head": "עשרים",
+      "feats": {
+        "Gender": "Fem"
+      }
+    },
+    {
+      "word": "היה",
+      "lemma": "היי",
+      "pos": "AUX",
+      "dep": "cop",
+      "dep_head": "לילה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Past"
+      }
+    },
+    {
+      "word": "לילה",
+      "lemma": "לילה",
+      "pos": "NOUN",
+      "dep": "parataxis",
+      "dep_head": "בא",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "קסום",
+      "lemma": "קסום",
+      "pos": "ADJ",
+      "dep": "amod",
+      "dep_head": "לילה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "משחקי",
+      "lemma": "משחק",
+      "pos": "NOUN",
+      "dep": "appos",
+      "dep_head": "לילה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "עשרים",
+      "lemma": "עשרה",
+      "pos": "NUM",
+      "dep": "compound:smixut",
+      "dep_head": "משחקי",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ושש",
+      "lemma": "שש",
+      "pos": "NUM",
+      "dep": "conj",
+      "dep_head": "עשרים",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "משחקי",
+      "lemma": "משחק",
+      "pos": "NOUN",
+      "dep": "obj",
+      "dep_head": "רשמו",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "עשרים",
+      "lemma": "עשרה",
+      "pos": "NUM",
+      "dep": "compound:smixut",
+      "dep_head": "משחקי",
+      "feats": {
+        "Gender": "Fem"
+      }
+    },
+    {
+      "word": "ושש",
+      "lemma": "שש",
+      "pos": "NUM",
+      "dep": "conj",
+      "dep_head": "עשרים",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "רשמו",
+      "lemma": "רשם",
+      "pos": "VERB",
+      "dep": "parataxis",
+      "dep_head": "צועק",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur",
+        "Person": "3",
+        "Tense": "Past"
+      }
+    },
+    {
+      "word": "קרני",
+      "lemma": "קרן",
+      "pos": "NOUN",
+      "dep": "obj",
+      "dep_head": "רשמו",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "החמה",
+      "lemma": "חמה",
+      "pos": "ADJ",
+      "dep": "amod",
+      "dep_head": "קרני",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "משחקי",
+      "lemma": "משחק",
+      "pos": "NOUN",
+      "dep": "appos",
+      "dep_head": "מלח",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "עשרים",
+      "lemma": "עשרה",
+      "pos": "NUM",
+      "dep": "compound:smixut",
+      "dep_head": "משחקי",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ושש",
+      "lemma": "שש",
+      "pos": "NUM",
+      "dep": "conj",
+      "dep_head": "עשרים",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "הבוקר",
+      "lemma": "בקר",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "משחקי",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "בא",
+      "lemma": "בא",
+      "pos": "VERB",
+      "dep": "parataxis",
+      "dep_head": "צועק",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Past"
+      }
+    },
+    {
+      "word": "בדממה",
+      "lemma": "דממה",
+      "pos": "NOUN",
+      "dep": "obl",
+      "dep_head": "בא",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "משחקי",
+      "lemma": "משחק",
+      "pos": "NOUN",
+      "dep": "obj",
+      "dep_head": "צועק",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "עשרים",
+      "lemma": "עשרה",
+      "pos": "NUM",
+      "dep": "compound:smixut",
+      "dep_head": "משחקי",
+      "feats": {}
+    },
+    {
+      "word": "ושש",
+      "lemma": "שש",
+      "pos": "NUM",
+      "dep": "conj",
+      "dep_head": "עשרים",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "היה",
+      "lemma": "היי",
+      "pos": "AUX",
+      "dep": "cop",
+      "dep_head": "לילה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Past"
+      }
+    },
+    {
+      "word": "לילה",
+      "lemma": "לילה",
+      "pos": "NOUN",
+      "dep": "nsubj",
+      "dep_head": "בא",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "קסום",
+      "lemma": "קסום",
+      "pos": "ADJ",
+      "dep": "amod",
+      "dep_head": "לילה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "משחקי",
+      "lemma": "משחק",
+      "pos": "NOUN",
+      "dep": "appos",
+      "dep_head": "לילה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "עשרים",
+      "lemma": "עשרה",
+      "pos": "NUM",
+      "dep": "compound:smixut",
+      "dep_head": "משחקי",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ושש",
+      "lemma": "שש",
+      "pos": "NUM",
+      "dep": "conj",
+      "dep_head": "עשרים",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "משחקי",
+      "lemma": "משחק",
+      "pos": "NOUN",
+      "dep": "appos",
+      "dep_head": "לילה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "עשרים",
+      "lemma": "עשרה",
+      "pos": "NUM",
+      "dep": "compound:smixut",
+      "dep_head": "משחקי",
+      "feats": {
+        "Gender": "Fem"
+      }
+    },
+    {
+      "word": "ושש",
+      "lemma": "שש",
+      "pos": "NUM",
+      "dep": "conj",
+      "dep_head": "עשרים",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "רשמו",
+      "lemma": "רשם",
+      "pos": "VERB",
+      "dep": "parataxis",
+      "dep_head": "לילה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur",
+        "Person": "3",
+        "Tense": "Past"
+      }
+    },
+    {
+      "word": "קרני",
+      "lemma": "קרן",
+      "pos": "NOUN",
+      "dep": "obj",
+      "dep_head": "רשמו",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "החמה",
+      "lemma": "חמה",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "קרני",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "משחקי",
+      "lemma": "משחק",
+      "pos": "NOUN",
+      "dep": "conj",
+      "dep_head": "עשרים",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "עשרים",
+      "lemma": "עשרה",
+      "pos": "NUM",
+      "dep": "compound:smixut",
+      "dep_head": "קרני",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ושש",
+      "lemma": "שש",
+      "pos": "NUM",
+      "dep": "conj",
+      "dep_head": "עשרים",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "הבוקר",
+      "lemma": "בקר",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "קרני",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "בא",
+      "lemma": "בא",
+      "pos": "VERB",
+      "dep": "parataxis",
+      "dep_head": "שטה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Past"
+      }
+    },
+    {
+      "word": "בדממה",
+      "lemma": "דממה",
+      "pos": "NOUN",
+      "dep": "obl",
+      "dep_head": "בא",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "משחקי",
+      "lemma": "משחק",
+      "pos": "NOUN",
+      "dep": "nsubj",
+      "dep_head": "בא",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "עשרים",
+      "lemma": "עשרה",
+      "pos": "NUM",
+      "dep": "compound:smixut",
+      "dep_head": "קרני",
+      "feats": {
+        "Gender": "Fem,Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ושש",
+      "lemma": "שש",
+      "pos": "NUM",
+      "dep": "conj",
+      "dep_head": "עשרים",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "היה",
+      "lemma": "היי",
+      "pos": "AUX",
+      "dep": "cop",
+      "dep_head": "מלח",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Past"
+      }
+    },
+    {
+      "word": "לילה",
+      "lemma": "לילה",
+      "pos": "NOUN",
+      "dep": "obl:tmod",
+      "dep_head": "בא",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "קסום",
+      "lemma": "קסום",
+      "pos": "ADJ",
+      "dep": "amod",
+      "dep_head": "לילה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "משחקי",
+      "lemma": "משחק",
+      "pos": "NOUN",
+      "dep": "appos",
+      "dep_head": "לילה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "עשרים",
+      "lemma": "עשרה",
+      "pos": "NUM",
+      "dep": "compound:smixut",
+      "dep_head": "קרני",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ושש",
+      "lemma": "שש",
+      "pos": "NUM",
+      "dep": "conj",
+      "dep_head": "עשרים",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "משחקי",
+      "lemma": "משחק",
+      "pos": "NOUN",
+      "dep": "conj",
+      "dep_head": "לילה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "עשרים",
+      "lemma": "עשרה",
+      "pos": "NUM",
+      "dep": "compound:smixut",
+      "dep_head": "משחקי",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ושש",
+      "lemma": "שש",
+      "pos": "NUM",
+      "dep": "conj",
+      "dep_head": "עשרים",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "רשמו",
+      "lemma": "רשם",
+      "pos": "VERB",
+      "dep": "root",
+      "dep_head": "ושש",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur",
+        "Person": "3",
+        "Tense": "Past"
+      }
+    },
+    {
+      "word": "קרני",
+      "lemma": "קרן",
+      "pos": "NOUN",
+      "dep": "obj",
+      "dep_head": "רשמו",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "החמה",
+      "lemma": "חמה",
+      "pos": "ADJ",
+      "dep": "amod",
+      "dep_head": "קרני",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "משחקי",
+      "lemma": "משחק",
+      "pos": "NOUN",
+      "dep": "appos",
+      "dep_head": "לילה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "עשרים",
+      "lemma": "עשרה",
+      "pos": "NUM",
+      "dep": "compound:smixut",
+      "dep_head": "משחקי",
+      "feats": {
+        "Gender": "Masc"
+      }
+    },
+    {
+      "word": "ושש",
+      "lemma": "שש",
+      "pos": "NUM",
+      "dep": "conj",
+      "dep_head": "עשרים",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "הבוקר",
+      "lemma": "בקר",
+      "pos": "NOUN",
+      "dep": "nsubj",
+      "dep_head": "בא",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "בא",
+      "lemma": "בא",
+      "pos": "VERB",
+      "dep": "conj",
+      "dep_head": "שטה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Past"
+      }
+    },
+    {
+      "word": "בדממה",
+      "lemma": "דממה",
+      "pos": "NOUN",
+      "dep": "obl",
+      "dep_head": "בא",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "משחקי",
+      "lemma": "משחק",
+      "pos": "NOUN",
+      "dep": "nmod",
+      "dep_head": "לילה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "עשרים",
+      "lemma": "עשרה",
+      "pos": "NUM",
+      "dep": "compound:smixut",
+      "dep_head": "משחקי",
+      "feats": {
+        "Gender": "Masc"
+      }
+    },
+    {
+      "word": "ושש",
+      "lemma": "שש",
+      "pos": "NUM",
+      "dep": "conj",
+      "dep_head": "עשרים",
+      "feats": {
+        "Gender": "Fem"
+      }
+    },
+    {
+      "word": "היה",
+      "lemma": "היי",
+      "pos": "AUX",
+      "dep": "cop",
+      "dep_head": "לילה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Past"
+      }
+    },
+    {
+      "word": "לילה",
+      "lemma": "לילה",
+      "pos": "NOUN",
+      "dep": "conj",
+      "dep_head": "בא",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "קסום",
+      "lemma": "קסום",
+      "pos": "ADJ",
+      "dep": "amod",
+      "dep_head": "לילה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "משחקי",
+      "lemma": "משחק",
+      "pos": "NOUN",
+      "dep": "appos",
+      "dep_head": "לילה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "עשרים",
+      "lemma": "עשרה",
+      "pos": "NUM",
+      "dep": "compound:smixut",
+      "dep_head": "קרני",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ושש",
+      "lemma": "שש",
+      "pos": "NUM",
+      "dep": "conj",
+      "dep_head": "עשרים",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "משחקי",
+      "lemma": "משחק",
+      "pos": "NOUN",
+      "dep": "appos",
+      "dep_head": "לילה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "עשרים",
+      "lemma": "עשרה",
+      "pos": "NUM",
+      "dep": "compound:smixut",
+      "dep_head": "קרני",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ושש",
+      "lemma": "שש",
+      "pos": "NUM",
+      "dep": "conj",
+      "dep_head": "עשרים",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "רשמו",
+      "lemma": "רשם",
+      "pos": "VERB",
+      "dep": "conj",
+      "dep_head": "בא",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur",
+        "Person": "3",
+        "Tense": "Past"
+      }
+    },
+    {
+      "word": "קרני",
+      "lemma": "קרן",
+      "pos": "NOUN",
+      "dep": "obj",
+      "dep_head": "רשמו",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "החמה",
+      "lemma": "חמה",
+      "pos": "ADJ",
+      "dep": "compound:smixut",
+      "dep_head": "קרני",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "משחקי",
+      "lemma": "משחק",
+      "pos": "NOUN",
+      "dep": "appos",
+      "dep_head": "לילה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "עשרים",
+      "lemma": "עשרה",
+      "pos": "NUM",
+      "dep": "compound:smixut",
+      "dep_head": "קרני",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ושש",
+      "lemma": "שש",
+      "pos": "NUM",
+      "dep": "compound:smixut",
+      "dep_head": "קרני",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "הבוקר",
+      "lemma": "בקר",
+      "pos": "NOUN",
+      "dep": "compound:smixut",
+      "dep_head": "ושר",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "בא",
+      "lemma": "בא",
+      "pos": "VERB",
+      "dep": "conj",
+      "dep_head": "בא",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Past"
+      }
+    },
+    {
+      "word": "בדממה",
+      "lemma": "דממה",
+      "pos": "NOUN",
+      "dep": "obl",
+      "dep_head": "בא",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "משחקי",
+      "lemma": "משחק",
+      "pos": "NOUN",
+      "dep": "nsubj",
+      "dep_head": "בא",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "עשרים",
+      "lemma": "עשרה",
+      "pos": "NUM",
+      "dep": "compound:smixut",
+      "dep_head": "קרני",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ושש",
+      "lemma": "שש",
+      "pos": "NUM",
+      "dep": "conj",
+      "dep_head": "בא",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "היה",
+      "lemma": "היי",
+      "pos": "AUX",
+      "dep": "cop",
+      "dep_head": "בא",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing",
+        "Person": "3",
+        "Tense": "Past"
+      }
+    },
+    {
+      "word": "לילה",
+      "lemma": "לילה",
+      "pos": "NOUN",
+      "dep": "nsubj",
+      "dep_head": "בא",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "קסום",
+      "lemma": "קסום",
+      "pos": "ADJ",
+      "dep": "amod",
+      "dep_head": "לילה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "משחקי",
+      "lemma": "משחק",
+      "pos": "NOUN",
+      "dep": "appos",
+      "dep_head": "לילה",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Plur"
+      }
+    },
+    {
+      "word": "עשרים",
+      "lemma": "עשרה",
+      "pos": "NUM",
+      "dep": "compound:smixut",
+      "dep_head": "משחקי",
+      "feats": {
+        "Gender": "Masc",
+        "Number": "Sing"
+      }
+    },
+    {
+      "word": "ושש",
+      "lemma": "שש",
+      "pos": "NUM",
+      "dep": "conj",
+      "dep_head": "עשרים",
+      "feats": {
+        "Gender": "Fem",
+        "Number": "Sing"
+      }
+    }
+  ],
+  "ner": []
+}
