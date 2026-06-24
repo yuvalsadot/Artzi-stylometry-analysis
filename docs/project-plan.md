@@ -22,6 +22,18 @@ The goal of this project is to detect turning points in the writing style of Shl
 - Song `120` was empty and has since been filled with the correct lyrics.
 - All 167 songs are included in `data/corpus.json`.
 
+### Track A — completed ✅
+- **A1**: `data/corpus.json` — 167 songs, fields: song_id, title, year, album, word_count, line_count, text. Tested by `tests/test_corpus.py` (10 tests).
+- **A2**: `data/parsed/001.json` … `167.json` — DictaBERT tiny-joint morphological + NER parse per song (token lemma, POS, dependency, NER entities). Tested by `tests/test_parsed.py` (6 tests).
+- **A3**: `data/features.csv` — 167 × 23 feature matrix (TTR, MTLD, avg word/line length, vocab size, 8 POS ratios, verb/noun ratio, function word ratio, first-person ratio, line/stanza counts, repetition rate). Tested by `tests/test_features.py` (13 tests).
+- **A4**: `data/classifier_results.json`, `figures/A4_feature_importance.png`, `figures/A4_period_similarity.png` — 5-fold cross-validated LR and SVM classifiers (best: SVM-RBF 62.9% vs 36% baseline); top features: vocab_size, pos_ADV, MTLD; automatic periodization detected turning points at 1979 and 1988. Tested by `tests/test_classifiers.py` (7 tests).
+
+### Track B — completed ✅ (by Gal Geller and Amit Cooper)
+- **B1**: LDA topic modeling
+- **B2**: DictaBERT sentence embeddings (`data/embeddings.npy`)
+- **B3**: Clustering and visualization (t-SNE, k-means, hierarchical)
+- **B4**: LLM style descriptions per period
+
 ---
 
 ## Work Tracks
