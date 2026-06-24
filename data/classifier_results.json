@@ -1,0 +1,112 @@
+{
+  "cv_scores": {
+    "lr_all": {
+      "mean": 0.5932,
+      "std": 0.1005
+    },
+    "lr_lexical": {
+      "mean": 0.5096,
+      "std": 0.0941
+    },
+    "lr_syntactic": {
+      "mean": 0.4788,
+      "std": 0.0425
+    },
+    "svm_all": {
+      "mean": 0.6292,
+      "std": 0.0482
+    }
+  },
+  "top_features": [
+    {
+      "feature": "vocab_size",
+      "coefficient": 0.7236
+    },
+    {
+      "feature": "pos_ADV",
+      "coefficient": 0.4276
+    },
+    {
+      "feature": "mtld",
+      "coefficient": 0.4229
+    },
+    {
+      "feature": "avg_line_length",
+      "coefficient": 0.3978
+    },
+    {
+      "feature": "ttr",
+      "coefficient": 0.3632
+    },
+    {
+      "feature": "avg_word_length",
+      "coefficient": 0.3568
+    },
+    {
+      "feature": "pos_VERB",
+      "coefficient": 0.3529
+    },
+    {
+      "feature": "pos_CCONJ",
+      "coefficient": 0.3049
+    },
+    {
+      "feature": "num_stanzas",
+      "coefficient": 0.2936
+    },
+    {
+      "feature": "pos_ADJ",
+      "coefficient": 0.2804
+    },
+    {
+      "feature": "num_lines",
+      "coefficient": 0.2708
+    },
+    {
+      "feature": "verb_noun_ratio",
+      "coefficient": 0.1783
+    },
+    {
+      "feature": "pos_ADP",
+      "coefficient": 0.1755
+    },
+    {
+      "feature": "function_word_ratio",
+      "coefficient": 0.1709
+    },
+    {
+      "feature": "first_person_ratio",
+      "coefficient": 0.1643
+    },
+    {
+      "feature": "pos_NOUN",
+      "coefficient": 0.1616
+    },
+    {
+      "feature": "pos_PRON",
+      "coefficient": 0.1356
+    },
+    {
+      "feature": "repetition_rate",
+      "coefficient": 0.1027
+    },
+    {
+      "feature": "pos_SCONJ",
+      "coefficient": 0.042
+    }
+  ],
+  "turning_points": [
+    {
+      "year": 1979,
+      "similarity": 0.0
+    },
+    {
+      "year": 1988,
+      "similarity": 0.0017
+    },
+    {
+      "year": 1992,
+      "similarity": 0.0
+    }
+  ]
+}
