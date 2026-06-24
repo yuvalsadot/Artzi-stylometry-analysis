@@ -24,7 +24,7 @@ print(f"Loaded {len(df)} songs")
 
 # --- Period labels ---
 PERIOD_MAP = {
-    1970: "early", 1975: "early", 1978: "early", 1979: "early",
+    1970: "early", 1975: "early", 1978: "early", 1979: "early", 1984: "early",
     1988: "middle", 1992: "middle", 1996: "middle", 2002: "middle",
     2007: "late", 2012: "late", 2016: "late", 2025: "late",
 }

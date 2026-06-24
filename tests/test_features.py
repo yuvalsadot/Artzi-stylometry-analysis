@@ -27,7 +27,7 @@ def test_features_file_exists():
 
 def test_features_has_correct_row_count():
     df = load_features()
-    assert len(df) == 167, f"Expected 167 rows, got {len(df)}"
+    assert len(df) == 176, f"Expected 176 rows, got {len(df)}"
 
 
 def test_features_has_all_columns():

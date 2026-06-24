@@ -17,7 +17,7 @@ def test_corpus_file_exists():
 
 def test_corpus_has_correct_count():
     corpus = load_corpus()
-    assert len(corpus) == 167, f"Expected 167 songs, got {len(corpus)}"
+    assert len(corpus) == 176, f"Expected 176 songs, got {len(corpus)}"
 
 
 def test_every_record_has_required_fields():
@@ -58,7 +58,7 @@ def test_text_is_primarily_hebrew():
 
 def test_years_are_valid():
     corpus = load_corpus()
-    valid_years = {1970, 1975, 1978, 1979, 1988, 1992, 1996, 2002, 2007, 2012, 2016, 2025}
+    valid_years = {1970, 1975, 1978, 1979, 1984, 1988, 1992, 1996, 2002, 2007, 2012, 2016, 2025}
     for record in corpus:
         assert record["year"] in valid_years, \
             f"Song {record['song_id']} has unexpected year {record['year']}"
@@ -69,7 +69,7 @@ def test_all_albums_present():
     expected_albums = {
         "שלמה ארצי", "את ואני", "משחקי 26", "גבר הולך לאיבוד", "דרכים",
         "חום יולי אוגוסט", "ירח", "שניים", "צימאון",
-        "שפויים", "אושר אקספרס", "קצפת", "אותיות נחמה"
+        "שפויים", "אושר אקספרס", "קצפת", "אותיות נחמה", "תרקוד"
     }
     found_albums = {r["album"] for r in corpus}
     missing = expected_albums - found_albums
