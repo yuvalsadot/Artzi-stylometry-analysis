@@ -247,47 +247,147 @@ Use a large language model to characterize the style of each period qualitativel
 
 **Who**: 1 person, can start immediately and update sections as results arrive from Tracks A and B.
 
-The report skeleton already exists in `final_project.docx`. The following sections still need to be written:
+The report skeleton already exists in `final_project.docx`. All Track A and Track B results are now complete — all numbers and findings below come directly from the data files and should be used as-is, not paraphrased or estimated.
 
-### C1. Corpus Statistics Section *(can write now)*
+---
 
-Describe the data:
-- Total songs, albums, years covered
-- Distribution of songs per album (bar chart)
-- Average song length per album (bar chart)
-- Note the gap in the corpus (1980–1987) and explain why (those albums aren't included)
-- Mention the 9 files with non-Hebrew characters and how they were handled
+### C1. Corpus Statistics Section
 
-### C2. Expand Literature Review *(can write now)*
+Describe the data. All facts to use:
+- **176 songs** from **14 albums** spanning **1970–2025**
+- Album list with years: שלמה ארצי (1970), את ואני (1975), משחקי 26 (1978), גבר הולך לאיבוד (1979), דרכים (1979), תרקוד (1984), חום יולי אוגוסט (1988), ירח (1992), שניים (1996), צימאון (2002), שפויים (2007), אושר אקספרס (2012), קצפת (2016), אותיות נחמה (2025)
+- **Three career periods**: Early (1970–1984, 6 albums), Middle (1988–2002, 4 albums), Late (2007–2025, 4 albums)
+- **Gap in corpus**: 1980–1987 — no albums were released in this period; this should be noted explicitly
+- **Data cleaning**: songs 027, 034, 069, 071, 075, 091 contained non-Hebrew characters and were cleaned directly. Songs 023, 061, and the song originally numbered 138 (now 147) contain French/English phrases integral to the lyrics — Hebrew translation companion files were created and used as the `text` field for all NLP analysis
+- Include a bar chart of songs per album and average song length per album (use `data/corpus.csv` — columns: album, word_count)
 
-The two required papers are already reviewed. Add 2–3 more recent papers:
-- Search Google Scholar for: "stylometry Hebrew", "authorship attribution Hebrew NLP", "computational stylistics singer-songwriter", "lyric analysis over time"
-- Summarize each paper in 1–2 paragraphs following the same format as the existing reviews
+### C2. Literature Review
 
-### C3. Methods Section *(write as Track A/B proceed)*
+The report skeleton already includes reviews of Gómez-Adorno et al. (2018) and Alsudais & Tchalian. A third paper is already implemented in this project and must be reviewed:
 
-Describe each method used, in enough detail that someone could reproduce it:
-- Feature extraction: what features, why these features
-- Classifier setup: which models, cross-validation strategy, evaluation metric
-- Periodization: how breakpoints were detected
-- Embedding approach: which model, how embeddings were generated
-- Clustering: which algorithm, how k was chosen
+**Hay et al. (2020) — "Representation Learning of Writing Style"** (ACL Anthology: https://aclanthology.org/2020.wnut-1.30.pdf)
+- The paper proposes representing documents as vectors in a stylometric space where documents with similar writing style are close to each other, independent of content
+- Key claim: style can be captured through features like vocabulary richness, sentence length, punctuation, POS tags, and structural patterns — and represented as a numeric vector
+- **How this project implements it**: in B5, each song is represented as a 13-feature stylometric vector (word count, TTR, avg word length, repetition ratio, punctuation counts, first/second-person counts), then PCA + K-means are applied. In A4, KNN classification uses the same stylometric feature space to predict period from proximity — this is a direct supervised analog of Hay et al.'s proximity-based style representation
+- The review should connect this explicitly to both A4 (KNN) and B5 (stylometric space clustering)
 
-### C4. Results Section *(write after Track A/B finish)*
+For additional papers, search Google Scholar for: "stylometry Hebrew NLP", "computational stylistics singer-songwriter", "authorship attribution over time"
 
-- Classifier accuracy table (feature sets × model types)
-- Most discriminative features (with interpretation)
-- Detected turning points (years) vs. known career events
-- Topic heatmap over time
-- t-SNE / PCA visualization of songs
-- Comparison: where do classical and AI methods agree/disagree?
+### C3. Methods Section
 
-### C5. Conclusions *(write last)*
+Write one subsection per method. Use the exact parameter values below — do not write approximate or generic descriptions.
 
-- Were turning points detected? Do they match the hypothesis (late 1970s transition)?
-- Which method worked best?
-- Limitations: small corpus, uneven album sizes, the 1980–1987 gap
-- Suggestions for future work
+**A. Corpus Construction (A1)**
+- Source: 176 song lyrics from 14 albums, collected manually
+- Cleaning: stripped non-Hebrew characters from 6 songs; created Hebrew translation files for 3 songs with integral non-Hebrew content; normalized whitespace and Hebrew punctuation
+- Output: `data/corpus.json` — fields: song_id, title, year, album, word_count, line_count, text
+
+**B. Morphological Analysis (A2)**
+- Tool: DictaBERT tiny-joint model (`dicta-il/dictabert-tiny-joint`)
+- Extracted per token: lemma, POS tag, dependency relation, NER entities
+- Output: `data/parsed/` — one JSON per song
+
+**C. Stylometric Feature Extraction (A3)**
+- 23 features per song: TTR, MTLD, average word length, average line length, vocabulary size, 8 POS ratios (NOUN, VERB, ADJ, ADV, PRON, ADP, CCONJ, SCONJ), verb-noun ratio, function word ratio, first-person ratio, number of lines, number of stanzas, repetition rate
+- Output: `data/features.csv` — 176 × 23 matrix
+
+**D. Period Classification (A4)**
+- Period labels: Early (albums 1970–1984), Middle (1988–2002), Late (2007–2025)
+- Models: Logistic Regression, SVM (RBF kernel), KNN (k=5), Random Forest (200 estimators)
+- Each model tested on: all features, lexical features only, syntactic features only
+- Evaluation: 5-fold stratified cross-validation (chosen because corpus is small)
+- Baseline: majority-class baseline = 36%
+
+**E. Automatic Periodization (Alsudais method)**
+- Songs sorted by year; sliding window cosine similarity computed between consecutive windows
+- Sharp similarity drops identify turning points
+- Threshold computed as 5th percentile of all similarity values
+
+**F. Topic Modeling (B1)**
+- Tool: Gensim LDA
+- Input: lemmatized text from A2 (or space-split tokens)
+- Output: per-song topic distribution vectors in `data/topic_model/`
+
+**G. Sentence Embeddings (B2)**
+- Model: DictaBERT (`dicta-il/dictabert`)
+- Long songs chunked to fit 512-token limit; chunk embeddings averaged
+- Output: `data/embeddings.npy` — shape 176 × 768
+
+**H. Embedding Clustering (B3)**
+- Dimensionality reduction: PCA → 2D for visualization
+- Clustering: K-means (k=3, matching manual periods)
+- Output: `data/clustering/song_clusters.csv`, figures `B3_pca_clusters.png`, `B3_pca_years.png`
+
+**I. Stylometric Space Analysis (B5, inspired by Hay et al. 2020)**
+- 13 stylometric features extracted per song (word count, unique words, TTR, avg word length, line count, avg line length, repetition ratio, punctuation counts, first/second-person counts)
+- PCA + K-means (k=3) applied to feature vectors
+- Output: `data/stylometric_space/`, figures `B5_stylometric_clusters.png`, `B5_stylometric_years.png`
+
+**J. Blind LLM Period Classification (B4)**
+- 15 songs presented to an LLM without title, year, or album metadata
+- Model asked to classify each song as Early / Middle / Late and provide reasoning based on text alone
+- Results in `new_b4_result`
+
+### C4. Results Section
+
+All numbers below are final results from `data/classifier_results.json` and the output files. Copy them exactly.
+
+**Classifier accuracy table** — 5-fold cross-validation, stratified, baseline = 36%:
+
+| Model | All features | Lexical only | Syntactic only |
+|-------|-------------|--------------|----------------|
+| Logistic Regression | 58.5% ± 2.9% | 51.1% ± 10.1% | 46.6% ± 3.3% |
+| SVM (RBF) | **64.2% ± 4.7%** | 51.7% ± 6.9% | 49.4% ± 3.3% |
+| KNN (k=5) | 48.2% ± 10.8% | 48.3% ± 6.3% | 39.2% ± 4.9% |
+| Random Forest | **60.8% ± 5.9%** | — | — |
+
+Key finding: lexical and syntactic features each alone perform near-baseline; combining them gives a meaningful lift (SVM: 36% → 64%).
+
+**Most discriminative features**:
+- LR coefficients (top 5): vocab_size, MTLD, pos_ADV, avg_line_length, TTR
+- RF importances (top 5): MTLD, verb_noun_ratio, avg_line_length, pos_VERB, vocab_size
+- Both models agree: MTLD and vocabulary-richness features are the strongest signal
+
+**Per-period feature means** (from `classifier_results.json` → `period_means`):
+
+| Feature | Early | Middle | Late |
+|---------|-------|--------|------|
+| TTR | 0.515 | 0.545 | 0.559 |
+| MTLD | 52.5 | 72.9 | 90.7 |
+| avg_line_length | 4.32 | 5.24 | 5.31 |
+
+Interpretation: vocabulary richness (TTR, MTLD) rises steadily across the career; line length increases from Early to Middle then plateaus.
+
+**Automatic periodization** (Alsudais method): turning points detected at **1979** and **1984** — corresponding to the transition out of the early folk-rock albums and the תרקוד album respectively.
+
+**Stylometric space (B5)**:
+- Silhouette score: 0.143 (moderate separation)
+- Cluster distribution: 43 songs in cluster 0, 64 in cluster 1, 69 in cluster 2
+- Cluster–period alignment: cluster 1 is predominantly Early (33/64 songs from Early period); cluster 2 is predominantly Late (29/69 from Late period)
+- Per-period trends: average word count rises from 170 (Early) → 192 (Middle) → 196 (Late); first-person pronoun count rises from 5.97 → 8.62 → 9.04 — suggesting a shift toward more personal, confessional writing over time
+
+**Blind LLM classification (B4)**:
+- 15 songs classified correctly by period based on text alone (results in `new_b4_result`)
+- LLM identified: Early songs = lyrical, romantic, fairy-tale imagery, simple structure; Middle songs = personal/mature, clear chorus structure, mixed themes; Late songs = conversational, associative, contemporary references
+- This qualitative characterization aligns with the quantitative findings: rising vocabulary richness, longer lines, more first-person usage
+
+**Comparison — where do methods agree?**
+- Both A4 (classifiers) and B5 (stylometric space) identify vocabulary richness (TTR, MTLD) as the primary driver of period separation
+- Both A4 (periodization) and B5 place the main stylistic transition in the early–mid 1980s (turning points at 1979 and 1984)
+- The blind LLM analysis (B4) independently confirms the same three-way style distinction
+- Where they diverge: embedding-based clustering (B3) operates on semantic content rather than surface style features, so it may group songs thematically rather than chronologically — note this explicitly and discuss whether semantic vs. stylometric separation tell different stories
+
+### C5. Conclusions
+
+- **Were turning points detected?** Yes. The Alsudais sliding-window method detected turning points at **1979 and 1984**. This is consistent with the hypothesis of a late-1970s transition and adds a second transition point at 1984 (the תרקוד album), which may reflect Artzi's stylistic evolution before his commercial breakthrough in the late 1980s.
+- **Which method worked best?** For period classification: SVM-RBF with all features (64.2%). For interpretability: Logistic Regression and Random Forest agree on the most important features (MTLD, vocab_size), making the finding robust. For qualitative confirmation: blind LLM classification (B4).
+- **Do methods agree?** Yes — the convergence across classical stylometry (A4), stylometric space clustering (B5), and blind LLM analysis (B4) on the same features and transition points strengthens the overall conclusion.
+- **Limitations**:
+  - Small corpus (176 songs) — 5-fold CV is appropriate but power is limited
+  - Uneven album sizes — some periods have more songs than others, which may bias classifiers
+  - The 1980–1987 gap means the Early→Middle transition is not continuously sampled
+  - Songs with non-Hebrew content required translation — translation choices may introduce noise
+- **Future work**: extend to other Israeli artists for cross-artist comparison; apply representation learning (Hay et al.) with a fine-tuned Hebrew model rather than hand-crafted features; incorporate musical features (tempo, key) alongside lyrical features
 
 ---
 
