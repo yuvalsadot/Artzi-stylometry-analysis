@@ -2,14 +2,14 @@
 
 ## Overview
 
-The goal of this project is to detect turning points in the writing style of Shlomo Artzi across his career, using computational text analysis. The corpus consists of 167 songs from 13 albums spanning 1970–2025. The project requires both classical stylometry methods (based on published papers) and AI-based approaches, followed by a comparison and a written research report.
+The goal of this project is to detect turning points in the writing style of Shlomo Artzi across his career, using computational text analysis. The corpus consists of 176 songs from 14 albums spanning 1970–2025. The project requires both classical stylometry methods (based on published papers) and AI-based approaches, followed by a comparison and a written research report.
 
 ---
 
 ## What Has Already Been Done
 
-- **Corpus collected**: 167 song lyrics saved as individual text files (`songs/songs_lyrics/001.txt` … `167.txt`)
-- **Metadata**: Excel file (`songs/songs_summary.xlsx`) with song ID, title, year, and album for all 167 songs
+- **Corpus collected**: 176 song lyrics saved as individual text files (`songs/songs_lyrics/001.txt` … `176.txt`)
+- **Metadata**: Excel file (`songs/songs_summary.xlsx`) with song ID, title, year, and album for all 176 songs
 - **Biography**: `songs/shlomo_artzi_bio.txt` with detailed background on the artist
 - **Report skeleton**: `final_project.docx` already contains:
   - Author description and career overview
@@ -18,15 +18,22 @@ The goal of this project is to detect turning points in the writing style of Shl
 
 ### Known data issues — resolved
 - Songs `027`, `034`, `069`, `071`, `075`, `091` had non-Hebrew characters; cleaned directly in the lyrics files.
-- Songs `023`, `061`, `138` contain non-Hebrew phrases (French / English) that are integral to the original lyrics. Hebrew translations were created as companion files (`023_translated.txt`, `061.translated.txt`, `138_translated.txt`). The corpus uses the translated version as the `text` field for all downstream NLP analysis.
+- Songs `023`, `061`, `138` contain non-Hebrew phrases (French / English) that are integral to the original lyrics. Hebrew translations were created as companion files (`023_translated.txt`, `061.translated.txt`, `147_translated.txt`). The corpus uses the translated version as the `text` field for all downstream NLP analysis.
 - Song `120` was empty and has since been filled with the correct lyrics.
-- All 167 songs are included in `data/corpus.json`.
+- All 176 songs are included in `data/corpus.json`.
 
 ### Track A — completed ✅
-- **A1**: `data/corpus.json` — 167 songs, fields: song_id, title, year, album, word_count, line_count, text. Tested by `tests/test_corpus.py` (10 tests).
-- **A2**: `data/parsed/001.json` … `167.json` — DictaBERT tiny-joint morphological + NER parse per song (token lemma, POS, dependency, NER entities). Tested by `tests/test_parsed.py` (6 tests).
-- **A3**: `data/features.csv` — 167 × 23 feature matrix (TTR, MTLD, avg word/line length, vocab size, 8 POS ratios, verb/noun ratio, function word ratio, first-person ratio, line/stanza counts, repetition rate). Tested by `tests/test_features.py` (13 tests).
-- **A4**: `data/classifier_results.json`, `figures/A4_feature_importance.png`, `figures/A4_period_similarity.png`, `figures/A4_model_comparison.png` — 5-fold cross-validated LR, SVM, KNN (each on lexical/syntactic/all feature subsets) and Random Forest (all features) classifiers (best: Random Forest 63.0% and SVM-RBF 62.9%, both vs 36% baseline); top features cross-checked by two independent models — LR coefficients: vocab_size, pos_ADV, MTLD; RF importances: MTLD, verb_noun_ratio, avg_line_length — largely agree. Per-period feature means (`period_means`) show TTR rising 0.503→0.545→0.559 and MTLD rising 51.7→72.9→90.7 across early/middle/late, direct descriptive evidence of style change. The KNN classifier is a supervised implementation of the third paper (Hay et al. 2020, "Representation Learning of Writing Style," `article.txt`) — period predicted from proximity in the same stylometric feature space, giving Track A its own citable implementation of all 3 required papers instead of 2. Automatic periodization (Alsudais method) detected turning points at 1979, 1988, 1992. Tested by `tests/test_classifiers.py` (10 tests).
+- **A1**: `data/corpus.json` — 176 songs, fields: song_id, title, year, album, word_count, line_count, text. Tested by `tests/test_corpus.py` (10 tests).
+- **A2**: `data/parsed/001.json` … `176.json` — DictaBERT tiny-joint morphological + NER parse per song (token lemma, POS, dependency, NER entities). Tested by `tests/test_parsed.py` (6 tests).
+- **A3**: `data/features.csv` — 176 × 23 feature matrix (TTR, MTLD, avg word/line length, vocab size, 8 POS ratios, verb/noun ratio, function word ratio, first-person ratio, line/stanza counts, repetition rate). Tested by `tests/test_features.py` (13 tests).
+- **A4**: `data/classifier_results.json`, `figures/A4_feature_importance.png`, `figures/A4_period_similarity.png`, `figures/A4_model_comparison.png` — 5-fold cross-validated LR, SVM, KNN (each on lexical/syntactic/all feature subsets) and Random Forest (all features) classifiers (best: SVM-RBF 64.2% and Random Forest 60.8%, both vs 36% baseline); top features cross-checked by two independent models — LR coefficients: vocab_size, MTLD, pos_ADV; RF importances: MTLD, verb_noun_ratio, avg_line_length — largely agree. Per-period feature means show TTR rising 0.515→0.545→0.559 and MTLD rising 52.5→72.9→90.7 across early/middle/late, direct descriptive evidence of style change. The KNN classifier is a supervised implementation of the third paper (Hay et al. 2020, "Representation Learning of Writing Style," `article.txt`) — period predicted from proximity in the same stylometric feature space, giving Track A its own citable implementation of all 3 required papers instead of 2. Automatic periodization (Alsudais method) detected turning points at 1979 and 1984. Tested by `tests/test_classifiers.py` (10 tests).
+
+### Track B — completed ✅
+- **B1**: `data/topic_model/` — LDA topic model trained on the full corpus, per-song topic distributions (`song_topics.csv`), topic labels (`topics.csv`).
+- **B2**: `data/embeddings.npy` — DictaBERT embeddings for all 176 songs (shape 176 × 768).
+- **B3**: `data/clustering/song_clusters.csv`, `figures/B3_pca_clusters.png`, `figures/B3_pca_years.png` — K-means clustering on embeddings with PCA visualization, songs colored by cluster and by year. Tested by `tests/test_part_b_outputs.py`.
+- **B4**: `new_b4_result` — blind LLM classification: 15 songs from the corpus were presented to a language model without any metadata (title, year, album). The model correctly identified the period (Early / Middle / Late) for all 15 songs based on textual features alone — consistent with the quantitative findings from Track A.
+- **B5**: `data/stylometric_space/`, `figures/B5_stylometric_clusters.png`, `figures/B5_stylometric_years.png` — stylometric space analysis using 13 hand-crafted features (word count, TTR, avg word length, repetition ratio, punctuation counts, first/second-person counts, etc.). K-means (k=3) yielded a silhouette score of 0.143; cluster-period alignment table in `stylometric_cluster_period_table.csv` shows cluster 1 is predominantly Early (33/64 songs), cluster 2 predominantly Late (29/69), consistent with style drift over time. Per-period feature means in `stylometric_features_by_period.csv`. Script: `notebooks/B5_stylometric_space.py`. Tested by `tests/test_part_b_outputs.py`.
 
 ---
 
@@ -78,7 +85,7 @@ Hebrew is a morphologically rich language — you cannot just split on spaces an
 - Save the parsed output per song: `data/parsed/001.json`, etc.
 - Also run **Named Entity Recognition (NER)** — DictaBERT has a NER variant; use it to identify person names, places, organizations in songs (useful for thematic analysis)
 
-**Practical tip**: The tiny model is fast enough to run on CPU. Running 167 songs should take 5–15 minutes. If it's too slow, batch the inputs.
+**Practical tip**: The tiny model is fast enough to run on CPU. Running 176 songs should take 5–15 minutes. If it's too slow, batch the inputs.
 
 **Output**: `data/parsed/` — one JSON per song with token-level morphological and syntactic annotations.
 
@@ -120,8 +127,8 @@ This implements the approach from the first paper: train a classifier to disting
 
 **What to do:**
 
-1. **Define periods**: Split the 13 albums into three chronological groups:
-   - Early (1970–1979): שלמה ארצי, את ואני, משחקי 26, גבר הולך לאיבוד, דרכים
+1. **Define periods**: Split the 14 albums into three chronological groups:
+   - Early (1970–1984): שלמה ארצי, את ואני, משחקי 26, גבר הולך לאיבוד, דרכים, תרקוד
    - Middle (1988–2002): חום יולי אוגוסט, ירח, שניים, צימאון
    - Late (2007–2025): שפויים, אושר אקספרס, קצפת, אותיות נחמה
 
@@ -192,7 +199,7 @@ Instead of hand-crafted features, use a pre-trained Hebrew language model to pro
   # For each song, encode text and take mean of last hidden states as embedding
   ```
 - Since songs may exceed the model's token limit (512 tokens), split long songs into chunks and average the chunk embeddings
-- Save all song embeddings as `data/embeddings.npy` (numpy array, shape 167 × 768)
+- Save all song embeddings as `data/embeddings.npy` (numpy array, shape 176 × 768)
 
 **Output**: `data/embeddings.npy` — one 768-dimensional vector per song.
 
@@ -328,24 +335,31 @@ pip install umap-learn                    # UMAP dimensionality reduction (optio
 ```
 MINI/
 ├── songs/
-│   ├── songs_lyrics/          # raw lyrics (001.txt … 167.txt)
+│   ├── songs_lyrics/          # raw lyrics (001.txt … 176.txt)
 │   ├── songs_summary.xlsx     # metadata
 │   └── shlomo_artzi_bio.txt
 ├── data/
 │   ├── corpus.json            # cleaned, unified corpus (output of A1)
+│   ├── corpus.csv             # same corpus in CSV format
 │   ├── parsed/                # DictaBERT output per song (output of A2)
 │   ├── features.csv           # stylometric feature matrix (output of A3)
+│   ├── classifier_results.json  # classifier CV scores, feature importances, turning points (output of A4)
 │   ├── topic_model/           # LDA model + topic distributions (output of B1)
-│   └── embeddings.npy         # DictaBERT embeddings (output of B2)
+│   ├── embeddings.npy         # DictaBERT embeddings (output of B2)
+│   ├── clustering/            # K-means clusters on embeddings (output of B3)
+│   └── stylometric_space/     # stylometric feature clusters and period tables (output of B5)
 ├── notebooks/
 │   ├── A1_corpus_cleaning.ipynb
 │   ├── A2_dictabert_parsing.ipynb
 │   ├── A3_feature_extraction.ipynb
 │   ├── A4_classifiers.ipynb
-│   ├── B1_topic_modeling.ipynb
-│   ├── B2_embeddings.ipynb
-│   └── B3_clustering.ipynb
+│   ├── A4_classifiers.py
+│   ├── B1_topic_modeling.ipynb (or .py)
+│   ├── B2_embeddings.ipynb (or .py)
+│   ├── B3_clustering.ipynb (or .py)
+│   └── B5_stylometric_space.py
 ├── figures/                   # all output charts/plots
+├── tests/                     # test suite (47 tests, all passing)
 ├── docs/
 │   └── project-plan.md        # this file
 ├── final_project.docx         # research report
