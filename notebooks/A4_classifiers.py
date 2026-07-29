@@ -8,12 +8,14 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.linear_model import LogisticRegression
 from sklearn.svm import SVC
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.ensemble import RandomForestClassifier
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import StratifiedKFold, cross_val_score
 from sklearn.pipeline import Pipeline
 from sklearn.metrics.pairwise import cosine_similarity
 
-BASE_DIR = "/Users/I771657/Library/CloudStorage/OneDrive-SAPSE/Documents/School/MINI"
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FEATURES_PATH = os.path.join(BASE_DIR, "data", "features.csv")
 RESULTS_PATH = os.path.join(BASE_DIR, "data", "classifier_results.json")
 FIGURES_DIR = os.path.join(BASE_DIR, "figures")
@@ -64,6 +66,15 @@ cv_scores = {
     "lr_lexical":   run_cv(X_lex, LogisticRegression(max_iter=1000, random_state=42), cv, "LR (lexical only)"),
     "lr_syntactic": run_cv(X_syn, LogisticRegression(max_iter=1000, random_state=42), cv, "LR (syntactic only)"),
     "svm_all":      run_cv(X_all, SVC(kernel="rbf", random_state=42), cv, "SVM-RBF (all features)"),
+    "svm_lexical":   run_cv(X_lex, SVC(kernel="rbf", random_state=42), cv, "SVM-RBF (lexical only)"),
+    "svm_syntactic": run_cv(X_syn, SVC(kernel="rbf", random_state=42), cv, "SVM-RBF (syntactic only)"),
+    # k-NN: direct supervised test of Hay et al. (2020) "Representation Learning of
+    # Writing Style" — period is predicted from proximity in the same stylometric
+    # feature space used elsewhere in Track A (not a separate embedding).
+    "knn_all":       run_cv(X_all, KNeighborsClassifier(n_neighbors=5), cv, "KNN (all features)"),
+    "knn_lexical":   run_cv(X_lex, KNeighborsClassifier(n_neighbors=5), cv, "KNN (lexical only)"),
+    "knn_syntactic": run_cv(X_syn, KNeighborsClassifier(n_neighbors=5), cv, "KNN (syntactic only)"),
+    "rf_all":        run_cv(X_all, RandomForestClassifier(n_estimators=200, random_state=42), cv, "Random Forest (all features)"),
 }
 
 # --- Feature importance from LR trained on full data ---
@@ -97,6 +108,30 @@ fig_path = os.path.join(FIGURES_DIR, "A4_feature_importance.png")
 plt.savefig(fig_path, dpi=150)
 plt.close()
 print(f"Saved {fig_path}")
+
+# --- Feature importance from Random Forest (independent, nonlinear cross-check) ---
+print("\n=== Feature importance (Random Forest on full data) ===")
+rf_full = RandomForestClassifier(n_estimators=200, random_state=42)
+rf_full.fit(X_scaled, y)
+
+feature_importance_rf = sorted(
+    zip(FEATURE_COLS, rf_full.feature_importances_.tolist()),
+    key=lambda x: -x[1]
+)
+top_features_rf = [{"feature": f, "importance": round(c, 4)} for f, c in feature_importance_rf]
+print("Top 10 features (Random Forest):")
+for item in top_features_rf[:10]:
+    print(f"  {item['feature']:25s}  importance={item['importance']:.4f}")
+
+# --- Per-period descriptive statistics (classifier-independent evidence of style change) ---
+print("\n=== Feature means by period ===")
+period_means_df = df.groupby("period")[FEATURE_COLS].mean().round(4)
+period_means_df = period_means_df.reindex(["early", "middle", "late"])
+print(period_means_df)
+period_means = {
+    feature: {period: float(period_means_df.loc[period, feature]) for period in ["early", "middle", "late"]}
+    for feature in FEATURE_COLS
+}
 
 # --- Automatic periodization: sliding-window cosine similarity ---
 print("\n=== Sliding-window periodization ===")
@@ -154,10 +189,43 @@ plt.savefig(fig_path, dpi=150)
 plt.close()
 print(f"Saved {fig_path}")
 
+# --- Model comparison chart: accuracy by model x feature subset ---
+print("\n=== Model comparison chart ===")
+subsets = ["lexical", "syntactic", "all"]
+models = ["lr", "svm", "knn"]
+model_labels = {"lr": "Logistic Regression", "svm": "SVM-RBF", "knn": "KNN"}
+colors = {"lr": "steelblue", "svm": "darkorange", "knn": "seagreen"}
+
+fig, ax = plt.subplots(figsize=(9, 5))
+bar_width = 0.25
+x = np.arange(len(subsets))
+for i, model in enumerate(models):
+    means = [cv_scores[f"{model}_{subset}"]["mean"] for subset in subsets]
+    stds = [cv_scores[f"{model}_{subset}"]["std"] for subset in subsets]
+    ax.bar(x + (i - 1) * bar_width, means, bar_width, yerr=stds, capsize=3,
+           label=model_labels[model], color=colors[model])
+# Random Forest was only run on the "all" subset - plot it as a single reference bar
+rf_x = x[subsets.index("all")] + 2 * bar_width
+ax.bar(rf_x, cv_scores["rf_all"]["mean"], bar_width, yerr=cv_scores["rf_all"]["std"],
+       capsize=3, label="Random Forest (all)", color="mediumpurple")
+ax.axhline(1 / 3, color="gray", linestyle=":", linewidth=1, label="Chance baseline (1/3)")
+ax.set_xticks(x)
+ax.set_xticklabels([s.capitalize() for s in subsets])
+ax.set_ylabel("5-fold CV accuracy")
+ax.set_title("Model Comparison — Accuracy by Feature Subset")
+ax.legend(fontsize=8)
+plt.tight_layout()
+fig_path = os.path.join(FIGURES_DIR, "A4_model_comparison.png")
+plt.savefig(fig_path, dpi=150)
+plt.close()
+print(f"Saved {fig_path}")
+
 # --- Save results ---
 results = {
     "cv_scores": cv_scores,
     "top_features": top_features,
+    "top_features_rf": top_features_rf,
+    "period_means": period_means,
     "turning_points": turning_points,
 }
 with open(RESULTS_PATH, "w", encoding="utf-8") as f:

@@ -17,7 +17,7 @@ def test_results_file_exists():
 
 def test_results_has_required_keys():
     r = load_results()
-    required = {"cv_scores", "top_features", "turning_points"}
+    required = {"cv_scores", "top_features", "top_features_rf", "period_means", "turning_points"}
     missing = required - set(r.keys())
     assert not missing, f"Missing keys: {missing}"
 
@@ -25,7 +25,12 @@ def test_results_has_required_keys():
 def test_cv_scores_structure():
     r = load_results()
     cv = r["cv_scores"]
-    required_models = {"lr_all", "lr_lexical", "lr_syntactic", "svm_all"}
+    required_models = {
+        "lr_all", "lr_lexical", "lr_syntactic",
+        "svm_all", "svm_lexical", "svm_syntactic",
+        "knn_all", "knn_lexical", "knn_syntactic",
+        "rf_all",
+    }
     missing = required_models - set(cv.keys())
     assert not missing, f"Missing model keys in cv_scores: {missing}"
     for model_key, scores in cv.items():
@@ -43,6 +48,29 @@ def test_top_features_structure():
     for item in top:
         assert "feature" in item, f"top_features item missing 'feature': {item}"
         assert "coefficient" in item, f"top_features item missing 'coefficient': {item}"
+
+
+def test_top_features_rf_structure():
+    r = load_results()
+    top = r["top_features_rf"]
+    assert isinstance(top, list), "top_features_rf must be a list"
+    assert len(top) >= 5, f"Expected at least 5 top features, got {len(top)}"
+    for item in top:
+        assert "feature" in item, f"top_features_rf item missing 'feature': {item}"
+        assert "importance" in item, f"top_features_rf item missing 'importance': {item}"
+
+
+def test_period_means_structure():
+    r = load_results()
+    period_means = r["period_means"]
+    assert isinstance(period_means, dict), "period_means must be a dict"
+    assert len(period_means) > 0, "period_means must not be empty"
+    expected_periods = {"early", "middle", "late"}
+    for feature, values in period_means.items():
+        missing = expected_periods - set(values.keys())
+        assert not missing, f"period_means['{feature}'] missing periods: {missing}"
+        for period, value in values.items():
+            assert isinstance(value, (int, float)), f"period_means['{feature}']['{period}'] not numeric: {value}"
 
 
 def test_turning_points_structure():
@@ -64,3 +92,8 @@ def test_feature_importance_figure_exists():
 def test_period_similarity_figure_exists():
     path = os.path.join(FIGURES_DIR, "A4_period_similarity.png")
     assert os.path.exists(path), "figures/A4_period_similarity.png not found"
+
+
+def test_model_comparison_figure_exists():
+    path = os.path.join(FIGURES_DIR, "A4_model_comparison.png")
+    assert os.path.exists(path), "figures/A4_model_comparison.png not found"
